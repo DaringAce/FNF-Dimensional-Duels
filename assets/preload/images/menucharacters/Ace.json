@@ -1,0 +1,11 @@
+{
+	"confirm_anim": "Ace IDLE",
+	"idle_anim": "Ace IDLE",
+	"position": [
+		110,
+		190
+	],
+	"scale": 0.6,
+	"image": "Menu_Ace",
+	"flipX": false
+}

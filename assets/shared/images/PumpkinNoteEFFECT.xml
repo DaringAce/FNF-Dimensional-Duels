@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PumpkinNoteEFFECT.png">
+	<!-- Created with Adobe Animate version 22.0.4.185 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Fire0000" x="0" y="0" width="670" height="634" frameX="-49" frameY="-108" frameWidth="856" frameHeight="752"/>
+	<SubTexture name="Fire0001" x="670" y="0" width="687" height="621" frameX="-43" frameY="-119" frameWidth="856" frameHeight="752"/>
+	<SubTexture name="Fire0002" x="1357" y="0" width="719" height="640" frameX="-38" frameY="-105" frameWidth="856" frameHeight="752"/>
+	<SubTexture name="Fire0003" x="2076" y="0" width="718" height="646" frameX="-32" frameY="-98" frameWidth="856" frameHeight="752"/>
+	<SubTexture name="Fire0004" x="2794" y="0" width="736" height="668" frameX="-26" frameY="-78" frameWidth="856" frameHeight="752"/>
+	<SubTexture name="Fire0005" x="0" y="668" width="777" height="696" frameX="-16" frameY="-53" frameWidth="856" frameHeight="752"/>
+	<SubTexture name="Fire0006" x="777" y="668" width="817" height="724" frameX="-7" frameY="-28" frameWidth="856" frameHeight="752"/>
+	<SubTexture name="Fire0007" x="1594" y="668" width="856" height="737" frameX="0" frameY="0" frameWidth="856" frameHeight="752"/>
+	<SubTexture name="Fire0008" x="2450" y="668" width="856" height="727" frameX="0" frameY="0" frameWidth="856" frameHeight="752"/>
+	<SubTexture name="Fire0009" x="0" y="1405" width="856" height="720" frameX="0" frameY="0" frameWidth="856" frameHeight="752"/>
+</TextureAtlas>

@@ -1,0 +1,68 @@
+{
+	"songs": [
+		[
+			"Conflict",
+			"z11",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"Intervention",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Last Stand",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Wavedashing",
+			"foxpng",
+			[
+				186,
+				133,
+				253
+			]
+		],
+		[
+			"Danger But Ace",
+			"ace",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": true,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "Your New Week",
+	"weekName": "extraFreeplay",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "week1",
+	"startUnlocked": false
+}

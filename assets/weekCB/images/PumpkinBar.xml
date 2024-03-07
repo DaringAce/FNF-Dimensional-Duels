@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PumpkinBar.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PumpkinBar00000" x="0" y="0" width="187" height="742"/>
+	<SubTexture name="PumpkinBar10000" x="187" y="0" width="187" height="742"/>
+	<SubTexture name="PumpkinBar20000" x="374" y="0" width="187" height="742"/>
+	<SubTexture name="PumpkinBar30000" x="561" y="0" width="187" height="742"/>
+	<SubTexture name="PumpkinBar40000" x="748" y="0" width="187" height="742"/>
+	<SubTexture name="PumpkinBar50000" x="935" y="0" width="187" height="742"/>
+	<SubTexture name="PumpkinBar50001" x="935" y="0" width="187" height="742"/>
+</TextureAtlas>

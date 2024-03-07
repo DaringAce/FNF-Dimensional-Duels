@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="LeafFall.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="LeafFall0000" x="0" y="0" width="954" height="512"/>
+	<SubTexture name="LeafFall0001" x="0" y="512" width="863" height="440" frameX="-13" frameY="-36" frameWidth="954" frameHeight="512"/>
+	<SubTexture name="LeafFall0002" x="954" y="0" width="861" height="476" frameX="-27" frameY="-18" frameWidth="954" frameHeight="512"/>
+	<SubTexture name="LeafFall0003" x="954" y="476" width="778" height="490" frameX="-46" frameY="-11" frameWidth="954" frameHeight="512"/>
+	<SubTexture name="LeafFall0004" x="0" y="952" width="786" height="332" frameX="-59" frameY="-90" frameWidth="954" frameHeight="512"/>
+	<SubTexture name="LeafFall0005" x="0" y="952" width="786" height="332" frameX="-59" frameY="-90" frameWidth="954" frameHeight="512"/>
+	<SubTexture name="LeafFall0006" x="1313" y="966" width="466" height="332" frameX="-379" frameY="-90" frameWidth="954" frameHeight="512"/>
+	<SubTexture name="LeafFall0007" x="786" y="966" width="527" height="476" frameX="-361" frameY="-18" frameWidth="954" frameHeight="512"/>
+</TextureAtlas>

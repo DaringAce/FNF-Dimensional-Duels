@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_Ace.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Ace IDLE0000" x="0" y="0" width="375" height="674" frameX="0" frameY="-15" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace IDLE0001" x="375" y="0" width="374" height="675" frameX="-1" frameY="-14" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace IDLE0002" x="749" y="0" width="373" height="678" frameX="-1" frameY="-12" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace IDLE0003" x="1122" y="0" width="373" height="679" frameX="-1" frameY="-11" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace IDLE0004" x="1495" y="0" width="371" height="680" frameX="-2" frameY="-10" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace IDLE0005" x="1866" y="0" width="371" height="681" frameX="-2" frameY="-9" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace IDLE0006" x="2237" y="0" width="370" height="682" frameX="-2" frameY="-8" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace IDLE0007" x="2607" y="0" width="370" height="684" frameX="-2" frameY="-6" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace IDLE0008" x="2977" y="0" width="368" height="685" frameX="-3" frameY="-5" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace IDLE0009" x="3345" y="0" width="368" height="687" frameX="-3" frameY="-3" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace IDLE0010" x="3713" y="0" width="367" height="688" frameX="-3" frameY="-2" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace IDLE0011" x="0" y="688" width="366" height="690" frameX="-4" frameY="-1" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace IDLE0012" x="366" y="688" width="366" height="691" frameX="-4" frameY="0" frameWidth="375" frameHeight="691"/>
+</TextureAtlas>

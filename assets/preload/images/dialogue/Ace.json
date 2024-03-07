@@ -1,0 +1,50 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		145,
+		140
+	],
+	"scale": 1.65,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				-2
+			],
+			"idle_offsets": [
+				-1,
+				-12
+			],
+			"loop_name": "Normal",
+			"idle_name": "Normal"
+		},
+		{
+			"loop_name": "Concerned",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Concerned",
+			"anim": "Concerned",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Bruh",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Bruh",
+			"anim": "Bruh",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Ace_Dialogue"
+}

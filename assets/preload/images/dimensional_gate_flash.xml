@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dimensional_gate_flash.png">
+	<!-- Created with Adobe Animate version 24.0.1.329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dimensional_gate_flash0000" x="0" y="0" width="205" height="60" frameX="-41" frameY="-2" frameWidth="357" frameHeight="138"/>
+	<SubTexture name="dimensional_gate_flash0001" x="205" y="0" width="205" height="60" frameX="-41" frameY="-2" frameWidth="357" frameHeight="138"/>
+	<SubTexture name="dimensional_gate_flash0002" x="410" y="0" width="249" height="85" frameX="-25" frameY="-7" frameWidth="357" frameHeight="138"/>
+	<SubTexture name="dimensional_gate_flash0003" x="659" y="0" width="253" height="103" frameX="-16" frameY="-6" frameWidth="357" frameHeight="138"/>
+	<SubTexture name="dimensional_gate_flash0004" x="0" y="103" width="258" height="123" frameX="-7" frameY="-4" frameWidth="357" frameHeight="138"/>
+	<SubTexture name="dimensional_gate_flash0005" x="258" y="103" width="357" height="138"/>
+	<SubTexture name="dimensional_gate_flash0006" x="615" y="103" width="258" height="123" frameX="-7" frameY="-4" frameWidth="357" frameHeight="138"/>
+	<SubTexture name="dimensional_gate_flash0007" x="0" y="241" width="253" height="103" frameX="-16" frameY="-6" frameWidth="357" frameHeight="138"/>
+	<SubTexture name="dimensional_gate_flash0008" x="253" y="241" width="249" height="85" frameX="-25" frameY="-7" frameWidth="357" frameHeight="138"/>
+	<SubTexture name="dimensional_gate_flash0009" x="502" y="241" width="205" height="60" frameX="-41" frameY="-2" frameWidth="357" frameHeight="138"/>
+	<SubTexture name="dimensional_gate_flash0010" x="707" y="241" width="205" height="60" frameX="-41" frameY="-2" frameWidth="357" frameHeight="138"/>
+	<SubTexture name="dimensional_gate_flash0011" x="0" y="344" width="205" height="60" frameX="-41" frameY="-2" frameWidth="357" frameHeight="138"/>
+</TextureAtlas>

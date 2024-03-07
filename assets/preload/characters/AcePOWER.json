@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-240,
+				25
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Ace Sing Left 2"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-125,
+				-55
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "  Ace Sing Down 2"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-320,
+				225
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Ace Sing Up 2"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-410,
+				-30
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Ace Sing Right 2"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-360,
+				-19
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Ace IDLE",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Ace POWER",
+	"position": [
+		-300,
+		-15
+	],
+	"healthicon": "Ace",
+	"flip_x": false,
+	"healthbar_colors": [
+		244,
+		201,
+		21
+	],
+	"camera_position": [
+		260,
+		-80
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2
+}

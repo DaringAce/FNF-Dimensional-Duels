@@ -1,0 +1,59 @@
+{
+	"storyName": "The Hidden Hero",
+	"difficulties": "easy, normal, dimensional",
+	"hideFreeplay": false,
+	"weekBackground": "acesHouse",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		244,
+		201,
+		21
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Long-Wired-Brawl",
+			"Ace",
+			[
+				244,
+				201,
+				21
+			]
+		],
+		[
+			"Scythe",
+			"Ace",
+			[
+				244,
+				201,
+				21
+			]
+		],
+		[
+			"Righteous-Waterstream",
+			"Ace",
+			[
+				244,
+				201,
+				21
+			]
+		],
+		[
+			"Grand-Finale",
+			"Ace",
+			[
+				244,
+				201,
+				21
+			]
+		]
+	],
+	"weekCharacters": [
+		"Ace",
+		"bf",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Duel1"
+}

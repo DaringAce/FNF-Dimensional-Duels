@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Io.png"><SubTexture name="Lo Idle0000" x="0" y="0" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Idle0001" x="182" y="0" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Idle0002" x="364" y="0" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Idle0003" x="546" y="0" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Idle0004" x="728" y="0" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Down0000" x="0" y="174" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Down0001" x="182" y="174" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Down0002" x="364" y="174" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Down0003" x="546" y="174" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Down0004" x="728" y="174" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Right0000" x="0" y="348" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Right0001" x="182" y="348" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Right0002" x="364" y="348" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Right0003" x="546" y="348" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Right0004" x="728" y="348" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Up0000" x="0" y="522" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Up0001" x="182" y="522" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Up0002" x="364" y="522" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Up0003" x="546" y="522" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Up0004" x="728" y="522" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Left0000" x="0" y="696" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Left0001" x="182" y="696" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Left0002" x="364" y="696" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Left0003" x="546" y="696" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+<SubTexture name="Lo Left0004" x="728" y="696" width="182" height="174" frameX="0" frameY="0" frameWidth="182" frameHeight="174" />
+</TextureAtlas>

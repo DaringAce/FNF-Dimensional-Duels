@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="logoBumpin.png">
+	<!-- Created with Adobe Animate version 24.0.1.329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FINAL0000" x="0" y="0" width="3105" height="1331"/>
+	<SubTexture name="FINAL0001" x="0" y="0" width="3105" height="1331"/>
+	<SubTexture name="FINAL0002" x="0" y="0" width="3105" height="1331"/>
+	<SubTexture name="FINAL0003" x="0" y="0" width="3105" height="1331"/>
+	<SubTexture name="FINAL0004" x="0" y="0" width="3105" height="1331"/>
+	<SubTexture name="FINAL0005" x="0" y="1331" width="3105" height="1325" frameX="0" frameY="-1" frameWidth="3105" frameHeight="1331"/>
+	<SubTexture name="FINAL0006" x="0" y="1331" width="3105" height="1325" frameX="0" frameY="-1" frameWidth="3105" frameHeight="1331"/>
+	<SubTexture name="FINAL0007" x="0" y="1331" width="3105" height="1325" frameX="0" frameY="-1" frameWidth="3105" frameHeight="1331"/>
+	<SubTexture name="FINAL0008" x="0" y="1331" width="3105" height="1325" frameX="0" frameY="-1" frameWidth="3105" frameHeight="1331"/>
+	<SubTexture name="FINAL0009" x="0" y="1331" width="3105" height="1325" frameX="0" frameY="-1" frameWidth="3105" frameHeight="1331"/>
+	<SubTexture name="FINAL0010" x="0" y="1331" width="3105" height="1325" frameX="0" frameY="-1" frameWidth="3105" frameHeight="1331"/>
+	<SubTexture name="FINAL0011" x="0" y="1331" width="3105" height="1325" frameX="0" frameY="-1" frameWidth="3105" frameHeight="1331"/>
+</TextureAtlas>

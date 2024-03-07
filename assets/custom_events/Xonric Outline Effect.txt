@@ -1,0 +1,3 @@
+Triggers the Xonric shader.
+Value 1: "activate" to trigger the shader, or "deactivate" to rid of the shader.
+Value 2: does nothing lol

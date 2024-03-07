@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dangerarrow.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="yellow0000" x="0" y="64" width="167" height="158"/>
+	<SubTexture name="yellow hold end0000" x="0" y="0" width="50" height="64"/>
+	<SubTexture name="yellow hold piece0000" x="50" y="0" width="50" height="44"/>
+</TextureAtlas>

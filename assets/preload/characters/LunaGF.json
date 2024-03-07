@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-420,
+				-20
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-400,
+				-55
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-262,
+				0
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-445,
+				-20
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-480,
+				-15
+			],
+			"anim": "idle",
+			"fps": 12,
+			"name": "BGIdle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-471,
+				-9
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "Oh No",
+			"loop": false,
+			"name": "Oh No"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Luna",
+	"position": [
+		-1310,
+		-70
+	],
+	"healthicon": "luna",
+	"flip_x": false,
+	"healthbar_colors": [
+		78,
+		78,
+		98
+	],
+	"camera_position": [
+		400,
+		70
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}

@@ -1,0 +1,52 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.035,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "pissed",
+			"text": "Is that all ya got?!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "Concerned",
+			"text": "Indeed. I am most certainly not as skilled at this as you are..."
+		},
+		{
+			"sound": "",
+			"speed": 0.04,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "I can tell. Keep up!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Well, after this next one, I will send you home. Please return safely."
+		},
+		{
+			"sound": "",
+			"speed": 0.045,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yeah! Then you can visit me and my girlfriend to rap battle!"
+		},
+		{
+			"sound": "",
+			"speed": 0.3,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "Bruh",
+			"text": "..."
+		}
+	]
+}

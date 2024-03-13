@@ -1,6 +1,6 @@
 {
-	"confirm_anim": "Ace IDLE",
-	"idle_anim": "Ace IDLE",
+	"confirm_anim": "Ace MENU IDLE",
+	"idle_anim": "Ace MENU IDLE",
 	"position": [
 		110,
 		190

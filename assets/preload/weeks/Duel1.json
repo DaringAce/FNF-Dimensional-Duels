@@ -1,5 +1,5 @@
 {
-	"storyName": "The Hidden Hero",
+	"storyName": "Traveling Dimensions",
 	"difficulties": "easy, normal, dimensional",
 	"hideFreeplay": false,
 	"weekBackground": "acesHouse",
@@ -51,7 +51,7 @@
 	],
 	"weekCharacters": [
 		"Ace",
-		"bf",
+		"bf_Purple",
 		""
 	],
 	"hiddenUntilUnlocked": false,

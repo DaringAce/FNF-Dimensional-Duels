@@ -1,16 +1,5 @@
 {
 	"song": {
-		"events": [
-			[
-				57906.976744186,
-				[
-					[
-						"Play Animation",
-						"Are You Prepared",
-						"dad"
-					]
-				]
-			]
-		]
+		"events": []
 	}
 }

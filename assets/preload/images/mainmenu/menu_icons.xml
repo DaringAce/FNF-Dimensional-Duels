@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="menu_icons.png">
-	<!-- Created with Adobe Animate version 21.0.4.39603 -->
+	<!-- Created with Adobe Animate version 24.0.1.329 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="credits0000" x="0" y="0" width="249" height="125"/>
-	<SubTexture name="donate0000" x="249" y="0" width="200" height="200"/>
-	<SubTexture name="freeplay0000" x="449" y="0" width="250" height="200"/>
-	<SubTexture name="mods0000" x="699" y="0" width="200" height="200"/>
-	<SubTexture name="options0000" x="0" y="200" width="200" height="200"/>
-	<SubTexture name="story_mode0000" x="200" y="200" width="250" height="200"/>
+	<SubTexture name="Credits0000" x="0" y="0" width="249" height="125"/>
+	<SubTexture name="Donate0000" x="249" y="0" width="200" height="200"/>
+	<SubTexture name="Freeplay Mode0000" x="449" y="0" width="250" height="200"/>
+	<SubTexture name="Lore0000" x="699" y="0" width="303" height="173"/>
+	<SubTexture name="Mods0000" x="0" y="200" width="200" height="200"/>
+	<SubTexture name="Options0000" x="200" y="200" width="200" height="200"/>
+	<SubTexture name="Story Mode0000" x="400" y="200" width="250" height="200"/>
 </TextureAtlas>

@@ -1400,7 +1400,7 @@ class PlayState extends MusicBeatState
 		var daSong:String = Paths.formatToSongPath(curSong);
 		if (isStoryMode && !seenCutscene)
 		{
-			switch (daSong)
+			switch (daSong) -- checks the "song" variable in the data json
 			{
 				case "monster":
 					var whiteScreen:FlxSprite = new FlxSprite(0, 0).makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.WHITE);
@@ -1464,34 +1464,14 @@ class PlayState extends MusicBeatState
 				
 				case 'Long-Wired-Brawl':
 					startVideo("aceWeek");
+					startDialogue(dialogueJson);
+
+				case 'Righteous Waterstream' | 'Righteous-Waterstream' | 'Grand Finale' | 'Grand-Finale':
+					startDialogue(dialogueJson);
 				
 				case 'Scythe':
-					var blackScreen:FlxSprite = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
-					add(blackScreen);
-					blackScreen.scrollFactor.set();
-					camHUD.visible = false;
-					inCutscene = true;
+					startDialogue(dialogueJson);
 
-					new FlxTimer().start(0.1, function(tmr:FlxTimer)
-					{
-						remove(blackScreen);
-						FlxG.sound.play(Paths.sound('owl'));
-						camFollow.y = -710;
-						FlxG.camera.zoom = 1.5;
-								
-						new FlxTimer().start(0.8, function(tmr:FlxTimer)
-						{
-							camHUD.visible = true;
-							remove(blackScreen);
-							FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom}, 2.5, {
-								ease: FlxEase.quadInOut,
-								onComplete: function(twn:FlxTween)
-								{
-									startCountdown();
-								}
-							});
-						});
-					});
 				default:
 					startCountdown();
 			}

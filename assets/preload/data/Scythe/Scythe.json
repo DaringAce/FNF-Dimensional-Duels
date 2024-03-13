@@ -7722,10 +7722,10 @@
 				"mustHitSection": true
 			}
 		],
-		"mania": 3,
+		"mania": 4,
 		"player3": null,
 		"endCutscene": "",
-		"song": "scythe",
+		"song": "Scythe",
 		"validScore": true,
 		"arrowSkin": "aceNoteAssets",
 		"speed": 2.6,

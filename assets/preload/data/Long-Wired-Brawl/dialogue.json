@@ -1,0 +1,140 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "Concerned",
+			"text": "Who are you and why did you appear here at our dimension?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Beep."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "Bruh",
+			"text": "..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bo bop?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bo skideep bobbity."
+		},
+		{
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "shocked",
+			"text": "You speak my language?! (Damn, I was hoping to confuse him into rap battling me!)"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yes. Now, why have you come here?"
+		},
+		{
+			"sound": "",
+			"speed": 0.045,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "My girlfriend's dad sent me here, yo!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "Concerned",
+			"text": "So no malicious intent?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Nah. Can you help me go back?"
+		},
+		{
+			"sound": "",
+			"speed": 0.06,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "Concerned",
+			"text": "Yes. Let me think for a bit..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "???"
+		},
+		{
+			"sound": "",
+			"speed": 0.045,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Ah, now I see. Your dimension's name is-"
+		},
+		{
+			"sound": "",
+			"speed": 0.04,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "pissed",
+			"text": "Rap battle!"
+		},
+		{
+			"sound": "",
+			"speed": 0.08,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "Bruh",
+			"text": "...Pardon?"
+		},
+		{
+			"sound": "",
+			"speed": 0.04,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "1v1 me in a rap battle right now!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "Concerned",
+			"text": "What an odd request... Well, if you want, I suppose I could try..."
+		}
+	]
+}

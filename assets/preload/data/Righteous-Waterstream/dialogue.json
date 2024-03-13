@@ -1,0 +1,92 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "Bruh",
+			"text": "You seem to be pretty skilled at this. I suppose I will have to go all out if I want a chance."
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "pissed",
+			"text": "Now we're talking! Let's hit it!"
+		},
+		{
+			"sound": "",
+			"speed": 0.08,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "Concerned",
+			"text": "Hey, are you doing ok?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Who you talkin' to?"
+		},
+		{
+			"sound": "",
+			"speed": 0.06,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "Bruh",
+			"text": "Her."
+		},
+		{
+			"sound": "",
+			"speed": 0.055,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "The babe behind you? She's been giving me glares this whole time, dawg."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "Concerned",
+			"text": "Ah, I see. But more or less, you are correct."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "If we are to do another song after this, that will be the 'grand finale' of this little rapping event. It is getting quite late."
+		},
+		{
+			"sound": "",
+			"speed": 0.035,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "'Kay."
+		},
+		{
+			"sound": "",
+			"speed": 0.04,
+			"portrait": "ace",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "And I will return you to your dimension, too."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bet."
+		}
+	]
+}

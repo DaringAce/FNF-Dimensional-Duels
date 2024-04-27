@@ -1,0 +1,5 @@
+Value 1: Can be "OP", "PLR", or "NONE".
+
+OP: Zooms and snaps the camera to the opponent's character.
+PLR: Zooms and snaps the camera to the player's character.
+NONE: Resets camera zoom and position.

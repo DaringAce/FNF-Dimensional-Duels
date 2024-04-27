@@ -7,12 +7,12 @@ function onUpdate()
         setProperty('dadunderlay.alpha', underlaytransparency)
         setProperty('bfunderlay.alpha', underlaytransparency)
     if keyboardJustPressed('RBRACKET') then
-        playSound('clickText', '1')
+        playSound('clickText', '0.4')
         underlaytransparency = underlaytransparency + 0.1
     end
 
     if keyboardJustPressed('LBRACKET') then
-        playSound('dialogueClose', '1')
+        playSound('clickText', '0.4')
         underlaytransparency = underlaytransparency - 0.1
 	end
 end

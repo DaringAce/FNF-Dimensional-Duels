@@ -1,17 +1,6 @@
 {
 	"animations": [
 		{
-			"loop": false,
-			"offsets": [
-				-415,
-				-60
-			],
-			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Right"
-		},
-		{
 			"offsets": [
 				-489,
 				-35
@@ -25,49 +14,71 @@
 		{
 			"loop": false,
 			"offsets": [
-				-519,
-				-20
+				-510,
+				-35
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-457,
+				-42
 			],
 			"anim": "singLEFT",
 			"fps": 24,
-			"name": "Left",
+			"name": "left",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-420,
-				-15
+				-485,
+				-55
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "Down",
+			"name": "down",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-432,
-				20
+				-482,
+				0
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "Up",
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1365,
+				-380
+			],
+			"anim": "Bite",
+			"fps": 24,
+			"name": "animation",
 			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/LunaHungry",
 	"position": [
-		-300,
-		0
+		-500,
+		-200
 	],
-	"healthicon": "luna",
+	"healthicon": "LunaHungry",
 	"flip_x": false,
 	"healthbar_colors": [
-		78,
-		78,
-		78
+		229,
+		0,
+		89
 	],
 	"camera_position": [
 		400,

@@ -50,11 +50,12 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		Conductor.songPosition = 0;
 
-		if (PlayState.SONG.player1 == 'Ace' || PlayState.SONG.player1 == 'AcePLR')
+		if (PlayState.SONG.player1 == 'Ace' || PlayState.SONG.player1 == 'bf-AceNORMAL')
 		{
-			characterName = 'AcePLR';
+			characterName = 'bf-AceNORMAL';
 			loopSoundName = 'gameoverace';
 			deathSoundName = 'AceLose';
+			endSoundName = 'Ace_Retry';
 		}
 		if (PlayState.SONG.player1 == 'DaringBF')
 		{
@@ -135,6 +136,19 @@ class GameOverSubstate extends MusicBeatSubstate
 					//if(!ClientPrefs.cursing) exclude = [1, 3, 8, 13, 17, 21];
 
 					FlxG.sound.play(Paths.sound('jeffGameover/jeffGameover-' + FlxG.random.int(1, 25, exclude)), 1, false, null, true, function() {
+						if(!isEnding)
+						{
+							FlxG.sound.music.fadeIn(0.2, 1, 4);
+						}
+					});
+				}else 
+				if ((PlayState.curStage == 'AcesHouse' || PlayState.curStage == 'AcesHouseEvil') && PlayState.SONG.player2 == 'Ace')
+				{
+					playingDeathSound = true;
+					coolStartDeath(0.2);
+					
+					var exclude:Array<Int> = [];
+					FlxG.sound.play(Paths.sound('aceLines/Line' + FlxG.random.int(1, 8)), 1, false, null, true, function() {
 						if(!isEnding)
 						{
 							FlxG.sound.music.fadeIn(0.2, 1, 4);

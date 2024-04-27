@@ -4,12 +4,13 @@ function onEvent(name)
 		showHealth()
 		showScoretxt()
 
-        removeSpriteShader('boyfriend');
+        if boyfriendName ~= "bf-Xonricd" then
+            removeSpriteShader('boyfriend');
+        end
 
         setProperty('loBlack.alpha', 0);
-        setProperty('gf.visible', true);
-
         removeSpriteShader('aceBG');
+        removeSpriteShader('gf');
     end
 end
 

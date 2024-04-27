@@ -1,0 +1,245 @@
+{
+	"song": {
+		"speed": 1,
+		"stage": "AcesHouseEvil",
+		"player1": "bfNew",
+		"player2": "Ace",
+		"events": [],
+		"notes": [
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						6400,
+						1,
+						0,
+						"GF Sing"
+					],
+					[
+						6800,
+						3,
+						0,
+						"GF Sing"
+					],
+					[
+						7000,
+						3,
+						0,
+						"GF Sing"
+					],
+					[
+						7200,
+						0,
+						0,
+						"GF Sing"
+					],
+					[
+						7600,
+						2,
+						0,
+						"GF Sing"
+					],
+					[
+						7400,
+						3,
+						0,
+						"GF Sing"
+					],
+					[
+						7800,
+						0,
+						0,
+						"GF Sing"
+					]
+				],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						8000,
+						1,
+						0,
+						"GF Sing"
+					],
+					[
+						8400,
+						1,
+						0,
+						"GF Sing"
+					],
+					[
+						8800,
+						3,
+						0,
+						"GF Sing"
+					],
+					[
+						9000,
+						1,
+						0,
+						"GF Sing"
+					],
+					[
+						9200,
+						2,
+						0,
+						"GF Sing"
+					],
+					[
+						9400,
+						0,
+						0,
+						"GF Sing"
+					]
+				],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						9600,
+						1,
+						0
+					],
+					[
+						10000,
+						3,
+						0
+					],
+					[
+						10200,
+						3,
+						0
+					],
+					[
+						10400,
+						0,
+						0
+					],
+					[
+						10600,
+						3,
+						0
+					],
+					[
+						10800,
+						2,
+						0
+					],
+					[
+						11000,
+						0,
+						0
+					]
+				],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						11200,
+						1,
+						0
+					],
+					[
+						11600,
+						1,
+						0
+					],
+					[
+						12000,
+						3,
+						0
+					],
+					[
+						12200,
+						1,
+						0
+					],
+					[
+						12400,
+						2,
+						0
+					],
+					[
+						12600,
+						0,
+						0
+					]
+				],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			}
+		],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "Luna",
+		"bpm": 150,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "integrate"
+	}
+}

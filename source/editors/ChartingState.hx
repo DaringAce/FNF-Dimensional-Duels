@@ -96,8 +96,10 @@ class ChartingState extends MusicBeatState
 		['Lights on', "Rids of the black and white, reverting to normal. \nUsed in Duel 1."],
 		['Set_Subtitle', "Value 1: This is where the text of the subtitle goes, followed by a colon(:). Following the colon is a name of an icon\n you wish to use. It then grabs that icon and displays it above the subtitle.\nValue 2: This is just the color of the text, in #RRGGBB format. Leave blank to default it to "],
 		['Cinematics(v3.2)', "Value 1: Bar Thickness (pixels), Speed (seconds)\nValue 2: Cinematic Type\nCinematic Types: (1)Underlapping, (2)Overlapping, (3)With HUD, (4)Without HUD, (5)Static Strums"],
-		['Timed_Animation', "Value 1: Name of the animation to play\nValue 2: Seconds to play the animation for"],
-		['Duel Countdown', "3, 2, 1, FIGHT!"]
+		['OP Timed Animation', "Value 1: Name of the animation for the opponent to play\nValue 2: Seconds to play the animation for"],
+		['GF Timed Animation', "Value 1: Name of the animation for the girlfriend to play\nValue 2: Seconds to play the animation for"],
+		['Duel Countdown', "3, 2, 1, FIGHT!"],
+		['Camera Char Snap', "Value 1: Can be OP, PLR, or NONE\n\nOP: Zooms and snaps the camera to the opponents character\nPLR: Zooms and snaps the camera to the players character\nNONE: Resets camera zoom and position"]
 	];
 
 	var _file:FileReference;

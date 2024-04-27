@@ -1,4 +1,4 @@
--- NOTHING HERE SHOULD BE TOUCHED!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-- THIS IS THE ACE TRAIL THAT MOVES! IT MOVEEEESSSSS!!!
 -- DON'T MODIFY ANYTHING HERE IF YOU DON'T KNOW WHAT YOU'RE DOING AND JUST USE THIS AS IT IS, THOUGH!!
 -- this is a modification i made for fun of a vs impostor v4 trail note script i made for fun
 -- original script by CJRed#6258, modified by Kaite#1102
@@ -26,29 +26,28 @@ end
 local chars = {}
 
 function opponentNoteHit(id, direction, noteType, isSustainNote)
-    if getPropertyFromGroup('notes', id, 'gfNote') then
-        chars['gf'] = direction
-        makeSmth('gf', direction, 1)
-    elseif noteType ~= 'Opponent 2 Sing' then
-        if dadName == 'Ace' then
-            chars['dad'] = direction
-            makeSmth('dad', direction, 1)
-        end
-    else
-        chars['mom'] = direction
-        makeSmth('mom', direction, 1)
+	if (dadName == 'Ace' or dadName == 'AcePOWER') then
+		chars['dad'] = direction
+        makeSmth('dad', direction, 1)
+    end
+end
+
+function goodNoteHit(id, direction, noteType, isSustainNote)
+	if (boyfriendName == 'bf-Ace'or boyfriendName == 'bf-AceNORMAL') then
+            chars['boyfriend'] = direction
+            makeSmth('boyfriend', direction, 1)
     end
 end
 
 
 function onStepHit()
 	for ea, ae in pairs(chars) do
-		makeSmth(ea, ae, 0.075)
+		makeSmth(ea, ae, 0.15)
 	end
 end
 
 local ghostNum = 0
-local funniDis = 75
+local funniDis = 50
 function ghostTrail(char, noteData, alph)
 	-- debugPrint(char)
 	local ghost = char..'Ghost'..ghostNum
@@ -68,8 +67,8 @@ function ghostTrail(char, noteData, alph)
 	setProperty(ghost..'.flipY', getProperty(char..'.flipY'))
 	setProperty(ghost..'.visible', getProperty(char..'.visible'))
 	setProperty(ghost..'.color', getColorFromHex('ffffff'))
-	setProperty(ghost..'.alpha', 0.115 * getProperty(char..'.alpha') * alph)
-	setBlendMode(ghost, 'add')
+	setProperty(ghost..'.alpha', 0.225 * getProperty(char..'.alpha') * alph)
+	setBlendMode(ghost, 'SCREEN')
 	addLuaSprite(ghost)
 	playAnim(ghost, 'idle', true, false, noteData[5])
 	setObjectOrder(ghost, getObjectOrder(group..'Group') - 0.1)

@@ -83,15 +83,15 @@ class PlayState extends MusicBeatState
 	public static var STRUM_X_MIDDLESCROLL = -278;
 
 	public static var ratingStuff:Array<Dynamic> = [
-		['You Suck!', 0.2], //From 0% to 19%
-		['Shit', 0.4], //From 20% to 39%
-		['Bad', 0.5], //From 40% to 49%
-		['Bruh', 0.6], //From 50% to 59%
-		['Meh', 0.69], //From 60% to 68%
-		['Nice', 0.7], //69%
-		['Good', 0.8], //From 70% to 79%
-		['Great', 0.9], //From 80% to 89%
-		['Sick!', 1], //From 90% to 99%
+		['F-', 0.2], //From 0% to 19%
+		['F', 0.4], //From 20% to 39%
+		['E', 0.5], //From 40% to 49%
+		['D', 0.6], //From 50% to 59%
+		['C', 0.69], //From 60% to 68%
+		['B', 0.7], //69%
+		['A', 0.8], //From 70% to 79%
+		['S', 0.9], //From 80% to 89%
+		['S+', 1], //From 90% to 99%
 		['Perfect!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
 
@@ -228,6 +228,7 @@ class PlayState extends MusicBeatState
 
 	var halloweenBG:BGSprite;
 	var halloweenWhite:BGSprite;
+	var underlay:FlxSprite;
 
 	var phillyLightsColors:Array<FlxColor>;
 	var phillyWindow:BGSprite;
@@ -281,7 +282,9 @@ class PlayState extends MusicBeatState
 	var timeTxt:FlxText;
 	var scoreTxtTween:FlxTween;
 	var dangerLevelTxtTWEEN:FlxTween; //Danger Level TEXT TWEEN	
-	
+	var songTitle:FlxText;
+
+
 	public static var campaignScore:Int = 0;
 	public static var campaignMisses:Int = 0;
 	public static var seenCutscene:Bool = false;
@@ -382,6 +385,7 @@ class PlayState extends MusicBeatState
 	var kb_attack_saw:FlxSprite;
 	var kb_attack_alert:FlxSprite;
 	public var aceBG:FlxSprite;
+	public var cliffthing:FlxSprite;
 	var woodboard:FlxSprite;
 	var pumpkinEFF2:FlxSprite;
 	var Luna:FlxTypedGroup<BackgroundLuna>;
@@ -927,6 +931,20 @@ class PlayState extends MusicBeatState
 				aceBG.updateHitbox();
 				add(aceBG);
 			}		
+			
+			case 'Cliff':
+			{				
+				var cliff = Paths.getSparrowAtlas('CliffBG','shared');
+
+				cliffthing = new FlxSprite(-550, -225);
+				cliffthing.frames = cliff;
+				cliffthing.animation.addByPrefix('idle', 'Background', 24, true);
+				cliffthing.animation.play('idle', true);
+				cliffthing.antialiasing = true;
+				cliffthing.setGraphicSize(Std.int(1.25 * cliffthing.width));
+				cliffthing.updateHitbox();
+				add(cliffthing);
+			}		
 		}
 
 		switch(Paths.formatToSongPath(SONG.song))
@@ -1137,7 +1155,7 @@ class PlayState extends MusicBeatState
 
 		var showTime:Bool = (ClientPrefs.timeBarType != 'Disabled');
 		timeTxt = new FlxText(STRUM_X + (FlxG.width / 4) - 248, 19, 400, "", 32);
-		timeTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		timeTxt.setFormat(Paths.font("PhantomMuff.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		timeTxt.scrollFactor.set();
 		timeTxt.alpha = 0;
 		timeTxt.borderSize = 2;
@@ -1240,6 +1258,15 @@ class PlayState extends MusicBeatState
 		healthBar.alpha = ClientPrefs.healthBarAlpha;
 		add(healthBar);
 		healthBarBG.sprTracker = healthBar;
+		
+		songTitle = new FlxText(20, healthBarBG.y + 45, 0, "", 16);
+		songTitle.setFormat(Paths.font("PhantomMuff.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		songTitle.scrollFactor.set();
+		songTitle.y += 10;
+		songTitle.borderSize = 1.25;
+		songTitle.alpha = 0;
+		songTitle.visible = true;
+//		add(songTitle);
 
 		iconP1 = new HealthIcon(boyfriend.healthIcon, true);
 		iconP1.y = healthBar.y - 75;
@@ -1259,7 +1286,7 @@ class PlayState extends MusicBeatState
 		reloadHealthBarColors();
 
 		scoreTxt = new FlxText(0, healthBarBG.y + 56, FlxG.width, "", 20);
-		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		scoreTxt.setFormat(Paths.font("PhantomMuff.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		scoreTxt.scrollFactor.set();
 		scoreTxt.borderSize = 1.25;
 		scoreTxt.visible = !ClientPrefs.hideHud;
@@ -1295,6 +1322,7 @@ class PlayState extends MusicBeatState
 		notes.cameras = [camHUD];
 		healthBar.cameras = [camHUD];
 		healthBarBG.cameras = [camHUD];
+		songTitle.cameras = [camHUD];
 		iconP1.cameras = [camHUD];
 		iconP2.cameras = [camHUD];
 		scoreTxt.cameras = [camHUD];
@@ -1400,7 +1428,7 @@ class PlayState extends MusicBeatState
 		var daSong:String = Paths.formatToSongPath(curSong);
 		if (isStoryMode && !seenCutscene)
 		{
-			switch (daSong) -- checks the "song" variable in the data json
+			switch (daSong) //checks the "song" variable in the data json
 			{
 				case "monster":
 					var whiteScreen:FlxSprite = new FlxSprite(0, 0).makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.WHITE);
@@ -2440,6 +2468,9 @@ class PlayState extends MusicBeatState
 
 	public function updateScore(miss:Bool = false)
 	{
+		var difficultyShit:String = CoolUtil.difficulties[PlayState.storyDifficulty] + "";
+		songTitle.text = SONG.song + "  [ " + difficultyShit.toUpperCase() + " ]";
+
 		scoreTxt.text = 'Score: ' + songScore
 		+ ' | Misses: ' + songMisses
 		+ ' | Rating: ' + ratingName
@@ -2524,6 +2555,8 @@ class PlayState extends MusicBeatState
 		songLength = FlxG.sound.music.length;
 		FlxTween.tween(timeBar, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
 		FlxTween.tween(timeTxt, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
+		FlxTween.tween(songTitle, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
+
 
 		switch(curStage)
 		{

@@ -1,6 +1,8 @@
 --Made my spectradev on discord
 
 -- {songName , {p1IconX,p1IconY} , {p2IconX,p2IconY} , {healthbarXdownscroll,healthbarYdownscroll} , {healthbarXupscroll,healthbarYupscroll} , {innerBarX,innerBarY} , framerate , flipped}
+local shit = true --determines visibility
+
 local BarData = {
     {'Booyah', --its literaly the song name, fuck you
     {0,0}, --p1 icon shit
@@ -99,7 +101,9 @@ function onUpdatePost(elapsed)
         setProperty('flasher.color',getProperty("healthbarOver.color"))
         if getFrame('healthbarOver','width') > defaultWidth-2 then
             setProperty("healthbarUnder.alpha", 0)
-            setProperty("flasher.visible", true)
+            if shit then
+                setProperty("flasher.visible", true)
+            end
         else
             setProperty("healthbarUnder.alpha", 1)
             setProperty("flasher.visible", false)
@@ -117,7 +121,9 @@ function onUpdatePost(elapsed)
         setProperty('flasher.color',getProperty("healthbarUnder.color"))
         if getFrame('healthbarOver','width') < 2 then
             setProperty("healthbarOver.alpha", 0)
-            setProperty("flasher.visible", true)
+            if shit then
+                setProperty("flasher.visible", true)
+            end
         else
             setProperty("healthbarOver.alpha", 1)
             setProperty("flasher.visible", false)
@@ -159,12 +165,14 @@ function onEvent(eventName, value1, value2)
     end
 
     if eventName == 'Lights out' then
+        shit = false
         setProperty('healthbackground.visible',false)
         setProperty('healthbarOver.visible',false)
         setProperty('healthbarUnder.visible',false)
     end
 
     if eventName == 'Lights on' then
+        shit = true
         setProperty('healthbackground.visible',true)
         setProperty('healthbarOver.visible',true)
         setProperty('healthbarUnder.visible',true)

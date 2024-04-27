@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-435,
+				-20
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-450,
+				-5
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-420,
+				-50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				-410,
+				-85
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				-282,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Luna Happy",
+	"position": [
+		-300,
+		0
+	],
+	"healthicon": "LunaHappy",
+	"flip_x": false,
+	"healthbar_colors": [
+		78,
+		78,
+		78
+	],
+	"camera_position": [
+		400,
+		70
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

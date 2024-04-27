@@ -1,6 +1,6 @@
 --THIS SCRIPT WAS MADE BY Gostar64, WITH A BASE NPS SCRIPT BY Meme1079, THE COLORS WERE TAKEN FROM Unholywanderer04's Editable Combo and Ratings Script--
 --The Legendary Legend of the Super Soup--
-
+local shit = true --visibility crap
 local enabled = true; --enables/disables the script
 local continueCalculation = false; --continues the calculation if your script is disabled
 local onlyNewText = false; --Only has the combo, rating, and score texts added in if your script is enabled
@@ -9,7 +9,7 @@ local onlyNewText = false; --Only has the combo, rating, and score texts added i
 
 --Main Text Stuff--
 
-local font = 'VTKS DURA 3D.ttf' -- H24's font is 'goodbyeDespair.ttf' but 'sonic-1-hud-font.ttf' is pretty cool
+local font = 'PhantomMuff.ttf' -- H24's font is 'goodbyeDespair.ttf' but 'sonic-1-hud-font.ttf' is pretty cool
 local dontChangeScoreFont = false; --disables the font change [default: false]
 local changeTimeTextFont = true; --set to true to change the time text font
 local textStyle = 'Custom' --Psych/OS/Kade/Yoshi-ish/Gostar64 (Custom) (makes it look like each engine's [or my custom] score)
@@ -46,8 +46,8 @@ local deactivateSystemZoom = false; --deactivates it even if the scoreZoom setti
 
 --Custom Texts--
 local textSetting = 'custom' --base, custom, or both. changes what text to use. both is randomized each note hit
-local customRateText = {'CRITICAL!', 'HIT!', 'LUCKY', 'UNLUCKY'} --Custom Text Here
-local allText = {'SICK!', 'NICE!', 'BAD', 'SHIT', 'CRITICAL!', 'HIT!', 'LUCKY', 'UNLUCKY'} --Custom is the last 4
+local customRateText = {'CRITICAL!', 'HIT!', 'SKIMMED', 'DODGED...'} --Custom Text Here
+local allText = {'SICK!', 'NICE!', 'BAD', 'SHIT', 'CRITICAL!', 'HIT!', 'SKIMMED', 'DODGED...'} --Custom is the last 4
 local perfects = {'PERFECT!', 'CRITCAL!'} --OS Engine (1 is normal, 2 is custom)
 local customTextChance = 100; --The chance of the custom text appearing when textSetting is both
 
@@ -710,5 +710,16 @@ function noteMiss(id, direction, noteType, isSustainNote)
         if scoreToAdd >= 10 then
             scoreToAdd = scoreToAdd - 10;
         end
+    end
+end
+
+function onEvent(name)
+    if name == 'Lights out' then
+        shit = false
+        setProperty('scoreTxt.visible', false)
+    end
+    if name == 'Lights on' then
+        shit = true
+        setProperty('scoreTxt.visible', true)
     end
 end

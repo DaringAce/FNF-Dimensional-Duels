@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-370,
+				-19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-335,
+				-25
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-380,
+				25
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-321,
+				-70
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-400,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-303,
+				-70
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "MISS down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-380,
+				25
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "MISS up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-333,
+				-30
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "MISS left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-402,
+				-10
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "MISS right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Ace Uncertainty",
+	"position": [
+		50,
+		335
+	],
+	"healthicon": "AceUncertainty",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		51,
+		204
+	],
+	"camera_position": [
+		-100,
+		-140
+	],
+	"sing_duration": 6.1,
+	"scale": 2
+}

@@ -1,6 +1,6 @@
 {
 	"song": {
-		"player1": "DaringBF",
+		"player1": "bfNew",
 		"keyCount": 4,
 		"notes": [
 			{
@@ -8033,6 +8033,26 @@
 				"bpm": 160
 			},
 			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 130,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 130
+			},
+			{
 				"gfSection": false,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -8049,7 +8069,7 @@
 		"modchartPath": "",
 		"player3": null,
 		"mania": 3,
-		"song": "scythe",
+		"song": "Scythe",
 		"endCutscene": "",
 		"arrowSkin": "aceNoteAssets",
 		"validScore": true,

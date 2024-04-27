@@ -36,13 +36,14 @@ class MainMenuState extends MusicBeatState
 	private var camAchievement:FlxCamera;
 
 	var optionShit:Array<String> = [
-		'story_mode',
-		'freeplay',
-		#if MODS_ALLOWED 'mods', #end
-		// #if ACHIEVEMENTS_ALLOWED 'awards', #end
-		'credits',
-		#if !switch 'donate', #end
-		'options'
+		'Story Mode',
+		'Freeplay',
+//		#if MODS_ALLOWED 'mods', #end
+//		// #if ACHIEVEMENTS_ALLOWED 'awards', #end
+		'Lore',
+		'Credits',
+		#if !switch 'Donate', #end
+		'Options'
 	];
 
 	var magenta:FlxSprite;
@@ -86,7 +87,7 @@ class MainMenuState extends MusicBeatState
 		bg.updateHitbox();
 		bg.screenCenter();
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
-		bg.alpha = 0.8;
+		bg.color = FlxColor.GRAY;
 		add(bg);
 
 		camFollow = new FlxObject(0, 0, 1, 1);
@@ -146,7 +147,7 @@ class MainMenuState extends MusicBeatState
 		add(menuItems);
 
 		optionText = new FlxText(0, FlxG.height * 0.75);
-		optionText.setFormat(Paths.font("vcr.ttf"), 100, FlxColor.PURPLE.getLightened(0.4), OUTLINE, FlxColor.BLACK);
+		optionText.setFormat(Paths.font("VTKS DURA 3D.ttf"), 100, FlxColor.PURPLE.getLightened(0.4), OUTLINE, FlxColor.BLACK);
 		optionText.scrollFactor.set();
 		optionText.borderSize = 4;
 		add(optionText);
@@ -251,7 +252,7 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				if (optionShit[curSelected] == 'donate')
+				if (optionShit[curSelected] == 'Donate')
 				{
 					CoolUtil.browserLoad('https://www.patreon.com/DaringAce');
 				}
@@ -286,19 +287,21 @@ class MainMenuState extends MusicBeatState
 
 								switch (daChoice)
 								{
-									case 'story_mode':
+									case 'Story Mode':
 										MusicBeatState.switchState(new StoryMenuState());
-									case 'freeplay':
+									case 'Freeplay':
 										MusicBeatState.switchState(new FreeplayState());
 									#if MODS_ALLOWED
-									case 'mods':
+									case 'Mods':
 										MusicBeatState.switchState(new ModsMenuState());
 									#end
-									case 'awards':
+									case 'Lore':
+//										MusicBeatState.switchState(new LoreState());
+									case 'Awards':
 										MusicBeatState.switchState(new AchievementsMenuState());
-									case 'credits':
+									case 'Credits':
 										MusicBeatState.switchState(new CreditsState());
-									case 'options':
+									case 'Options':
 										LoadingState.loadAndSwitchState(new options.OptionsState());
 								}
 							});
@@ -350,7 +353,17 @@ class MainMenuState extends MusicBeatState
 		menuItems.forEach(function(spr:FlxSprite)
 		{
 			FlxTween.cancelTweensOf(spr, ["angle", "alpha"]);
-			FlxTween.angle(spr, spr.ID == curSelected ? 180 : 0, spr.ID == curSelected ? 360 : 180, 0.5, {ease: FlxEase.quartOut});
+
+			if (huh < 0)
+			{
+				FlxTween.angle(spr, spr.ID == curSelected ? 180 : 0, spr.ID == curSelected ? -360 : -180, 0.5, {ease: FlxEase.quartOut});
+			}
+			else
+			{
+				FlxTween.angle(spr, spr.ID == curSelected ? 180 : 0, spr.ID == curSelected ? 360 : 180, 0.5, {ease: FlxEase.quartOut});
+
+			}
+
 			FlxTween.tween(spr, {alpha: spr.ID == curSelected ? 1 : 0}, 0.5, {ease: FlxEase.quartOut});
 		});
 	}

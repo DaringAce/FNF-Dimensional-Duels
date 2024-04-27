@@ -15,14 +15,14 @@ local songdata = {
     'Pico', -- Song Name [1]
     'Kawai Sprite', -- Composer [2]
     '5', --  Length for onscreen [3]
-    'PhantomArcade', -- Artist [4]
+    'PhantomArcade', -- Artist [4] (not being used)
     'NinjaMuffin99', -- Charter [5]
     'Pico', -- Custom Song Name [6] (because the names dont accept '-')
     },
 
     ['Long-Wired Brawl'] = {
         'Long-Wired-Brawl',
-        'Daring Ace, Greg Chun & Z11Gaming',
+        'Daring Ace & Z11Gaming (ft. Greg Chun)',
         '7',
         'JDST & Daring Ace',
         'jordanmodshop',
@@ -31,34 +31,34 @@ local songdata = {
     
     ['Scythe'] = {
         'scythe',
-        'Daring Ace, Greg Chun & Z11Gaming',
+        'Daring Ace & Z11Gaming (ft. Greg Chun)',
         '7',
         'JDST & Daring Ace',
-        '(i forgor)',
+        '(i forgor :skull:)',
         'Scythe',
     },
     
     ['Righteous Waterstream'] = {
         'Righteous-Waterstream',
-        'Daring Ace, Greg Chun & Z11Gaming',
+        'Daring Ace & Z11Gaming (ft. Greg Chun)',
         '7',
         'JDST & Daring Ace',
         'TrueMori',
         'Righteous Waterstream',
     },
 
-    ['Grand-Finale'] = {
-        'Grand-Finale',
-        'Daring Ace, Greg Chun & Z11Gaming',
+    ['Grand Finale'] = {
+        'Grand Finale',
+        'Daring Ace & Z11Gaming (ft. Greg Chun)',
         '7',
         'JDST & Daring Ace',
-        'TrueMori',
+        'TrueMori & Ivaldi',
         'Grand Finale',
     },    
     
     ['Uncertainty'] = {
         'Uncertainty',
-        'Daring Ace, Greg Chun & Z11Gaming',
+        'Daring Ace & fadeawayYT (ft. Greg Chun)',
         '7',
         'JDST & Daring Ace',
         'TrueMori',
@@ -74,11 +74,21 @@ local songdata = {
         'Thirst For The Night',
     },    
     
+    ['Autophobia'] = {
+        'Autophobia',
+        'Qiro & Daring Ace (ft. Greg Chun)',
+        '7',
+        'JDST & Daring Ace',
+        'Flain',
+        'Autophobia',
+    },    
+    
 -- Replace this data with your songs and the song composer. 
 -- The song name in the [] MUST be the same song in the JSON file
 -- The Next two are just string values, have fun :3
 }
 
+local font = 'PhantomMuff.ttf'
 local offsetX = 10
 local offsetY = 500
 local objWidth = 750
@@ -106,12 +116,14 @@ function onCreatePost() -- This creates all the placeholder shit B) ((THIS PART 
     setTextSize('creditTitle', 40)
     setTextAlignment('creditTitle', 'left')
     setObjectCamera('creditTitle', 'other')
+    setTextFont('creditTitle', font)
     addLuaText("creditTitle",true)
 
     makeLuaText('creditComposer', 'PlaceholderComposer', objWidth, offsetX - objWidth, offsetY+45 + space)
     setTextSize('creditComposer', 20)
     setTextAlignment('creditComposer', 'left')
     setObjectCamera('creditComposer', 'other')
+    setTextFont('creditComposer', font)
     addLuaText("creditComposer",true)
 
     makeLuaText('creditArtist', 'PlaceholderArtist', objWidth, offsetX - objWidth, offsetY+80 )
@@ -124,6 +136,7 @@ function onCreatePost() -- This creates all the placeholder shit B) ((THIS PART 
     setTextSize('creditCharter', 20)
     setTextAlignment('creditCharter', 'left')
     setObjectCamera('creditCharter', 'other')
+    setTextFont('creditCharter', font)
     addLuaText("creditCharter",true)
 
     -- If you dont NOT want the art and charter credits (or a mix of two), the value used in the old version is:

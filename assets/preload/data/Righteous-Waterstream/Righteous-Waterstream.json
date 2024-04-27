@@ -1,6 +1,6 @@
 {
 	"song": {
-		"player1": "DaringBF",
+		"player1": "bfNew",
 		"player2": "Ace",
 		"notes": [
 			{
@@ -8999,6 +8999,26 @@
 				"bpm": 133,
 				"changeBPM": false,
 				"mustHitSection": true
+			},
+			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 133,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 133
 			},
 			{
 				"typeOfSection": 0,

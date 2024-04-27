@@ -82,37 +82,47 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 
-			//DARING DUELS------------------->
+			//	<-------------------DARING DUELS------------------->
 
 			['Daring Duels - Main Dev Team'],
-			['Daring Ace',		'150a',				'Director\nCreator\nComposer\nEtc.',								'https://www.youtube.com/channel/UC2bhBg8pgJCXoLtPXTKh5bA',		'f4c915'], //Ace's gold color
-			['Z11Gaming',			'150z',				'Psych Port Helper\nand composer',								'https://www.youtube.com/@Z11Music/videos',				'8556b1'], //Z's purple color
-			['BigNinjaKai',			'150k',				'Charter\nand supporter',									'https://twitter.com/bigninjakai',					'ab5cd2'], //Kai's purple color
-			['R0cketta',			'150r',				'Chromatic scale creator',									'https://www.youtube.com/channel/UC8l4zLUs5Kf5RdLYsbm5Ykg',		'99008d'], //R0cketta's purple color
+			['Daring Ace',		'150a',				'Co-Director\nThe lore himself\nComposer\nAnd more',								'https://www.youtube.com/channel/UC2bhBg8pgJCXoLtPXTKh5bA',		'f4c915'], //Ace's gold color
+			['Ivaldi',		'Ivaldi',				'Director\nCoder\nCompiler\nArtist\nAnd more',								'https://www.roblox.com/users/147080606/profile',		'000000'], //Ivaldi's black color
+			['Z11Gaming',			'150z',				'Psych Port Helper and Composer',								'https://www.youtube.com/@Z11Music/videos',				'8556b1'], //Z's purple color
+			['BigNinjaKai',			'150k',				'Charter and Supporter',									'https://twitter.com/bigninjakai',					'ab5cd2'], //Kai's purple color
+			['R0cketta',			'150r',				'Chromatic Scale Creator',									'https://www.youtube.com/channel/UC8l4zLUs5Kf5RdLYsbm5Ykg',		'99008d'], //R0cketta's purple color
 			['TrueMori',			'TrueMori',				'Charter',									'https://www.youtube.com/channel/UCgudcI4nYEQ--Jnm0aOoNpA',		'2a6c58'], //TrueMori's green color
 			[''],
 
 			['Daring Duels - Contributors'],
-			['JDST',			'150j',				'Artist\nand animator',										'https://twitter.com/JDSTtwt',						'1de599'], 	//JDST's green color
-			['fadeaway_yt',			'paid',				'Commissioned musician',									'https://www.youtube.com/@FaDeAWAYut',					'adf3d9'], 	//paid icon green color
-			['Biscuit.',			'Biscuit',			'Commissioned artist',										'',									'442c2c'], 	//Biscuit's  brown color	
-			['monedic',			'monedic',			'Commissioned animator',									'https://twitter.com/OfficialKidemon',					'f52342'],	//monedic's red color				
-			['spikey',			'spike',			'Commissioned artist\nand animator',								'https://twitter.com/FunkinTraveller',					'33f899'],	//spikey's green color				
-			['Deadwin151',			'Deadwin151',			'Commissioned thumbnail artist',								'https://twitter.com/@DeadwinO',					'8c8c8c'],	//Deadwins's grey color		
-			['Its_joaquin',			'jo',				'Commissioned artist & animator',								'https://twitter.com/Its_Joaquinxd',					'30364f'],	//Jo's blue color				
+			['JDST',			'150j',				'Artist and Animator',										'https://twitter.com/JDSTtwt',						'1de599'], 	//JDST's green color
+			['fadeaway_yt',			'paid',				'Commissioned Musician',									'https://www.youtube.com/@FaDeAWAYut',					'adf3d9'], 	//paid icon green color
+			['Biscuit.',			'Biscuit',			'Commissioned Artist',										'',									'442c2c'], 	//Biscuit's  brown color	
+			['monedic',			'monedic',			'Commissioned Animator',									'https://twitter.com/OfficialKidemon',					'f52342'],	//monedic's red color				
+			['spikey',			'spike',			'Commissioned Artist and Animator',								'https://twitter.com/FunkinTraveller',					'33f899'],	//spikey's green color				
+			['Deadwin151',			'Deadwin151',			'Commissioned Thumbnail Artist',								'https://twitter.com/@DeadwinO',					'8c8c8c'],	//Deadwins's grey color		
+			['Its_joaquin',			'jo',				'Commissioned Artist and Animator',								'https://twitter.com/Its_Joaquinxd',					'30364f'],	//Jo's blue color				
+			['Lapz',			'Laps',				'Commissioned Composer',								'https://www.youtube.com/@lap_z',					'eae386'],	//Lapz's yellow color				
+			['Ranfring',			'Ranfring',				'Commissioned Artist and Animator',								'https://twitter.com/Ranfringg',					'd39765'],	//Ranfring's tan color				
+			[''],
+
+			['Daring Duels - Used Scripts'],
+			['spectradev',			'unknown',				'Healthbar Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
+			['omotashi and others',	'unknown',				'Song Credits Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
+			['Gostar64 and others',	'unknown',				'Scoring System Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
+			['CJRed#6258 and Kaite#1102',	'unknown',				'Trail Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
 			[''],
 
 			['Daring Duels - Special Thanks'],
-			['Hank Sensei',			'Rowan',			'Jokester--made the phrase\nDaring Dryers',							'https://www.youtube.com/channel/UCDCC2SWYC7zorsT5WC0q2lA',		'fe2529'], 	//Hank's red color
-			['Greg Chun',			'Greg_Chun',			'Original voice actor for the clips of Ace',							'https://twitter.com/gregchunva?lang=en',	'42d6a9'], 	//Greg Chun's green color
+			['Greg Chun',			'Greg_Chun',			'Original Voice Actor For The Clips of Ace',							'https://twitter.com/gregchunva?lang=en',	'42d6a9'], 	//Greg Chun's green color
+//			['Hank Sensei',			'Rowan',			'Nothing lol',							'https://www.youtube.com/channel/UCDCC2SWYC7zorsT5WC0q2lA',		'fe2529'], 	//Hank's red color
 			
 			[''],
 
 
-			//PSYCH ENGINE------------------->
+			//	<-------------------PSYCH ENGINE------------------->
 
 			['Psych Engine Team'],
-			['Shadow Mario',		'shadowmario',			'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',					'444444'],
+			['Shadow Mario',		'shadowmario',			'Main Programmer of Psych Engine\nAnd Lua Scripter',								'https://twitter.com/Shadow_Mario_',					'444444'],
 			['RiverOaken',			'river',			'Main Artist/Animator of Psych Engine',								'https://twitter.com/RiverOaken',					'B42F71'],
 			['shubs',			'shubs',			'Additional Programmer of Psych Engine',							'https://twitter.com/yoshubs',						'5E99DF'],
 			[''],

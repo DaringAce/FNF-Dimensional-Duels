@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Aces House.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="house0000" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0001" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0002" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0003" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0004" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0005" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0006" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0007" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0008" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0009" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0010" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0011" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0012" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0013" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0014" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0015" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0016" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0017" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0018" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0019" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0020" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0021" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0022" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0023" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0024" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0025" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0026" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0027" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0028" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0029" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0030" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0031" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0032" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0033" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0034" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0035" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0036" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0037" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0038" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0039" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0040" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0041" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0042" x="0" y="0" width="971" height="404"/>
+	<SubTexture name="house0043" x="0" y="0" width="971" height="404"/>
+</TextureAtlas>

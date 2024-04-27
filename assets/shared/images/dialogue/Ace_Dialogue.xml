@@ -3,29 +3,34 @@
 	<!-- Created with Adobe Animate version 23.0.2.103 -->
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="Bruh0000" x="0" y="0" width="309" height="414"/>
-	<SubTexture name="Bruh0001" x="309" y="0" width="309" height="414"/>
-	<SubTexture name="Bruh0002" x="618" y="0" width="309" height="414"/>
-	<SubTexture name="Bruh0003" x="927" y="0" width="309" height="414"/>
-	<SubTexture name="Bruh0004" x="1236" y="0" width="309" height="414"/>
-	<SubTexture name="Bruh0005" x="1545" y="0" width="309" height="414"/>
-	<SubTexture name="Concerned0000" x="0" y="414" width="294" height="429" frameX="0" frameY="-1" frameWidth="294" frameHeight="430"/>
-	<SubTexture name="Concerned0001" x="0" y="414" width="294" height="429" frameX="0" frameY="-1" frameWidth="294" frameHeight="430"/>
-	<SubTexture name="Concerned0002" x="294" y="414" width="294" height="430"/>
-	<SubTexture name="Concerned0003" x="588" y="414" width="294" height="430"/>
-	<SubTexture name="Concerned0004" x="588" y="414" width="294" height="430"/>
-	<SubTexture name="Concerned0005" x="882" y="414" width="294" height="426" frameX="0" frameY="-4" frameWidth="294" frameHeight="430"/>
-	<SubTexture name="Concerned0006" x="882" y="414" width="294" height="426" frameX="0" frameY="-4" frameWidth="294" frameHeight="430"/>
-	<SubTexture name="Concerned0007" x="882" y="414" width="294" height="426" frameX="0" frameY="-4" frameWidth="294" frameHeight="430"/>
-	<SubTexture name="Concerned0008" x="882" y="414" width="294" height="426" frameX="0" frameY="-4" frameWidth="294" frameHeight="430"/>
-	<SubTexture name="Concerned0009" x="882" y="414" width="294" height="426" frameX="0" frameY="-4" frameWidth="294" frameHeight="430"/>
-	<SubTexture name="Normal0000" x="1176" y="414" width="281" height="424" frameX="0" frameY="-2" frameWidth="281" frameHeight="426"/>
-	<SubTexture name="Normal0001" x="1457" y="414" width="281" height="424" frameX="0" frameY="-2" frameWidth="281" frameHeight="426"/>
-	<SubTexture name="Normal0002" x="1738" y="414" width="281" height="426"/>
-	<SubTexture name="Normal0003" x="1738" y="414" width="281" height="426"/>
-	<SubTexture name="Normal0004" x="0" y="844" width="281" height="426"/>
-	<SubTexture name="Normal0005" x="0" y="844" width="281" height="426"/>
-	<SubTexture name="Normal0006" x="1738" y="414" width="281" height="426"/>
-	<SubTexture name="Normal0007" x="281" y="844" width="281" height="425" frameX="0" frameY="-1" frameWidth="281" frameHeight="426"/>
-	<SubTexture name="Normal0008" x="562" y="844" width="281" height="425" frameX="0" frameY="-1" frameWidth="281" frameHeight="426"/>
-	<SubTexture name="Normal0009" x="562" y="844" width="281" height="425" frameX="0" frameY="-1" frameWidth="281" frameHeight="426"/>
+	<SubTexture name="Bruh0001" x="0" y="0" width="309" height="414"/>
+	<SubTexture name="Bruh0002" x="309" y="0" width="309" height="414"/>
+	<SubTexture name="Bruh0003" x="309" y="0" width="309" height="414"/>
+	<SubTexture name="Bruh0004" x="618" y="0" width="309" height="414"/>
+	<SubTexture name="Bruh0005" x="618" y="0" width="309" height="414"/>
+	<SubTexture name="Concerned0000" x="927" y="0" width="294" height="429" frameX="0" frameY="-1" frameWidth="294" frameHeight="430"/>
+	<SubTexture name="Concerned0001" x="927" y="0" width="294" height="429" frameX="0" frameY="-1" frameWidth="294" frameHeight="430"/>
+	<SubTexture name="Concerned0002" x="1221" y="0" width="294" height="430"/>
+	<SubTexture name="Concerned0003" x="1515" y="0" width="294" height="430"/>
+	<SubTexture name="Concerned0004" x="1515" y="0" width="294" height="430"/>
+	<SubTexture name="Concerned0005" x="0" y="430" width="294" height="426" frameX="0" frameY="-4" frameWidth="294" frameHeight="430"/>
+	<SubTexture name="Concerned0006" x="0" y="430" width="294" height="426" frameX="0" frameY="-4" frameWidth="294" frameHeight="430"/>
+	<SubTexture name="Concerned0007" x="0" y="430" width="294" height="426" frameX="0" frameY="-4" frameWidth="294" frameHeight="430"/>
+	<SubTexture name="Concerned0008" x="0" y="430" width="294" height="426" frameX="0" frameY="-4" frameWidth="294" frameHeight="430"/>
+	<SubTexture name="Concerned0009" x="0" y="430" width="294" height="426" frameX="0" frameY="-4" frameWidth="294" frameHeight="430"/>
+	<SubTexture name="EndConcerned0000" x="0" y="430" width="294" height="426" frameX="0" frameY="0" frameWidth="294" frameHeight="430"/>
+	<SubTexture name="EndConcerned0001" x="0" y="430" width="294" height="426" frameX="0" frameY="0" frameWidth="294" frameHeight="430"/>
+	<SubTexture name="EndConcerned0002" x="0" y="430" width="294" height="426" frameX="0" frameY="0" frameWidth="294" frameHeight="430"/>
+	<SubTexture name="EndConcerned0003" x="0" y="430" width="294" height="426" frameX="0" frameY="0" frameWidth="294" frameHeight="430"/>
+	<SubTexture name="EndConcerned0004" x="0" y="430" width="294" height="426" frameX="0" frameY="0" frameWidth="294" frameHeight="430"/>
+	<SubTexture name="EndNormal0000" x="294" y="430" width="281" height="425"/>
+	<SubTexture name="Normal0000" x="575" y="430" width="281" height="426" frameX="0" frameY="-3" frameWidth="281" frameHeight="429"/>
+	<SubTexture name="Normal0001" x="856" y="430" width="281" height="427" frameX="0" frameY="-2" frameWidth="281" frameHeight="429"/>
+	<SubTexture name="Normal0002" x="1137" y="430" width="281" height="427" frameX="0" frameY="-2" frameWidth="281" frameHeight="429"/>
+	<SubTexture name="Normal0003" x="1418" y="430" width="281" height="427" frameX="0" frameY="-2" frameWidth="281" frameHeight="429"/>
+	<SubTexture name="Normal0004" x="1699" y="430" width="281" height="429"/>
+	<SubTexture name="Normal0005" x="0" y="859" width="281" height="428" frameX="0" frameY="-1" frameWidth="281" frameHeight="429"/>
+	<SubTexture name="Normal0006" x="281" y="859" width="281" height="428" frameX="0" frameY="-1" frameWidth="281" frameHeight="429"/>
+	<SubTexture name="Normal0007" x="281" y="859" width="281" height="428" frameX="0" frameY="-1" frameWidth="281" frameHeight="429"/>
+	<SubTexture name="Normal0008" x="562" y="859" width="281" height="425" frameX="0" frameY="-4" frameWidth="281" frameHeight="429"/>
 </TextureAtlas>

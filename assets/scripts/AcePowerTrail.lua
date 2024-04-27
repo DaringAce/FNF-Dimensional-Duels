@@ -4,13 +4,13 @@ trailEnabledBF = false;
 timerStartedDad = false;
 timerStartedBF = false;
 
-trailLength = 16;
+trailLength = 15;
 trailDelay = 0.04;	--How long the trail's frame lasts/time it takes to disappear
 trailColor = 'adff2f';  --Color of the trail (HAS TO BE A STRING OR ELSE IT CANNOT WORK)
 
 
 function opponentNoteHit(aa, data)
-	if dadName == 'Ace' then
+	if (dadName == 'Ace' or dadName == 'AcePOWER') then
 		if not timerStartedDad then
 			runTimer('timerTrailDad', trailDelay, 0);
 			timerStartedDad = true;
@@ -18,13 +18,13 @@ function opponentNoteHit(aa, data)
 		trailEnabledDad = true;
 		--curTrailDad = 0;
 	end
-	if not dadName == 'Ace' then
+	if dadName ~= 'Ace' and dadName ~= 'AcePOWER' then
 	    trailEnabledDad = false;
     end
 end
 
 function goodNoteHit(aa, data)
-	if boyfriendName == 'AcePLR' then
+	if (boyfriendName == 'bf-Ace'or boyfriendName == 'bf-AceNORMAL') then
 		if not timerStartedBF then
 			runTimer('timerTrailBF', trailDelay, 0);
 			timerStartedBF = true;
@@ -32,7 +32,7 @@ function goodNoteHit(aa, data)
 		trailEnabledBF = true;
 		--curTrailBF = 0;
 	end
-	if not boyfriendName == 'Ace' then
+	if boyfriendName ~= 'bf-Ace'and boyfriendName ~= 'bf-AceNORMAL' then
 	    trailEnabledBF = false;
 	end
 end
@@ -96,7 +96,7 @@ function createTrailFrame(tag)
 	
 	if num - trailLength + 1 >= 0 then
 		for i = (num - trailLength + 1), (num - 1) do
-			setProperty('psychicTrail'..tag..i..'.alpha', getProperty('psychicTrail'..tag..i..'.alpha') - (0.6 / (trailLength - 1)));
+			setProperty('psychicTrail'..tag..i..'.alpha', getProperty('psychicTrail'..tag..i..'.alpha') - (0.3 / (trailLength - 1)));
 		end
 	end
 	removeLuaSprite('psychicTrail'..tag..(num - trailLength));
@@ -110,9 +110,9 @@ function createTrailFrame(tag)
 		setProperty(trailTag..'.scale.x', scaleX);
 		setProperty(trailTag..'.scale.y', scaleY);
 		setProperty(trailTag..'.flipX', flipX);
-		setProperty(trailTag..'.alpha', 0.42);
+		setProperty(trailTag..'.alpha', 0.18);
 		setProperty(trailTag..'.color', color);
-		setBlendMode(trailTag, 'SCREEN');
+		setBlendMode(trailTag, 'ADD');
 		addAnimationByPrefix(trailTag, 'stuff', frame, 0, false);
 		addLuaSprite(trailTag, false);
 	end

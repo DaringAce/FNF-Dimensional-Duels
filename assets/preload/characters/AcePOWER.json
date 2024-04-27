@@ -1,63 +1,162 @@
 {
 	"animations": [
 		{
-			"loop": false,
-			"offsets": [
-				-240,
-				25
-			],
-			"fps": 24,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "Ace Sing Left 2"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-125,
-				-55
-			],
-			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "  Ace Sing Down 2"
-		},
-		{
-			"loop": false,
 			"offsets": [
 				-320,
-				225
+				-45
 			],
+			"loop": false,
+			"anim": "singLEFT",
 			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "Ace Sing Up 2"
+			"name": "Ace Sing LEFT",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-410,
-				-30
+				-320,
+				-45
 			],
+			"loop": false,
+			"anim": "singLEFTmiss",
 			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Ace Sing Right 2"
+			"name": "Ace Miss LEFT",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-360,
+				-185,
+				-90
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Ace Sing DOWN",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-185,
+				-90
+			],
+			"loop": false,
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Ace Miss DOWN",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-380,
+				-15
+			],
+			"loop": false,
+			"anim": "dodge",
+			"fps": 24,
+			"name": "Ace DODGE",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-361,
 				-19
 			],
-			"anim": "idle",
+			"loop": false,
+			"anim": "firstDeath",
 			"fps": 24,
-			"name": "Ace IDLE",
+			"name": "Ace DEFEAT",
 			"indices": []
+		},
+		{
+			"offsets": [
+				-367,
+				-18
+			],
+			"loop": false,
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "Ace LOOP DEFEAT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-100,
+				20
+			],
+			"loop": false,
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "Ace RETRY",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-330,
+				125
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Ace Sing UP",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-330,
+				125
+			],
+			"loop": false,
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Ace Miss UP",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-390,
+				-30
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Ace Sing RIGHT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-390,
+				-30
+			],
+			"loop": false,
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Ace Miss RIGHT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-335,
+				-20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "Are You Prepared",
+			"indices": [],
+			"name": "LEFT ALT"
+		},
+		{
+			"offsets": [
+				-370,
+				-19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Ace IDLE"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/Ace POWER",
+	"image": "characters/Daring Ace POWER",
 	"position": [
 		-300,
 		-15
@@ -70,7 +169,7 @@
 		21
 	],
 	"camera_position": [
-		260,
+		200,
 		-80
 	],
 	"sing_duration": 6.1,

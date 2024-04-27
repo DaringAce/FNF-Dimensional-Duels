@@ -4,16 +4,18 @@ function onEvent(name)
 		hideHealth()
         hideScoretxt()
 
-        if boyfriendName == 'bf' then
-            triggerEvent('Change Character', 'bf', 'whitebf');
-        else
+        if boyfriendName ~= "bf-Xonricd" then
             setSpriteShader('boyfriend', 'BWShader');
             setShaderFloat('boyfriend', 'lowerBound', 0.01);
             setShaderFloat('boyfriend', 'upperBound', 0.12);
             setShaderBool('boyfriend', 'invert', true);
         end
+
+        setSpriteShader('gf', 'BWShader');
+        setShaderFloat('gf', 'lowerBound', 0.01);
+        setShaderFloat('gf', 'upperBound', 0.12);
+        setShaderBool('gf', 'invert', true);
         setProperty('loBlack.alpha', 1);
-        setProperty('gf.visible', false);
         
         setSpriteShader('aceBG', 'BWShader');
         setShaderFloat('aceBG', 'lowerBound', 0.01);

@@ -1,0 +1,66 @@
+{
+	"song": {
+		"events": [
+			[
+				45000,
+				[
+					[
+						"Camera Char Snap",
+						"OP",
+						""
+					]
+				]
+			],
+			[
+				48750,
+				[
+					[
+						"Camera Char Snap",
+						"PLR",
+						""
+					]
+				]
+			],
+			[
+				52500,
+				[
+					[
+						"Camera Char Snap",
+						"OP",
+						""
+					]
+				]
+			],
+			[
+				56250,
+				[
+					[
+						"Camera Char Snap",
+						"PLR",
+						""
+					]
+				]
+			],
+			[
+				63750,
+				[
+					[
+						"Camera Char Snap",
+						"OP",
+						""
+					]
+				]
+			],
+			[
+				67500,
+				[
+					[
+						"Camera Char Snap",
+						"NONE",
+						""
+					]
+				]
+			]
+		]
+	}
+}

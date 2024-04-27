@@ -1,18 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="Menu_Ace.png">
-	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- Created with Adobe Animate version 24.0.2.12 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Ace MENU IDLE0000" x="0" y="0" width="375" height="674" frameX="0" frameY="-15" frameWidth="375" frameHeight="691"/>
-	<SubTexture name="Ace MENU IDLE0001" x="375" y="0" width="374" height="675" frameX="-1" frameY="-14" frameWidth="375" frameHeight="691"/>
-	<SubTexture name="Ace MENU IDLE0002" x="749" y="0" width="373" height="678" frameX="-1" frameY="-12" frameWidth="375" frameHeight="691"/>
-	<SubTexture name="Ace MENU IDLE0003" x="1122" y="0" width="373" height="679" frameX="-1" frameY="-11" frameWidth="375" frameHeight="691"/>
-	<SubTexture name="Ace MENU IDLE0004" x="1495" y="0" width="371" height="680" frameX="-2" frameY="-10" frameWidth="375" frameHeight="691"/>
-	<SubTexture name="Ace MENU IDLE0005" x="1866" y="0" width="371" height="681" frameX="-2" frameY="-9" frameWidth="375" frameHeight="691"/>
-	<SubTexture name="Ace MENU IDLE0006" x="2237" y="0" width="370" height="682" frameX="-2" frameY="-8" frameWidth="375" frameHeight="691"/>
-	<SubTexture name="Ace MENU IDLE0007" x="2607" y="0" width="370" height="684" frameX="-2" frameY="-6" frameWidth="375" frameHeight="691"/>
-	<SubTexture name="Ace MENU IDLE0008" x="2977" y="0" width="368" height="685" frameX="-3" frameY="-5" frameWidth="375" frameHeight="691"/>
-	<SubTexture name="Ace MENU IDLE0009" x="3345" y="0" width="368" height="687" frameX="-3" frameY="-3" frameWidth="375" frameHeight="691"/>
-	<SubTexture name="Ace MENU IDLE0010" x="3713" y="0" width="367" height="688" frameX="-3" frameY="-2" frameWidth="375" frameHeight="691"/>
-	<SubTexture name="Ace MENU IDLE0011" x="0" y="688" width="366" height="690" frameX="-4" frameY="-1" frameWidth="375" frameHeight="691"/>
-	<SubTexture name="Ace MENU IDLE0012" x="366" y="688" width="366" height="691" frameX="-4" frameY="0" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0000" x="0" y="0" width="366" height="691" frameX="-12" frameY="0" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0001" x="366" y="0" width="386" height="682" frameX="-9" frameY="-9" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0002" x="752" y="0" width="406" height="682" frameX="-14" frameY="-9" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0003" x="1158" y="0" width="463" height="649" frameX="-5" frameY="-42" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0004" x="1621" y="0" width="540" height="583" frameX="0" frameY="-108" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0005" x="1621" y="0" width="540" height="583" frameX="0" frameY="-108" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0006" x="2161" y="0" width="519" height="603" frameX="-7" frameY="-88" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0007" x="2161" y="0" width="519" height="603" frameX="-7" frameY="-88" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0008" x="2680" y="0" width="484" height="613" frameX="-18" frameY="-78" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0009" x="3164" y="0" width="478" height="620" frameX="-17" frameY="-71" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0010" x="3164" y="0" width="478" height="620" frameX="-17" frameY="-71" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0011" x="0" y="691" width="479" height="623" frameX="-14" frameY="-68" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0012" x="479" y="691" width="479" height="623" frameX="-14" frameY="-68" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0013" x="479" y="691" width="479" height="623" frameX="-14" frameY="-68" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0014" x="479" y="691" width="479" height="623" frameX="-14" frameY="-68" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0015" x="479" y="691" width="479" height="623" frameX="-14" frameY="-68" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0016" x="479" y="691" width="479" height="623" frameX="-14" frameY="-68" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0017" x="479" y="691" width="479" height="623" frameX="-14" frameY="-68" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0018" x="479" y="691" width="479" height="623" frameX="-14" frameY="-68" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0019" x="479" y="691" width="479" height="623" frameX="-14" frameY="-68" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0020" x="479" y="691" width="479" height="623" frameX="-14" frameY="-68" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0021" x="479" y="691" width="479" height="623" frameX="-14" frameY="-68" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0022" x="479" y="691" width="479" height="623" frameX="-14" frameY="-68" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0023" x="958" y="691" width="484" height="613" frameX="-18" frameY="-78" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0024" x="752" y="0" width="406" height="682" frameX="-14" frameY="-9" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0025" x="752" y="0" width="406" height="682" frameX="-14" frameY="-9" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0026" x="366" y="0" width="386" height="682" frameX="-9" frameY="-9" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU HEY0027" x="366" y="0" width="386" height="682" frameX="-9" frameY="-9" frameWidth="540" frameHeight="691"/>
+	<SubTexture name="Ace MENU IDLE0000" x="1442" y="691" width="375" height="674" frameX="0" frameY="-15" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace MENU IDLE0001" x="1817" y="691" width="374" height="675" frameX="-1" frameY="-14" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace MENU IDLE0002" x="2191" y="691" width="373" height="678" frameX="-1" frameY="-12" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace MENU IDLE0003" x="2564" y="691" width="373" height="679" frameX="-1" frameY="-11" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace MENU IDLE0004" x="2937" y="691" width="371" height="680" frameX="-2" frameY="-10" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace MENU IDLE0005" x="3308" y="691" width="371" height="681" frameX="-2" frameY="-9" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace MENU IDLE0006" x="3679" y="691" width="370" height="682" frameX="-2" frameY="-8" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace MENU IDLE0007" x="0" y="1373" width="370" height="684" frameX="-2" frameY="-6" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace MENU IDLE0008" x="370" y="1373" width="368" height="685" frameX="-3" frameY="-5" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace MENU IDLE0009" x="738" y="1373" width="368" height="687" frameX="-3" frameY="-3" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace MENU IDLE0010" x="1106" y="1373" width="367" height="688" frameX="-3" frameY="-2" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace MENU IDLE0011" x="1473" y="1373" width="366" height="690" frameX="-4" frameY="-1" frameWidth="375" frameHeight="691"/>
+	<SubTexture name="Ace MENU IDLE0012" x="1839" y="1373" width="366" height="691" frameX="-4" frameY="0" frameWidth="375" frameHeight="691"/>
 </TextureAtlas>

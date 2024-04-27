@@ -1,50 +1,50 @@
 {
-	"dialogue_pos": "left",
 	"position": [
 		145,
 		140
 	],
+	"dialogue_pos": "left",
 	"scale": 1.65,
+	"image": "Ace_Dialogue",
 	"animations": [
 		{
+			"idle_offsets": [
+				0,
+				-10
+			],
+			"loop_offsets": [
+				0,
+				-5
+			],
 			"anim": "talk",
-			"loop_offsets": [
-				0,
-				-2
-			],
-			"idle_offsets": [
-				-1,
-				-12
-			],
-			"loop_name": "Normal",
-			"idle_name": "Normal"
+			"idle_name": "EndNormal",
+			"loop_name": "Normal"
 		},
 		{
-			"loop_name": "Concerned",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
-			"idle_name": "Concerned",
 			"anim": "Concerned",
+			"idle_offsets": [
+				0,
+				-5
+			],
+			"loop_name": "Concerned",
+			"idle_name": "EndConcerned"
+		},
+		{
 			"loop_offsets": [
 				0,
 				0
-			]
-		},
-		{
-			"loop_name": "Bruh",
+			],
+			"anim": "Bruh",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "Bruh",
-			"anim": "Bruh",
-			"loop_offsets": [
-				0,
-				0
-			]
+			"loop_name": "Bruh",
+			"idle_name": "Bruh"
 		}
-	],
-	"image": "Ace_Dialogue"
+	]
 }

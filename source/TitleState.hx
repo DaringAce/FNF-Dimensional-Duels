@@ -64,6 +64,7 @@ class TitleState extends MusicBeatState
 	var credTextShit:Alphabet;
 	var textGroup:FlxGroup;
 	var ngSpr:FlxSprite;
+	var aceThing:FlxSprite;
 	var modLogo:FlxSprite;
 	var dimgateFlash:FlxSprite;
 	
@@ -430,6 +431,14 @@ class TitleState extends MusicBeatState
 		ngSpr.updateHitbox();
 		ngSpr.screenCenter(X);
 		ngSpr.antialiasing = ClientPrefs.globalAntialiasing;
+		
+		aceThing = new FlxSprite(0, FlxG.height * 0.52).loadGraphic(Paths.image('aceREAL'));
+		add(aceThing);
+		aceThing.visible = false;
+		aceThing.setGraphicSize(Std.int(aceThing.width * 0.8));
+		aceThing.updateHitbox();
+		aceThing.screenCenter(X);
+		aceThing.antialiasing = ClientPrefs.globalAntialiasing;
 
 		FlxTween.tween(credTextShit, {y: credTextShit.y + 20}, 2.9, {ease: FlxEase.quadInOut, type: PINGPONG});
 
@@ -717,18 +726,22 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = 'Shoutouts Tom Fulp';
 				// credTextShit.screenCenter();
 				case 10:
-					createCoolText([curWacky[0]]);
+					addMoreText('Do not fear');
 				// credTextShit.visible = true;
 				case 12:
-					addMoreText(curWacky[1]);
+					addMoreText('Daring Ace is here');
+					aceThing.visible = true;
 				// credTextShit.text += '\nlmao';
 				case 13:
 					deleteCoolText();
+					aceThing.visible = false;
 				// credTextShit.visible = false;
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 14:
-					addMoreText('Friday\nNight\nFunkin');
+					addMoreText('Friday');
+					addMoreText('Night');
+					addMoreText('Funkin');
 				// credTextShit.visible = true;
 				case 15:
 					deleteCoolText();

@@ -252,6 +252,16 @@
 				]
 			],
 			[
+				54600,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"AcePOWER"
+					]
+				]
+			],
+			[
 				54852.8571428572,
 				[
 					[
@@ -268,6 +278,16 @@
 						"Lights out",
 						"",
 						""
+					]
+				]
+			],
+			[
+				54942.8571428572,
+				[
+					[
+						"Change Character",
+						"BF",
+						"bf-Xonricd"
 					]
 				]
 			],
@@ -582,6 +602,16 @@
 				]
 			],
 			[
+				76714.2857142857,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"Ace"
+					]
+				]
+			],
+			[
 				76771.4285714286,
 				[
 					[
@@ -605,7 +635,7 @@
 				76828.5714285714,
 				[
 					[
-						"Timed_Animation",
+						"OP Timed Animation",
 						"firstDeath",
 						"17"
 					]
@@ -622,12 +652,32 @@
 				]
 			],
 			[
+				77200,
+				[
+					[
+						"GF Timed Animation",
+						"Hmph",
+						"100"
+					]
+				]
+			],
+			[
 				77314.2857142857,
 				[
 					[
 						"Add Camera Zoom",
 						"",
 						""
+					]
+				]
+			],
+			[
+				78085.7142857143,
+				[
+					[
+						"Change Character",
+						"BF",
+						"bfNew"
 					]
 				]
 			],
@@ -645,9 +695,19 @@
 				78200,
 				[
 					[
-						"Timed_Animation",
+						"OP Timed Animation",
 						"deathLoop",
 						"17"
+					]
+				]
+			],
+			[
+				78285.7142857142,
+				[
+					[
+						"GF Timed Animation",
+						"Loop Hmph",
+						"100"
 					]
 				]
 			],
@@ -685,9 +745,19 @@
 				79571.4285714285,
 				[
 					[
-						"Timed_Animation",
+						"OP Timed Animation",
 						"deathLoop",
 						"17"
+					]
+				]
+			],
+			[
+				79600,
+				[
+					[
+						"Play Animation",
+						"Hmph Loop",
+						"GF"
 					]
 				]
 			],
@@ -725,9 +795,19 @@
 				80942.8571428571,
 				[
 					[
-						"Timed_Animation",
+						"OP Timed Animation",
 						"deathLoop",
 						"17"
+					]
+				]
+			],
+			[
+				80971.4285714285,
+				[
+					[
+						"Play Animation",
+						"Hmph Loop",
+						"GF"
 					]
 				]
 			],
@@ -775,9 +855,19 @@
 				82314.2857142857,
 				[
 					[
-						"Timed_Animation",
+						"OP Timed Animation",
 						"deathLoop",
 						"17"
+					]
+				]
+			],
+			[
+				82342.8571428571,
+				[
+					[
+						"Play Animation",
+						"Hmph Loop",
+						"GF"
 					]
 				]
 			],
@@ -812,6 +902,16 @@
 				]
 			],
 			[
+				83714.2857142857,
+				[
+					[
+						"Play Animation",
+						"Hmph Loop",
+						"GF"
+					]
+				]
+			],
+			[
 				83999.9999999999,
 				[
 					[
@@ -842,6 +942,26 @@
 				]
 			],
 			[
+				85085.7142857142,
+				[
+					[
+						"Play Animation",
+						"Hmph Loop",
+						"GF"
+					]
+				]
+			],
+			[
+				85085.7142857142,
+				[
+					[
+						"Play Animation",
+						"deathLoop",
+						"Dad"
+					]
+				]
+			],
+			[
 				85371.4285714285,
 				[
 					[
@@ -868,6 +988,16 @@
 						"Add Camera Zoom",
 						"",
 						""
+					]
+				]
+			],
+			[
+				86457.1428571428,
+				[
+					[
+						"Play Animation",
+						"Hmph Loop",
+						"GF"
 					]
 				]
 			],

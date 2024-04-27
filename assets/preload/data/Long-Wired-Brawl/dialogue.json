@@ -6,7 +6,7 @@
 			"portrait": "ace",
 			"boxState": "normal",
 			"expression": "Concerned",
-			"text": "Who are you and why did you appear here at our dimension?"
+			"text": "Who are you and why did you appear here in our dimension?"
 		},
 		{
 			"sound": "",
@@ -46,7 +46,15 @@
 			"portrait": "bf",
 			"boxState": "angry",
 			"expression": "shocked",
-			"text": "You speak my language?! (Damn, I was hoping to confuse him into rap battling me!)"
+			"text": "You speak my language?!"
+		},
+		{
+			"sound": "",
+			"speed": 0.06,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "(Wait... Did I just speak English? I must've learned it when going through that wack-ass portal...)"
 		},
 		{
 			"sound": "",
@@ -54,7 +62,7 @@
 			"portrait": "ace",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "Yes. Now, why have you come here?"
+			"text": "Yes, I have the ability to translate to any language. Now, why have you come here?"
 		},
 		{
 			"sound": "",
@@ -134,7 +142,7 @@
 			"portrait": "ace",
 			"boxState": "normal",
 			"expression": "Concerned",
-			"text": "What an odd request... Well, if you want, I suppose I could try..."
+			"text": "I have not the foggiest idea why you would request a rap battle, but I mineaswell try."
 		}
 	]
 }

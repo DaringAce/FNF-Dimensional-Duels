@@ -1,68 +1,44 @@
 {
 	"songs": [
 		[
-			"Conflict",
-			"z11",
+			"uncertainty",
+			"LunaHungry",
 			[
+				229,
 				0,
-				0,
-				0
+				89
+
 			]
 		],
 		[
-			"Intervention",
-			"dad",
+			"Autophobia",
+			"LunaHappy",
 			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"Last Stand",
-			"dad",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"Wavedashing",
-			"foxpng",
-			[
-				186,
-				133,
-				253
-			]
-		],
-		[
-			"Danger But Ace",
-			"ace",
-			[
-				146,
-				113,
-				253
+				78,
+				78,
+				78
+
 			]
 		]
+
 	],
-	"hiddenUntilUnlocked": true,
+	"hiddenUntilUnlocked": false,
 	"hideFreeplay": false,
 	"weekBackground": "stage",
-	"difficulties": "",
+	"difficulties": "hard",
 	"weekCharacters": [
-		"dad",
+		"",
 		"bf",
 		"gf"
 	],
-	"storyName": "Your New Week",
-	"weekName": "extraFreeplay",
+	"storyName": "Freeplay Songs",
+	"weekName": "Freeplay Songs",
 	"freeplayColor": [
-		146,
-		113,
-		253
+		78,
+		78,
+		78
 	],
 	"hideStoryMode": true,
-	"weekBefore": "week1",
-	"startUnlocked": false
+	"weekBefore": "tutorial",
+	"startUnlocked": true
 }

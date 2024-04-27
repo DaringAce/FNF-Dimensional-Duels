@@ -1,5 +1,10 @@
 {
-	"confirm_anim": "Ace MENU IDLE",
+	"confirm_anim": "Ace MENU HEY",
+	"position": [
+		75,
+		190
+	],
+
 	"idle_anim": "Ace MENU IDLE",
 	"position": [
 		110,

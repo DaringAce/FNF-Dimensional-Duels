@@ -1,103 +1,103 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-370,
 				-19
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "idle"
+			"fps": 24,
+			"name": "idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-335,
 				-25
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "left"
+			"fps": 24,
+			"name": "left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-380,
 				25
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "up"
+			"fps": 24,
+			"name": "up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-321,
 				-70
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "down"
+			"fps": 24,
+			"name": "down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-400,
 				-10
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "right"
+			"fps": 24,
+			"name": "right",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-303,
 				-70
 			],
-			"anim": "singDOWNmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "MISS down",
-			"indices": []
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "MISS down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-380,
 				25
 			],
-			"anim": "singUPmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "MISS up",
-			"indices": []
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "MISS up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-333,
 				-30
 			],
-			"anim": "singLEFTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "MISS left",
-			"indices": []
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "MISS left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-402,
 				-10
 			],
-			"anim": "singRIGHTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "MISS right",
-			"indices": []
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "MISS right"
 		}
 	],
 	"no_antialiasing": false,
@@ -117,6 +117,6 @@
 		-100,
 		-140
 	],
-	"sing_duration": 6.1,
+	"sing_duration": 5.5,
 	"scale": 2
 }

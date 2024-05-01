@@ -131,6 +131,22 @@ class FreeplayState extends MusicBeatState
 			iconArray.push(icon);
 			add(icon);
 
+			//dash name shit
+			if (songText.text.toLowerCase() == 'long-wired-brawl')
+			{
+				songText.text = 'long-wired brawl';
+			}
+
+			if (songText.text.toLowerCase() == 'grand-finale')
+			{
+				songText.text = 'grand finale';
+			}
+
+			if (songText.text.toLowerCase() == 'righteous-waterstream')
+			{
+				songText.text = 'righteous waterstream';	
+			}
+
 			// songText.x += 40;
 			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
 			// songText.screenCenter(X);

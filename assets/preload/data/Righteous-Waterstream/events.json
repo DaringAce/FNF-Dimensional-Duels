@@ -222,12 +222,32 @@
 				]
 			],
 			[
+				99812.0300751881,
+				[
+					[
+						"Camera Follow Pos",
+						"300",
+						"0"
+					]
+				]
+			],
+			[
 				99849.6240601505,
 				[
 					[
 						"Play Animation",
 						"Oh No",
 						"GF"
+					]
+				]
+			],
+			[
+				99887.2180451129,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.4"
 					]
 				]
 			],
@@ -258,6 +278,26 @@
 						"Play Animation",
 						"Oh No",
 						"GF"
+					]
+				]
+			],
+			[
+				100225.563909775,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.1"
+					]
+				]
+			],
+			[
+				100263.157894737,
+				[
+					[
+						"Camera Follow Pos",
+						"",
+						""
 					]
 				]
 			],

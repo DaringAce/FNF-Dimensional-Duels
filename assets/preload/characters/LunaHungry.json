@@ -58,8 +58,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-1365,
-				-380
+				-1405,
+				-335
 			],
 			"anim": "Bite",
 			"fps": 24,

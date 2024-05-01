@@ -26,6 +26,7 @@ class StoryMenuState extends MusicBeatState
 	public static var weekCompleted:Map<String, Bool> = new Map<String, Bool>();
 
 	var scoreText:FlxText;
+	var tracksSprite:FlxSprite;
 
 	private static var lastDifficultyName:String = '';
 	var curDifficulty:Int = 1;
@@ -59,16 +60,16 @@ class StoryMenuState extends MusicBeatState
 		if(curWeek >= WeekData.weeksList.length) curWeek = 0;
 		persistentUpdate = persistentDraw = true;
 
-		scoreText = new FlxText(10, 10, 0, "SCORE: 49324858", 36);
-		scoreText.setFormat("VCR OSD Mono", 32);
+		scoreText = new FlxText(10, 10, 0, "SCORE: N/A", 36);
+		scoreText.setFormat("VTKS DURA 3D", 32);
 
 		txtWeekTitle = new FlxText(FlxG.width * 0.7, 10, 0, "", 32);
-		txtWeekTitle.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, RIGHT);
+		txtWeekTitle.setFormat("VTKS DURA 3D", 32, FlxColor.WHITE, RIGHT);
 		txtWeekTitle.alpha = 0.7;
 
 		var rankText:FlxText = new FlxText(0, 10);
 		rankText.text = 'RANK: GREAT';
-		rankText.setFormat(Paths.font("vcr.ttf"), 32);
+		rankText.setFormat(Paths.font("VTKS DURA 3D"), 32);
 		rankText.size = scoreText.size;
 		rankText.screenCenter(X);
 
@@ -169,14 +170,16 @@ class StoryMenuState extends MusicBeatState
 		add(bgSprite);
 		add(grpWeekCharacters);
 
-		var tracksSprite:FlxSprite = new FlxSprite(FlxG.width * 0.07, bgSprite.y + 425).loadGraphic(Paths.image('Menu_Tracks'));
+		tracksSprite = new FlxSprite(FlxG.width * 0.07, bgSprite.y + 425).loadGraphic(Paths.image('Menu_Tracks'));
 		tracksSprite.antialiasing = ClientPrefs.globalAntialiasing;
+		tracksSprite.color = 0xFFf9cf51; // yellow	
 		add(tracksSprite);
 
-		txtTracklist = new FlxText(FlxG.width * 0.05, tracksSprite.y + 60, 0, "", 32);
+		txtTracklist = new FlxText(FlxG.width * 0.0375, tracksSprite.y + 60, 0, "", 32);
 		txtTracklist.alignment = CENTER;
 		txtTracklist.font = rankText.font;
-		txtTracklist.color = 0xFFe55777;
+		txtTracklist.color = 0xFFf9cf51; // yellow		
+		txtTracklist.setFormat('PhantomMuff.ttf', 28);
 		add(txtTracklist);
 		// add(rankText);
 		add(scoreText);
@@ -406,6 +409,17 @@ class StoryMenuState extends MusicBeatState
 			bgSprite.visible = false;
 		} else {
 			bgSprite.loadGraphic(Paths.image('menubackgrounds/menu_' + assetName));
+
+			if(assetName == 'acesHouse')
+			{
+				txtTracklist.color = 0xFFca5efe; // purple		     
+				tracksSprite.color = 0xFFca5efe; // purple		     
+			}
+			else
+			{
+				txtTracklist.color = 0xFFf9cf51; // yellow
+				tracksSprite.color = 0xFFf9cf51; // yellow	
+			}
 		}
 		PlayState.storyWeek = curWeek;
 
@@ -473,7 +487,28 @@ class StoryMenuState extends MusicBeatState
 		txtTracklist.text = '';
 		for (i in 0...stringThing.length)
 		{
-			txtTracklist.text += stringThing[i] + '\n';
+			var songsName = stringThing[i] + ''; // song name as string
+
+			if (!(songsName.toLowerCase() == 'long-wired-brawl' || songsName.toLowerCase() == 'grand-finale' || songsName.toLowerCase() == 'righteous-waterstream'))
+			{	
+				txtTracklist.text += stringThing[i] + '\n';
+			}
+
+			// space instead of dash
+			if (songsName.toLowerCase() == 'long-wired-brawl')
+			{
+				txtTracklist.text += 'long-wired brawl' + '\n';
+			}
+
+			if (songsName.toLowerCase() == 'grand-finale')
+			{
+				txtTracklist.text += 'grand finale' + '\n';			
+			}
+
+			if (songsName.toLowerCase() == 'righteous-waterstream')
+			{
+				txtTracklist.text += 'righteous waterstream' + '\n';	
+			}
 		}
 
 		txtTracklist.text = txtTracklist.text.toUpperCase();

@@ -31,12 +31,19 @@ function goodNoteHit(aa, data)
 	end
 end
 
-function onEvent(name, val)
+function onEvent(name, val, val2)
     if name == 'Camera Char Snap' then
         if val == 'PLR' or val == 'OP' then
             enabled = false
         elseif val == 'NONE' then
             enabled = true
+        end
+    end
+    if name == 'Duet Cam' then
+        if val2 == '' then
+            enabled = true
+        else
+            enabled = false
         end
     end
 end

@@ -1,6 +1,6 @@
 onEvent = function(n,v1,v2)
  if n == 'Duel Countdown' then
-  playSound('Three')
+  playSound('Three', 0.8)
   local c = crochet/1000
   runTimer('two', c)
   runTimer('one', c*2)
@@ -13,21 +13,21 @@ onTimerCompleted=function(t)
   setObjectCamera('ready', 'hud')
   screenCenter('ready')
   addLuaSprite('ready', true)
-  playSound('Two')
+  playSound('Two', 0.8)
   doTweenAlpha('ready','ready',0,(crochet/1000)*0.75,'cubeIn')
  elseif t == 'one' then
   makeLuaSprite('set', 'one')
   setObjectCamera('set', 'hud')
   screenCenter('set')
   addLuaSprite('set', true)
-  playSound('One')
+  playSound('One', 0.8)
   doTweenAlpha('set','set',0,(crochet/1000)*0.75,'cubeIn')
  elseif t == 'go' then
   makeLuaSprite('go', 'fight')
   setObjectCamera('go', 'hud')
   screenCenter('go')
   addLuaSprite('go', true)
-  playSound('Fight')
+  playSound('Fight', 0.8)
   doTweenAlpha('go','go',0,(crochet/1000)*0.75,'cubeIn')
  end
 end

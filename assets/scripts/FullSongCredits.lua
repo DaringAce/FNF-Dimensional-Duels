@@ -102,20 +102,25 @@ function ifExists(table, valuecheck) -- This stupid function stops your game fro
     end
 end
 
+function rgbToHex(t)
+    return string.format('%02X%02X%02X', t[1], t[2], t[3])
+end
 
 function onCreatePost() -- This creates all the placeholder shit B) ((THIS PART OF THE SCRIPT WAS MADE BY PIGGY))
     luaDebugMode = true
 
     makeLuaSprite('creditBox', 'empty', 0 - objWidth, offsetY)
-    makeGraphic('creditBox', objWidth, 150, '000000')
+    local c = rgbToHex(getProperty('dad.healthColorArray'))
+    makeGraphic('creditBox', objWidth, 150, c)
     setObjectCamera('creditBox', 'other')
-    setProperty("creditBox.alpha", 0.7)
     addLuaSprite('creditBox', true)
+    runHaxeCode('game.getLuaObject("creditBox").color = 0xFF'..c..';')
 
     makeLuaText('creditTitle', 'PlaceholderTitle', objWidth, offsetX - objWidth, offsetY+0 + space)
     setTextSize('creditTitle', 40)
     setTextAlignment('creditTitle', 'left')
     setObjectCamera('creditTitle', 'other')
+    runHaxeCode('game.getLuaObject("creditTitle").color = 0xFF'..c..';')
     setTextFont('creditTitle', font)
     addLuaText("creditTitle",true)
 
@@ -123,6 +128,7 @@ function onCreatePost() -- This creates all the placeholder shit B) ((THIS PART 
     setTextSize('creditComposer', 20)
     setTextAlignment('creditComposer', 'left')
     setObjectCamera('creditComposer', 'other')
+    runHaxeCode('game.getLuaObject("creditComposer").color = 0xFF'..c..';')    
     setTextFont('creditComposer', font)
     addLuaText("creditComposer",true)
 
@@ -136,6 +142,7 @@ function onCreatePost() -- This creates all the placeholder shit B) ((THIS PART 
     setTextSize('creditCharter', 20)
     setTextAlignment('creditCharter', 'left')
     setObjectCamera('creditCharter', 'other')
+    runHaxeCode('game.getLuaObject("creditCharter").color = 0xFF'..c..';')    
     setTextFont('creditCharter', font)
     addLuaText("creditCharter",true)
 

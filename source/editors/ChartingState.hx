@@ -99,7 +99,10 @@ class ChartingState extends MusicBeatState
 		['OP Timed Animation', "Value 1: Name of the animation for the opponent to play\nValue 2: Seconds to play the animation for"],
 		['GF Timed Animation', "Value 1: Name of the animation for the girlfriend to play\nValue 2: Seconds to play the animation for"],
 		['Duel Countdown', "3, 2, 1, FIGHT!"],
-		['Camera Char Snap', "Value 1: Can be OP, PLR, or NONE\n\nOP: Zooms and snaps the camera to the opponents character\nPLR: Zooms and snaps the camera to the players character\nNONE: Resets camera zoom and position"]
+		['Camera Char Snap', "Value 1: Can be OP, PLR, or NONE\n\nOP: Zooms and snaps the camera to the opponents character\nPLR: Zooms and snaps the camera to the players character\nNONE: Resets camera zoom and position"],
+		['Kabounce', "Value 1: Toggle (0 = off | 1 = on) -- EXAMPLE: (1, 1), Bars (Same as toggle)\nValue 2: Angle, Intensity, Bounce Y -- EXAMPLE: (0.5, 2, 7)"],
+		['Cover Camera', "Value 1: black"],
+		['Duet Cam', "Value 1: Change zoom \n\nValue 2: Keep camera active / ignore toggle to change zoom\n[Ex: 0.8, a]"]
 	];
 
 	var _file:FileReference;

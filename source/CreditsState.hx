@@ -110,6 +110,7 @@ class CreditsState extends MusicBeatState
 			['omotashi and others',	'unknown',				'Song Credits Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
 			['Gostar64 and others',	'unknown',				'Scoring System Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
 			['CJRed#6258 and Kaite#1102',	'unknown',				'Trail Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
+			['Held',	'unknown',				'Duet Cam Event Creator',										'',						'C6C6C6'], 	//unknown icon grey color
 			[''],
 
 			['Daring Duels - Special Thanks'],

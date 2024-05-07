@@ -1,124 +1,123 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-295,
 				-90
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Ace Sing DOWN"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-295,
-				-90
-			],
 			"fps": 24,
-			"anim": "singDOWNmiss",
-			"indices": [],
-			"name": "Ace Miss DOWN"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-340,
-				-15
-			],
-			"fps": 24,
-			"anim": "dodge",
-			"indices": [],
-			"name": "Ace DODGE"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-361,
-				-19
-			],
-			"fps": 24,
-			"anim": "firstDeath",
-			"indices": [],
-			"name": "Ace DEFEAT"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				24,
-				18
-			],
-			"fps": 24,
-			"anim": "deathConfirm",
-			"indices": [],
-			"name": "Ace RETRY"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-90,
-				125
-			],
-			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "Ace Sing UP"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-90,
-				125
-			],
-			"fps": 24,
-			"anim": "singUPmiss",
-			"indices": [],
-			"name": "Ace Miss UP"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-335,
-				-20
-			],
-			"anim": "Are You Prepared",
-			"fps": 24,
-			"name": "LEFT ALT",
+			"name": "Ace Sing DOWN",
 			"indices": []
 		},
 		{
 			"offsets": [
-				-180,
+				-295,
+				-90
+			],
+			"loop": false,
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Ace Miss DOWN",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-340,
+				-15
+			],
+			"loop": false,
+			"anim": "dodge",
+			"fps": 24,
+			"name": "Ace DODGE",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-361,
+				-19
+			],
+			"loop": false,
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "Ace DEFEAT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				24,
+				18
+			],
+			"loop": false,
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "Ace RETRY",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-90,
+				125
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Ace Sing UP",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-90,
+				125
+			],
+			"loop": false,
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Ace Miss UP",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-335,
 				-20
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "Hey",
+			"anim": "Are You Prepared",
 			"indices": [],
-			"name": "Ace HEY"
-		},
-		{
-			"offsets": [
-				-351,
-				-18
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "deathLoop",
-			"indices": [],
-			"name": "Ace LOOP DEFEAT"
+			"name": "LEFT ALT"
 		},
 		{
 			"loop": false,
 			"offsets": [
+				-180,
+				-20
+			],
+			"anim": "Hey",
+			"fps": 24,
+			"name": "Ace HEY",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-351,
+				-18
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "Ace LOOP DEFEAT",
+			"indices": []
+		},
+		{
+			"offsets": [
 				-370,
 				-19
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "Ace IDLE",
+			"anim": "idle",
 			"indices": [
 				1,
 				2,
@@ -131,51 +130,52 @@
 				9,
 				10,
 				11
-			]
+			],
+			"name": "Ace IDLE"
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-60,
+				-80,
 				-45
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "Ace Sing RIGHT"
+			"fps": 24,
+			"name": "Ace Sing RIGHT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-60,
+				-80,
 				-45
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFTmiss",
-			"loop": false,
-			"name": "Ace Miss RIGHT"
+			"fps": 24,
+			"name": "Ace Miss RIGHT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-110,
+				-60,
 				-30
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "Ace Sing LEFT"
+			"fps": 24,
+			"name": "Ace Sing LEFT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-110,
+				-60,
 				-30
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHTmiss",
-			"loop": false,
-			"name": "Ace Miss LEFT"
+			"fps": 24,
+			"name": "Ace Miss LEFT",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,

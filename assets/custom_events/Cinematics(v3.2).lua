@@ -41,7 +41,7 @@ function onEvent(name,v1,v2)
             if canFade then
                 for i = 1,4 do
                     doTweenAlpha('hudItemsAlpha'..i, hudItems[i], 0, tonumber(barStuff[2]), 'quadOut')
-                    doTweenAlpha('hpHudItemsAlpha'..i, hpHudItems[i], 0, tonumber(barStuff[2]), 'quadOut')
+ --                 doTweenAlpha('hpHudItemsAlpha'..i, hpHudItems[i], 0, tonumber(barStuff[2]), 'quadOut')
                 end
             end
             if hideAll then
@@ -67,7 +67,7 @@ function onEvent(name,v1,v2)
 
             for i = 1,4 do
                 doTweenAlpha('hudItemsAlpha'..i, hudItems[i], 1, tonumber(barStuff[2]), 'quadOut')
-                doTweenAlpha('hpHudItemsAlpha'..i, hpHudItems[i], hpTransparency, tonumber(barStuff[2]), 'quadOut')
+ --             doTweenAlpha('hpHudItemsAlpha'..i, hpHudItems[i], hpTransparency, tonumber(barStuff[2]), 'quadOut')
             end
             if not middlescroll then
                 for i = 0,7 do
@@ -82,6 +82,11 @@ function onEvent(name,v1,v2)
             for i = 0,7 do
                 noteTweenY('noteY'..i, i, strumYOrigin, tonumber(barStuff[2]), 'quadOut')
             end
+        end
+
+        if barStuff == '' and tonumber(v2) == '' then
+            setProperty('topBar.y', -1000)
+            setProperty('bottomBar.y', -1000)
         end
     end
 end

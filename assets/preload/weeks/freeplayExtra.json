@@ -1,15 +1,6 @@
 {
-	"songs": [
-		[
-			"uncertainty",
-			"LunaHungry",
-			[
-				229,
-				0,
-				89
-
-			]
-		],
+	"songs": 
+	[
 		[
 			"Autophobia",
 			"LunaHappy",
@@ -17,6 +8,46 @@
 				78,
 				78,
 				78
+
+			]
+		],
+		[
+			"Bulletproof",
+			"Ace",
+			[
+				244,
+				201,
+				21
+
+			]
+		],
+		[
+			"Scamazon",
+			"Z11",
+			[
+				135,
+				53,
+				172
+
+			]
+		], 
+		[
+			"tutorial-d-mix",
+			"gf",
+			[
+				165,
+				0,
+				77
+
+			]
+		],
+		[
+			"uncertainty",
+			"LunaHungry",
+			[
+				229,
+				0,
+				89
 
 			]
 		]

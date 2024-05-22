@@ -22,7 +22,7 @@ local songdata = {
 
     ['Long-Wired Brawl'] = {
         'Long-Wired-Brawl',
-        'Daring Ace & Z11Gaming (ft. Greg Chun)',
+        'Daring Ace & Z11Gaming (feat. Greg Chun)',
         '7',
         'JDST & Daring Ace',
         'jordanmodshop',
@@ -31,7 +31,7 @@ local songdata = {
     
     ['Scythe'] = {
         'scythe',
-        'Daring Ace & Z11Gaming (ft. Greg Chun)',
+        'Daring Ace & Z11Gaming (feat. Greg Chun)',
         '7',
         'JDST & Daring Ace',
         '(i forgor :skull:)',
@@ -40,7 +40,7 @@ local songdata = {
     
     ['Righteous Waterstream'] = {
         'Righteous-Waterstream',
-        'Daring Ace & Z11Gaming (ft. Greg Chun)',
+        'Daring Ace & Z11Gaming (feat. Greg Chun)',
         '7',
         'JDST & Daring Ace',
         'TrueMori',
@@ -49,7 +49,7 @@ local songdata = {
 
     ['Grand Finale'] = {
         'Grand Finale',
-        'Daring Ace & Z11Gaming (ft. Greg Chun)',
+        'Daring Ace & Z11Gaming (feat. Greg Chun)',
         '7',
         'JDST & Daring Ace',
         'TrueMori & Ivaldi',
@@ -58,25 +58,43 @@ local songdata = {
     
     ['Uncertainty'] = {
         'Uncertainty',
-        'Daring Ace & fadeawayYT (ft. Greg Chun)',
+        'Daring Ace & fadeawayYT (feat. Greg Chun)',
         '7',
         'JDST & Daring Ace',
         'TrueMori',
         'Uncertainty',
     },    
     
-    ['Thirst-For-The-Night'] = {
-        'Thirst-For-The-Night',
-        'Daring Ace',
+    ['tutorial-d-mix'] = {
+        'tutorial-d-mix',
+        'GelePanda',
         '7',
         'JDST & Daring Ace',
-        '',
-        'Thirst For The Night',
-    },    
+        'TetraHunter',
+        'Tutorial (D-Mix)',
+    },
+    
+    ['Bulletproof'] = {
+        'Bulletproof',
+        'DrawPant & Ivaldi (feat. Greg Chun)',
+        '7',
+        'JDST & Daring Ace',
+        'TetraHunter & Ivaldi',
+        'Bulletproof',
+    },   
+
+    ['Scamazon'] = {
+        'Scamazon',
+        'Z11Gaming (feat. Greg Chun)',
+        '7',
+        'JDST & Daring Ace',
+        'TetraHunter & Ivaldi',
+        'Scamazon',
+    },   
     
     ['Autophobia'] = {
         'Autophobia',
-        'Qiro & Daring Ace (ft. Greg Chun)',
+        'Qiro & Daring Ace (feat. Greg Chun)',
         '7',
         'JDST & Daring Ace',
         'Flain',

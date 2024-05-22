@@ -1,35 +1,31 @@
-function cover()
-      makeLuaSprite('cover', 'Fang', 0, 0)
-      --makeGraphic('cover', 1, 1, color)
-      scaleObject('cover',screenWidth,screenHeight)
+function onCreatePost()
+      makeLuaSprite('bgcover','')
+      makeGraphic('bgcover',1,1,'000000')
+      setProperty('bgcover.color', getColorFromHex('000000'))
+      scaleObject('bgcover',screenWidth,screenHeight)
+      setObjectCamera('bgcover','hud')
+      setProperty('bgcover.alpha',0.000001)
+      addLuaSprite('bgcover',true)
+      makeAnimatedLuaSprite('cover', 'Fang')
+      addAnimationByPrefix('cover', 'Fang', 'Fang', 24, false)
+      screenCenter('cover', 'xy')
+      -- scaleObject('cover',screenWidth,screenHeight)
       setProperty('cover.alpha',0.0001)
-      doTweenAlpha('coveringshit','cover',1,0.2)
       setObjectCamera('cover','hud')
-	if not covered then
-      		addLuaSprite('cover')
-      		setProperty('cover.alpha',0.0001)
-      		doTweenAlpha('coveringshit','cover',1,0.2)
-		covered = true
-	else
-		setProperty('cover.alpha',0.0001)
-      		doTweenAlpha('uncoveringshit','cover',1,0.2)
-	end
+      addLuaSprite('cover',true)
 end
 
 covered = false
-
 function onEvent(n,v1,v2)
         if n == 'Cover Camera' then
-			if v1 == 'black' then
-				--color = '000000'
-				cover()
-			end
+            doTweenAlpha('bs','bgcover',covered and 0 or 1,v1,'sineInOut')
+            doTweenAlpha('covering','cover',covered and 0 or 1,v1,'sineInOut')
+            playAnim('cover', 'Fang')
         end
 end
 
 function onTweenCompleted(n)
-        if n == 'uncoveringshit' then
-              removeLuaSprite('cover',true)
-		covered = false
+        if n == 'covering' then
+                  covered = not covered
         end
 end

@@ -299,9 +299,9 @@ class TitleState extends MusicBeatState
 		logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
 
 		logoBl.antialiasing = ClientPrefs.globalAntialiasing;
-		logoBl.animation.addByPrefix('bump', 'FINAL', 24, false);
+		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24, false);
 		logoBl.animation.play('bump');
-		logoBl.setGraphicSize(Std.int(logoBl.width * 0.325));
+		logoBl.setGraphicSize(Std.int(logoBl.width * 1.1));
 		logoBl.screenCenter();
 		// logoBl.color = FlxColor.BLACK;
 
@@ -357,7 +357,7 @@ class TitleState extends MusicBeatState
 //		add(gfDance);
 //		gfDance.shader = swagShader.shader;
 		add(logoBl);
-		add(dimgateFlash);
+//		add(dimgateFlash);
 		logoBl.shader = swagShader.shader;
 
 		titleText = new FlxSprite(titleJSON.startx, titleJSON.starty);

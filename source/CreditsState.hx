@@ -82,9 +82,9 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 
-			//	<-------------------DARING DUELS------------------->
+			//	<-------------------DIMENSIONAL DUELS------------------->
 
-			['Daring Duels - Main Dev Team'],
+			['Main Dev Team'],
 			['Daring Ace',		'150a',				'Co-Director\nThe lore himself\nComposer\nAnd more',								'https://www.youtube.com/channel/UC2bhBg8pgJCXoLtPXTKh5bA',		'f4c915'], //Ace's gold color
 			['Ivaldi',		'Ivaldi',				'Director\nCoder\nCompiler\nArtist\nAnd more',								'https://www.roblox.com/users/147080606/profile',		'000000'], //Ivaldi's black color
 			['Z11Gaming',			'150z',				'Psych Port Helper and Composer',								'https://www.youtube.com/@Z11Music/videos',				'8556b1'], //Z's purple color
@@ -93,7 +93,7 @@ class CreditsState extends MusicBeatState
 			['TrueMori',			'TrueMori',				'Charter',									'https://www.youtube.com/channel/UCgudcI4nYEQ--Jnm0aOoNpA',		'2a6c58'], //TrueMori's green color
 			[''],
 
-			['Daring Duels - Contributors'],
+			['Contributors'],
 			['JDST',			'150j',				'Artist and Animator',										'https://twitter.com/JDSTtwt',						'1de599'], 	//JDST's green color
 			['fadeaway_yt',			'paid',				'Commissioned Musician',									'https://www.youtube.com/@FaDeAWAYut',					'adf3d9'], 	//paid icon green color
 			['Biscuit.',			'Biscuit',			'Commissioned Artist',										'',									'442c2c'], 	//Biscuit's  brown color	
@@ -103,9 +103,12 @@ class CreditsState extends MusicBeatState
 			['Its_joaquin',			'jo',				'Commissioned Artist and Animator',								'https://twitter.com/Its_Joaquinxd',					'30364f'],	//Jo's blue color				
 			['Lapz',			'Laps',				'Commissioned Composer',								'https://www.youtube.com/@lap_z',					'eae386'],	//Lapz's yellow color				
 			['Ranfring',			'Ranfring',				'Commissioned Artist and Animator',								'https://twitter.com/Ranfringg',					'd39765'],	//Ranfring's tan color				
+			['DrawPant',			'paid',				'Commissioned Composer',								'https://twitter.com/DrawPant',					'adf3d9'],		//paid icon green color
+			['TetraHunter',			'TetraHunter',				'Commissioned Charter',								'https://twitter.com/TetraHunter503D',					'883cc2'],		//Tetra's purple color
+			['GelePanda',			'GelePanda',				'Commissioned Composer',								'https://www.youtube.com/@GelePanda',					'500286'],		//Gele's purple color
 			[''],
 
-			['Daring Duels - Used Scripts'],
+			['Used Scripts'],
 			['spectradev',			'unknown',				'Healthbar Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
 			['omotashi and others',	'unknown',				'Song Credits Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
 			['Gostar64 and others',	'unknown',				'Scoring System Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
@@ -113,7 +116,7 @@ class CreditsState extends MusicBeatState
 			['Held',	'unknown',				'Duet Cam Event Creator',										'',						'C6C6C6'], 	//unknown icon grey color
 			[''],
 
-			['Daring Duels - Special Thanks'],
+			['Special Thanks'],
 			['Greg Chun',			'Greg_Chun',			'Original Voice Actor For The Clips of Ace',							'https://twitter.com/gregchunva?lang=en',	'42d6a9'], 	//Greg Chun's green color
 //			['Hank Sensei',			'Rowan',			'Nothing lol',							'https://www.youtube.com/channel/UCDCC2SWYC7zorsT5WC0q2lA',		'fe2529'], 	//Hank's red color
 			

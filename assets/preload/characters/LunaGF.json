@@ -1,55 +1,55 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-480,
 				-15
 			],
-			"loop": false,
-			"fps": 12,
 			"anim": "idle",
-			"indices": [],
-			"name": "BGIdle"
+			"fps": 12,
+			"name": "BGIdle",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-471,
 				13
 			],
-			"anim": "Oh No",
+			"loop": false,
 			"fps": 24,
-			"name": "Oh No",
-			"indices": []
+			"anim": "Oh No",
+			"indices": [],
+			"name": "Oh No"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-488,
 				13
 			],
-			"anim": "Hmph",
+			"loop": false,
 			"fps": 24,
-			"name": "Start Hmph",
-			"indices": []
+			"anim": "Hmph",
+			"indices": [],
+			"name": "Start Hmph"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-488,
 				-13
 			],
-			"anim": "Hmph Loop",
+			"loop": false,
 			"fps": 24,
-			"name": "Loop Hmph",
-			"indices": []
+			"anim": "Hmph Loop",
+			"indices": [],
+			"name": "Loop Hmph"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Luna",
 	"position": [
 		-1310,
-		-70
+		-40
 	],
 	"healthicon": "luna",
 	"flip_x": false,

@@ -1,20 +1,21 @@
 {
 	"position": [
-		145,
-		140
+		135,
+		40
 	],
 	"dialogue_pos": "left",
+	"no_antialiasing": false,
 	"scale": 1.65,
 	"image": "Ace_Dialogue",
 	"animations": [
 		{
 			"idle_offsets": [
-				0,
-				-10
+				-11,
+				10
 			],
 			"loop_offsets": [
-				0,
-				-5
+				-11,
+				10
 			],
 			"anim": "talk",
 			"idle_name": "EndNormal",
@@ -22,13 +23,13 @@
 		},
 		{
 			"loop_offsets": [
-				0,
-				0
+				-10,
+				10
 			],
 			"anim": "Concerned",
 			"idle_offsets": [
-				0,
-				-5
+				-10,
+				10
 			],
 			"loop_name": "Concerned",
 			"idle_name": "EndConcerned"

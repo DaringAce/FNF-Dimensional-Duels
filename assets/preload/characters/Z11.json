@@ -5,10 +5,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "idle",
-			"loop": false,
+			"indices": [],
 			"name": "Z_idle"
 		},
 		{
@@ -16,10 +16,10 @@
 				52,
 				17
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
+			"indices": [],
 			"name": "Z_left"
 		},
 		{
@@ -27,10 +27,10 @@
 				17,
 				16
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
+			"indices": [],
 			"name": "Z_down"
 		},
 		{
@@ -38,10 +38,10 @@
 				25,
 				29
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
+			"indices": [],
 			"name": "Z_up"
 		},
 		{
@@ -49,10 +49,10 @@
 				-5,
 				5
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
+			"indices": [],
 			"name": "Z_right"
 		},
 		{
@@ -60,10 +60,10 @@
 				-8,
 				-25
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "idle-alt",
-			"loop": false,
+			"indices": [],
 			"name": "alt_Z_idle"
 		},
 		{
@@ -71,10 +71,10 @@
 				38,
 				-17
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT-alt",
-			"loop": false,
+			"indices": [],
 			"name": "alt_Z_left"
 		},
 		{
@@ -82,10 +82,10 @@
 				19,
 				-14
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN-alt",
-			"loop": false,
+			"indices": [],
 			"name": "alt_Z_down"
 		},
 		{
@@ -93,10 +93,10 @@
 				165,
 				28
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singUP-alt",
-			"loop": false,
+			"indices": [],
 			"name": "alt_Z_up"
 		},
 		{
@@ -104,29 +104,29 @@
 				12,
 				-12
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT-alt",
-			"loop": false,
+			"indices": [],
 			"name": "alt_Z_right"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Z_assest",
 	"position": [
-		120,
-		90
+		-20,
+		130
 	],
 	"healthicon": "Z11",
 	"flip_x": false,
 	"healthbar_colors": [
-		95,
-		60,
-		155
+		135,
+		53,
+		172
 	],
 	"camera_position": [
-		0,
-		0
+		50,
+		-50
 	],
 	"sing_duration": 6.1,
 	"scale": 1

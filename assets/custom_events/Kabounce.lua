@@ -39,9 +39,9 @@ function onEvent(tag, var1, var2)
             local x = { 'angleGame', 'angleHUD', 'XGame', 'YHUD' }
             for i = 1, 4 do cancelTween(x[i]) end
 
-            doTweenAngle('resetgame', 'camGame', 0, Cro, 'cubeOut');
+--            doTweenAngle('resetgame', 'camGame', 0, Cro, 'cubeOut');
             doTweenAngle('resetHUD', 'camHUD', 0, Cro, 'cubeOut');
-            doTweenX('resetgame2', 'camGame', 0, Cro, 'linear');
+--            doTweenX('resetgame2', 'camGame', 0, Cro, 'linear');
             doTweenX('resetHUD2', 'camHUD', 0, Cro, 'linear');
         end
     end
@@ -57,7 +57,7 @@ function onCreatePost()
     }
 
     for i = 1, 2 do
-        graphicmodule.createhudgraphic('bar' .. i, { 2650, thickness }, '000000', false);
+ --     graphicmodule.createhudgraphic('bar' .. i, { 2650, thickness }, '000000', false);
         graphicmodule.setProps('bar' .. i, { screenCenter('bar' .. i, 'x'), positionsY[i] });
         setProperty('bar' .. i .. '.visible', false)
     end
@@ -73,10 +73,10 @@ function onBeatHit()
         end
         setProperty('camGame.angle', AngleBitch * intensity);
         setProperty('camHUD.angle', -AngleBitch * intensity);
-        doTweenAngle('angleGame', 'camGame', AngleBitch, Cro / playbackRate);
+  --      doTweenAngle('angleGame', 'camGame', AngleBitch, Cro / playbackRate);
         doTweenAngle('angleHUD', 'camHUD', -AngleBitch, Cro / playbackRate);
         doTweenX('YHUD', 'camHUD', AngleBitch * 8, Cro / playbackRate, 'linear');
-        doTweenX('XGame', 'camGame', -AngleBitch * 8, Cro / playbackRate, 'linear');
+  --      doTweenX('XGame', 'camGame', -AngleBitch * 8, Cro / playbackRate, 'linear');
 
         doTweenY('YHUD1', 'camHUD', -bounceY, (Cro / playbackRate) * 0.5, "cubeOut");
 

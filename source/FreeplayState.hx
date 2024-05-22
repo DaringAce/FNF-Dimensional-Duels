@@ -146,6 +146,11 @@ class FreeplayState extends MusicBeatState
 			{
 				songText.text = 'righteous waterstream';	
 			}
+			
+			if (songText.text.toLowerCase() == 'tutorial-d-mix')
+			{
+				songText.text = 'Tutorial (D-Mix)';	
+			}
 
 			// songText.x += 40;
 			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!

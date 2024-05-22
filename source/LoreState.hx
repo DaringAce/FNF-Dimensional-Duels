@@ -4,16 +4,10 @@ import flixel.FlxG;
 import flixel.util.FlxColor;
 import flixel.text.FlxText;
 import flixel.text.FlxBitmapText;
-import flixel.addons.plugin.FlxScrollingText;
 import flixel.FlxSprite;
 import sys.io.File;
 import haxe.Json;
-import openfl.text.TextField; // Importing TextField
-import openfl.text.TextFieldAutoSize; // Importing TextFieldAutoSize
-import openfl.text.TextFieldType; // Importing TextFieldType
-import openfl.text.TextFormat; // Importing TextFormat
-import openfl.text.TextFormatAlign; // Importing TextFormatAlign
-import openfl.text.ScrollPolicy;
+
 
 using StringTools;
 
@@ -27,13 +21,14 @@ class LoreState extends MusicBeatState
 {
     var json:Array<LoreData> = Json.parse(File.getContent('assets/images/lorechars/data.json'));
     var curSelected:Int = 0;
+    var curSelectedDesc:Int = 0;
 
     var bg:FlxSprite;
     var charSpace:FlxSprite;
     var charName:FlxText;
     var char:FlxSprite;
     var descSpace:FlxSprite;
-    var desc:TextField; // Changed to TextField
+    var desc:FlxText;
     var counterSpace:FlxSprite;
     var counter:FlxText;
     var leftArrow:FlxText;
@@ -44,7 +39,6 @@ class LoreState extends MusicBeatState
         super.create();
 
         bg = new FlxSprite().loadGraphic(Paths.image('menudd'));
-        bg.scrollFactor.set();
         bg.setGraphicSize(Std.int(FlxG.width), Std.int(FlxG.height));
         bg.updateHitbox();
         bg.screenCenter();
@@ -71,16 +65,11 @@ class LoreState extends MusicBeatState
         descSpace.antialiasing = ClientPrefs.globalAntialiasing;
         add(descSpace);
 
-        desc = new TextField(); // Changed to TextField
+        desc = new FlxText(); // Changed to TextArea
         desc.width = descSpace.width * 0.9;
         desc.x = descSpace.x + (descSpace.width * 0.05);
         desc.y = descSpace.y + (descSpace.width * 0.05);
         desc.height = descSpace.height * 0.9;
-        desc.autoSize = TextFieldAutoSize.LEFT; // Setting autoSize
-        desc.multiline = true; // Allowing multiline
-        desc.wordWrap = true; // Enabling word wrap
-        desc.defaultTextFormat = new TextFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, null, null, null, null, null, TextFormatAlign.LEFT);
-        desc.type = TextFieldType.DYNAMIC; // Setting TextFieldType
         add(desc);
 
         counterSpace = new FlxSprite(0, FlxG.height).makeGraphic(Std.int(FlxG.width * 0.7), Std.int(FlxG.height * 0.2), FlxColor.BLACK);
@@ -102,7 +91,7 @@ class LoreState extends MusicBeatState
         leftArrow.borderSize = 4;
         leftArrow.antialiasing = ClientPrefs.globalAntialiasing;
         leftArrow.y = counterSpace.y + (counterSpace.height / 2) - (leftArrow.height / 2);
-        leftArrow.scrollFactor.set();
+
         add(leftArrow);
 
         rightArrow = new FlxText(FlxG.width * 0.9, ">");
@@ -110,16 +99,19 @@ class LoreState extends MusicBeatState
         rightArrow.borderSize = 4;
         rightArrow.antialiasing = ClientPrefs.globalAntialiasing;
         rightArrow.y = counterSpace.y + (counterSpace.height / 2) - (rightArrow.height / 2);
-        rightArrow.scrollFactor.set();
+
         rightArrow.x -= rightArrow.width;
         add(rightArrow);
 
         changeItem();
+        changeDesc();
     }
 
     function changeItem(huh:Int = 0)
     {
         curSelected += huh;
+        curSelectedDesc = 0;
+
 
         if (curSelected >= json.length)
             curSelected = 0;
@@ -131,11 +123,7 @@ class LoreState extends MusicBeatState
 
         charName.text = json[curSelected].char;
         desc.text = json[curSelected].desc;
-        desc.scrollV = 1; // Resetting scroll position
-        desc.verticalScrollPolicy = ScrollPolicy.AUTO; // Adding scroll policy
-        desc.x = descSpace.x + (descSpace.width * 0.05);
-        desc.y = descSpace.y + (descSpace.width * 0.05);
-        desc.width = descSpace.width * 0.9;
+        desc.y = descSpace.y + (descSpace.height * 0.05);
         desc.height = descSpace.height * 0.9;
 
         var oldChar = char.graphic;
@@ -172,6 +160,30 @@ class LoreState extends MusicBeatState
         }
     }
 
+
+    function changeDesc(huh:Int = 0)
+    {
+        curSelectedDesc +=huh;
+
+
+        if (curSelectedDesc >= json.length)
+            curSelectedDesc = 0;
+        if (curSelectedDesc < 0)
+            curSelectedDesc = json.length - 1;
+
+        if (json.length == 0)
+            return;
+
+        
+        desc.text = json[curSelectedDesc].desc;
+        desc.y = descSpace.y + (descSpace.height * 0.05);
+        desc.height = descSpace.height * 0.9;
+
+    }
+
+
+
+
     override function update(elapsed:Float)
     {
         super.update(elapsed);
@@ -187,6 +199,25 @@ class LoreState extends MusicBeatState
             FlxG.sound.play(Paths.sound('scrollMenu'));
             changeItem(1);
         }
+
+
+        // changeDesc basically moves the description provided so for each char it would have different descriptions
+
+        if (controls.UI_UP_P)
+        {
+            FlxG.sound.play(Paths.sound('scrollMenu'));
+            changeDesc(1);
+        }
+
+        if (controls.UI_DOWN_P)
+        {
+            FlxG.sound.play(Paths.sound('scrollMenu'));
+            changeDesc(-1);
+        }
+
+
+
+
 
         if (controls.BACK)
         {

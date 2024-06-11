@@ -1,0 +1,16 @@
+[
+    {
+        "char": "Ace's House",
+        "desc": [
+            "This is the house that Ace resides in. He built it from specialized custom material that Ace forged by himself, representing a hard-forged element of emerald. The created material is very tough, as it was melded throughout. The pumpkin Ace planted in the front of the yard was found in another dimension and is a defensive artifact that can create vines at hot temperatures. These vines burn intruders and trap them in place until Ace decides the best course of action to deal with them. It is impossible to pluck the pumpkin out of its place. Behind the fence, Ace plants golden roses and other rare flowers to preserve them."
+        ]
+    },
+    {
+        "char": "TEST2",
+        "desc": [
+            "This is a SECOND test stage.",
+	        "the text here means something.",
+	        "oh yeah."
+        ]
+    }
+]

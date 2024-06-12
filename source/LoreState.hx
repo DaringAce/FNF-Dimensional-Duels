@@ -283,20 +283,12 @@ class LoreState extends MusicBeatState
                 bg.antialiasing = ClientPrefs.globalAntialiasing;
                 backgroundParts.add(bg);
 
-            case "TEST2":
-                var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.GREEN);
-                bg.antialiasing = ClientPrefs.globalAntialiasing;
-                backgroundParts.add(bg);
-
-                var bg:FlxSprite = new FlxSprite(30, 200).makeGraphic(300, 50, FlxColor.PINK);
-                bg.antialiasing = ClientPrefs.globalAntialiasing;
-                backgroundParts.add(bg);
-
-                var bg:FlxSprite = new FlxSprite(300, 50).makeGraphic(300, 50, FlxColor.YELLOW);
-                bg.antialiasing = ClientPrefs.globalAntialiasing;
-                backgroundParts.add(bg);
-
-                var bg:FlxSprite = new FlxSprite(600, 100).makeGraphic(300, 500, FlxColor.MAGENTA);
+            case "City Cliff":
+                var bg:FlxSprite = new FlxSprite(-400, -300).loadGraphic(Paths.image("CliffBG", "shared"));
+                bg.frames = Paths.getSparrowAtlas("CliffBG", "shared");
+                bg.scale.set(0.7, 0.7); 
+                bg.animation.addByPrefix("idle", "Background");
+                bg.animation.play("idle", true);
                 bg.antialiasing = ClientPrefs.globalAntialiasing;
                 backgroundParts.add(bg);
         }

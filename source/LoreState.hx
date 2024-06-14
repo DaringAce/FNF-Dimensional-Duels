@@ -284,7 +284,7 @@ class LoreState extends MusicBeatState
                 backgroundParts.add(bg);
 
             case "City Cliff":
-                var bg:FlxSprite = new FlxSprite(-400, -300).loadGraphic(Paths.image("CliffBG", "shared"));
+                var bg:FlxSprite = new FlxSprite(-350, -200).loadGraphic(Paths.image("CliffBG", "shared"));
                 bg.frames = Paths.getSparrowAtlas("CliffBG", "shared");
                 bg.scale.set(0.7, 0.7); 
                 bg.animation.addByPrefix("idle", "Background");

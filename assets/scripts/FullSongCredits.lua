@@ -76,7 +76,7 @@ local songdata = {
     
     ['Bulletproof'] = {
         'Bulletproof',
-        'DrawPant & Ivaldi (feat. Greg Chun)',
+        'Ivaldi & Others (feat. Greg Chun)',
         '7',
         'JDST & Daring Ace',
         'TetraHunter & Ivaldi',

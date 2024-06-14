@@ -92,11 +92,11 @@ end
 
 function onBeatHit()
 	if bfsExist then
-		doTweenAngle('plrTween1', 'newiconP1', -25, crochet/6500)
+		doTweenAngle('plrTween1', 'newiconP1', -18, crochet/6000)
 	end
 
 	if dadsExist then
-		doTweenAngle('opTween1', 'newiconP2', 25, crochet/6500)
+		doTweenAngle('opTween1', 'newiconP2', 18, crochet/6000)
 	end
 end
 

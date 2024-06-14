@@ -103,7 +103,6 @@ class CreditsState extends MusicBeatState
 			['Its_joaquin',			'jo',				'Commissioned Artist and Animator',								'https://twitter.com/Its_Joaquinxd',					'30364f'],	//Jo's blue color				
 			['Lapz',			'Laps',				'Commissioned Composer',								'https://www.youtube.com/@lap_z',					'eae386'],	//Lapz's yellow color				
 			['Ranfring',			'Ranfring',				'Commissioned Artist and Animator',								'https://twitter.com/Ranfringg',					'd39765'],	//Ranfring's tan color				
-			['DrawPant',			'paid',				'Commissioned Composer',								'https://twitter.com/DrawPant',					'adf3d9'],		//paid icon green color
 			['TetraHunter',			'TetraHunter',				'Commissioned Charter',								'https://twitter.com/TetraHunter503D',					'883cc2'],		//Tetra's purple color
 			['GelePanda',			'GelePanda',				'Commissioned Composer',								'https://www.youtube.com/@GelePanda',					'500286'],		//Gele's purple color
 			[''],

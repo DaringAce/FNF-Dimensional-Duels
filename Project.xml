@@ -73,6 +73,7 @@
 		<library name="shared"        preload="true" />
 		<library name="scripts"       preload="true" />
 		<library name="custom_events" preload="true" />
+		<library name="custom_notetypes" preload="true" />
 		<library name="shaders"   	  preload="true" />
 		<library name="week2"         preload="true" />
 		<library name="week3"         preload="true" />
@@ -88,6 +89,7 @@
 		<library name="scripts"       preload="false" />
 		<library name="shared"        preload="false" />
 		<library name="custom_events" preload="false" />
+		<library name="custom_notetypes" preload="false" />
 		<library name="shaders"   	  preload="false" />
 		<library name="week2"         preload="false" />
 		<library name="week3"         preload="false" />
@@ -109,6 +111,9 @@
 	<assets path="assets/shaders"   	library="shaders"       exclude="*.mp3" unless="web"/>
 	<assets path="assets/custom_events" library="events"        exclude="*.ogg" unless="web"/>
 	<assets path="assets/custom_events" library="events"        exclude="*.mp3" unless="web"/>
+	<assets path="assets/custom_events" library="notetypes"        exclude="*.mp3" unless="web"/>
+	<assets path="assets/custom_events" library="notetypes"        exclude="*.mp3" unless="web"/>
+	
 	
 	<assets path="assets/week2"         library="week2"         exclude="*.ogg" if="web"/>
 	<assets path="assets/week2"         library="week2"         exclude="*.mp3" unless="web"/>

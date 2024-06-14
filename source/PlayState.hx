@@ -5387,12 +5387,12 @@ class PlayState extends MusicBeatState
 		}
 		
 		//Player 1 icon tween in beat hit
-		iconP1AngleTween = FlxTween.tween(iconP1, {angle: -25}, (Conductor.crochet / 6500), {onComplete: function(twn:FlxTween){
+		iconP1AngleTween = FlxTween.tween(iconP1, {angle: -18}, (Conductor.crochet / 6000), {onComplete: function(twn:FlxTween){
 		iconP1AngleTween = FlxTween.tween(iconP1, {angle: 0}, (Conductor.crochet / 4250));
 		}});
 
 		//Player 2 icon tween in beat hit
-		iconP2AngleTween = FlxTween.tween(iconP2, {angle: 25}, (Conductor.crochet / 6500), {onComplete: function(twn:FlxTween){
+		iconP2AngleTween = FlxTween.tween(iconP2, {angle: 18}, (Conductor.crochet / 6000), {onComplete: function(twn:FlxTween){
 		iconP2AngleTween = FlxTween.tween(iconP2, {angle: 0}, (Conductor.crochet / 4250));
 		}});
 		

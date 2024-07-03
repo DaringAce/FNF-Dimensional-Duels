@@ -31,11 +31,16 @@ function onCreate() --change values inside of here if youve changed the base hea
 end
 --you shouldnt have to change anything below here, fuck off, dipshit
 function onCreatePost()
+    makeLuaSprite("box", "customHealthbars/box", 0.0, 0.0)
+    addLuaSprite("box", false)
+    setProperty("scoreTxt.y", getProperty('scoreTxt.y')+25)
+
     if checkFileExists("images/customHealthbars/"..string.lower(songName).."/player.png", false) then --better image detection! :3
         barImageDirectory = string.lower(songName)..'/'
     else
         barImageDirectory = ""
     end
+    
     makeLuaSprite("healthbackground", "customHealthbars/"..barImageDirectory..'healthbarBG', 0.0, 0.0) --BG
     addLuaSprite("healthbackground", false)
     setObjectCamera("healthbackground", "camHUD")
@@ -57,6 +62,8 @@ function onCreatePost()
     end
     addLuaSprite("flasher", false)
     setObjectCamera("flasher", "camHUD")
+    setObjectCamera("box", "camHUD")
+    setObjectOrder("box", getObjectOrder("healthbarOver")-1.5)
     setObjectOrder("flasher", getObjectOrder("healthbarOver")+0.5)
     setBlendMode("flasher", "screen")
     --setters time
@@ -167,6 +174,7 @@ function onEvent(eventName, value1, value2)
     if eventName == 'Lights out' then
         shit = false
         setProperty('healthbackground.visible',false)
+        setProperty('box.visible',false)
         setProperty('healthbarOver.visible',false)
         setProperty('healthbarUnder.visible',false)
     end
@@ -174,6 +182,7 @@ function onEvent(eventName, value1, value2)
     if eventName == 'Lights on' then
         shit = true
         setProperty('healthbackground.visible',true)
+        setProperty('box.visible',true)
         setProperty('healthbarOver.visible',true)
         setProperty('healthbarUnder.visible',true)
     end

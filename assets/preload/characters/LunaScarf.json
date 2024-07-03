@@ -1,0 +1,45 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-480,
+				-15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "IDLE DANCE"
+		},
+		{
+			"offsets": [
+				-479,
+				-29
+			],
+			"indices": [],
+			"fps": 16,
+			"anim": "idle-alt",
+			"loop": false,
+			"name": "IDLE KNIFE"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Luna_speaker_all",
+	"position": [
+		-300,
+		140
+	],
+	"healthicon": "luna",
+	"flip_x": false,
+	"healthbar_colors": [
+		78,
+		78,
+		78
+	],
+	"camera_position": [
+		400,
+		80
+	],
+	"sing_duration": 6.1,
+	"scale": 1.1
+}

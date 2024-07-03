@@ -1,0 +1,4 @@
+Replicates the countdown
+
+Value 1: 3/2/1/0 (0 is "Go!")
+Value 2: Has Sound?, Sound volume (default is 0.6)

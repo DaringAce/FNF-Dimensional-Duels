@@ -1,84 +1,84 @@
 {
 	"dialogue": [
 		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "ace",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "Hmm, it seems to be getting dark out..."
+			"text": "Hmm, it seems to be getting dark out...",
+			"boxState": "normal",
+			"sound": "AceText",
+			"speed": 0.05,
+			"portrait": "ace"
 		},
 		{
-			"sound": "",
-			"speed": 0.04,
-			"portrait": "bf",
-			"boxState": "normal",
 			"expression": "pissed",
-			"text": "coolswag"
+			"text": "coolswag",
+			"boxState": "normal",
+			"sound": "BoyfriendText",
+			"speed": 0.04,
+			"portrait": "bf"
 		},
 		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
 			"expression": "excited",
-			"text": "Let's do another song, yo!"
+			"text": "Let's do another song, yo!",
+			"boxState": "normal",
+			"sound": "BoyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
 		},
 		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "ace",
-			"boxState": "normal",
 			"expression": "Concerned",
-			"text": "I suppose we could do another song."
-		},
-		{
-			"sound": "",
-			"speed": 0.035,
-			"portrait": "bf",
+			"text": "I suppose we could do another song.",
 			"boxState": "normal",
-			"expression": "confused",
-			"text": "Yo, why're you holding a scythe?"
-		},
-		{
-			"sound": "",
+			"sound": "AceText",
 			"speed": 0.05,
-			"portrait": "ace",
-			"boxState": "normal",
-			"expression": "Bruh",
-			"text": "Well, until I know if you are a threat, it is for safety measures."
+			"portrait": "ace"
 		},
 		{
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "bf",
-			"boxState": "angry",
-			"expression": "shocked",
-			"text": "So you're not gonna slash me up while we're spittin' bars?!"
-		},
-		{
-			"sound": "",
-			"speed": 0.055,
-			"portrait": "ace",
-			"boxState": "normal",
-			"expression": "Bruh",
-			"text": "Unless you would be a threat to this dimension, no."
-		},
-		{
-			"sound": "",
-			"speed": 0.06,
-			"portrait": "bf",
-			"boxState": "normal",
 			"expression": "confused",
-			"text": "Damn..."
+			"text": "Yo, why're you holding a scythe?",
+			"boxState": "normal",
+			"sound": "BoyfriendText",
+			"speed": 0.035,
+			"portrait": "bf"
 		},
 		{
+			"expression": "Bruh",
+			"text": "Well, until I know if you are a threat, it is for safety measures.",
+			"boxState": "normal",
+			"sound": "AceText",
+			"speed": 0.05,
+			"portrait": "ace"
+		},
+		{
+			"expression": "shocked",
+			"text": "So you're not gonna slash me up while we're spittin' bars?!",
+			"boxState": "angry",
+			"sound": "BoyfriendText",
+			"speed": 0.03,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Bruh",
+			"text": "Unless you would be a threat to this dimension, no.",
+			"boxState": "normal",
+			"sound": "AceText",
+			"speed": 0.055,
+			"portrait": "ace"
+		},
+		{
+			"expression": "confused",
+			"text": "Damn...",
+			"boxState": "normal",
+			"sound": "BoyfriendText",
+			"speed": 0.06,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Bruh",
+			"text": "...",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.3,
-			"portrait": "ace",
-			"boxState": "normal",
-			"expression": "Bruh",
-			"text": "..."
+			"portrait": "ace"
 		}
 	]
 }

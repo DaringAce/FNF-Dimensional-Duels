@@ -59,7 +59,7 @@
 	"no_antialiasing": true,
 	"image": "characters/captain-new",
 	"position": [
-		-50,
+		-130,
 		0
 	],
 	"healthicon": "CapZ",

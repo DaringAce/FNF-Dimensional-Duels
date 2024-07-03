@@ -12,7 +12,7 @@ local onlyNewText = false; --Only has the combo, rating, and score texts added i
 local font = 'PhantomMuff.ttf' -- H24's font is 'goodbyeDespair.ttf' but 'sonic-1-hud-font.ttf' is pretty cool
 local dontChangeScoreFont = false; --disables the font change [default: false]
 local changeTimeTextFont = true; --set to true to change the time text font
-local textStyle = 'Custom' --Psych/OS/Kade/Yoshi-ish/Gostar64 (Custom) (makes it look like each engine's [or my custom] score)
+local textStyle = 'Kade' --Psych/OS/Kade/Yoshi-ish/Gostar64 (Custom) (makes it look like each engine's [or my custom] score)
 local MSversion = 'Psych' --Psych/Anything else (Anything else makes it grab the ms from OS's playstate) (Psych one is broken, i no longer have time to do things)
 local Ourple = false; --ourples the score
 
@@ -24,7 +24,7 @@ local speedUpMult = 5.00; --default is 2 --multiplier of the speed up
 
 --Size--
 
-local scoresize = 30; --default is 35 (set to 25 if using goodbyeDespair font) --score text size
+local scoresize = 20; --default is 35 (set to 25 if using goodbyeDespair font) --score text size
 local size = 30; --default is 50 --size of the special text
 local dontChangeScoreSize = true; --disables the size change [default: false]
 
@@ -334,8 +334,8 @@ function onUpdate(elapsed)
             end
         end 
     elseif textStyle == 'Kade' then
-        BeforeScore = 'Score:0 | Combo Breaks:0 | Accuracy:0% | N/A'
-        FinalScore = 'Score:'..visibleScore..' | Combo Breaks:'..misses..' | Accuracy:'..rateFullPer..'% | ('..ratingName..') '..ratingFC
+        BeforeScore = 'Score:0 | Misses:0 | Accuracy:0% | N/A'
+        FinalScore = 'Score:'..visibleScore..' | Misses:'..misses..' | Accuracy:'..rateFullPer..'% | ('..ratingName..') '..ratingFC
         if Ourple then
             BeforeScore = 'OURPLENESS:0 | COMBO BREAKS:0 | ACCURACY:0% | N/A'
             FinalScore = 'OURPLENESS:'..visibleScore..' | Combo Breaks:'..misses..' | Accuracy:'..rateFullPer..'% | ('..ratingName..') '..ratingFC

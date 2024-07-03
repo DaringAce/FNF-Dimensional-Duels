@@ -1,9 +1,9 @@
 
 function onCreate()
-    runHaxeCode([[
-        weewee = new Character(0, -75,"anti",false);
-        game.add(weewee);
-    ]])
+    --runHaxeCode([[
+    --    weewee = new Character(-35, 100,"anti",false);
+    --    game.add(weewee);
+    --]])
 end
 
 function onBeatHit()

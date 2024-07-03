@@ -1,148 +1,148 @@
 {
 	"dialogue": [
 		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "ace",
-			"boxState": "normal",
 			"expression": "Concerned",
-			"text": "Who are you and why did you appear here in our dimension?"
+			"text": "Who are you and why did you appear here in our dimension?",
+			"boxState": "normal",
+			"sound": "AceText",
+			"speed": 0.05,
+			"portrait": "ace"
 		},
 		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "Beep."
+			"text": "Beep.",
+			"boxState": "normal",
+			"sound": "BoyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
 		},
 		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "ace",
-			"boxState": "normal",
 			"expression": "Bruh",
-			"text": "..."
-		},
-		{
+			"text": "...",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "Bo bop?"
+			"portrait": "ace"
 		},
 		{
-			"sound": "",
+			"expression": "talk",
+			"text": "Bo bop?",
+			"boxState": "normal",
+			"sound": "BoyfriendText",
 			"speed": 0.05,
-			"portrait": "ace",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "Bo skideep bobbity."
+			"portrait": "bf"
 		},
 		{
-			"sound": "",
-			"speed": 0.025,
-			"portrait": "bf",
-			"boxState": "angry",
+			"expression": "talk",
+			"text": "Bo skideep bobbity.",
+			"boxState": "normal",
+			"sound": "AceText",
+			"speed": 0.05,
+			"portrait": "ace"
+		},
+		{
 			"expression": "shocked",
-			"text": "You speak my language?!"
-		},
-		{
-			"sound": "",
-			"speed": 0.06,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "confused",
-			"text": "(Wait... Did I just speak English? I must've learned it when going through that wack-ass portal...)"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "ace",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "Yes, I have the ability to translate to any language. Now, why have you come here?"
-		},
-		{
-			"sound": "",
-			"speed": 0.045,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "pissed",
-			"text": "My girlfriend's dad sent me here, yo!"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "ace",
-			"boxState": "normal",
-			"expression": "Concerned",
-			"text": "So no malicious intent?"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "Nah. Can you help me go back?"
-		},
-		{
-			"sound": "",
-			"speed": 0.06,
-			"portrait": "ace",
-			"boxState": "normal",
-			"expression": "Concerned",
-			"text": "Yes. Let me think for a bit..."
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "confused",
-			"text": "???"
-		},
-		{
-			"sound": "",
-			"speed": 0.045,
-			"portrait": "ace",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "Ah, now I see. Your dimension's name is-"
-		},
-		{
-			"sound": "",
-			"speed": 0.04,
-			"portrait": "bf",
+			"text": "You speak my language?!",
 			"boxState": "angry",
-			"expression": "pissed",
-			"text": "Rap battle!"
+			"sound": "BoyfriendText",
+			"speed": 0.025,
+			"portrait": "bf"
 		},
 		{
-			"sound": "",
-			"speed": 0.08,
-			"portrait": "ace",
+			"expression": "confusedTalknt",
+			"text": "(Wait... Did I just speak English? I must've learned it when going through that wack-ass portal...)",
 			"boxState": "normal",
-			"expression": "Bruh",
-			"text": "...Pardon?"
-		},
-		{
 			"sound": "",
-			"speed": 0.04,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "pissed",
-			"text": "1v1 me in a rap battle right now!"
+			"speed": 0.06,
+			"portrait": "bf"
 		},
 		{
+			"expression": "talk",
+			"text": "Yes, I have the ability to translate to any language. Now, why have you come here?",
+			"boxState": "normal",
+			"sound": "AceText",
+			"speed": 0.05,
+			"portrait": "ace"
+		},
+		{
+			"expression": "pissed",
+			"text": "My girlfriend's dad sent me here, yo!",
+			"boxState": "normal",
+			"sound": "BoyfriendText",
+			"speed": 0.045,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Concerned",
+			"text": "So no malicious intent?",
+			"boxState": "normal",
+			"sound": "AceText",
+			"speed": 0.05,
+			"portrait": "ace"
+		},
+		{
+			"expression": "talk",
+			"text": "Nah. Can you help me go back?",
+			"boxState": "normal",
+			"sound": "BoyfriendText",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Concerned",
+			"text": "Yes. Let me think for a bit...",
+			"boxState": "normal",
+			"sound": "AceText",
+			"speed": 0.06,
+			"portrait": "ace"
+		},
+		{
+			"expression": "confusedTalknt",
+			"text": "???",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "ace",
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Ah, now I see. Your dimension's name is-",
 			"boxState": "normal",
+			"sound": "AceText",
+			"speed": 0.045,
+			"portrait": "ace"
+		},
+		{
+			"expression": "pissed",
+			"text": "Rap battle!",
+			"boxState": "angry",
+			"sound": "BoyfriendText",
+			"speed": 0.04,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Bruh",
+			"text": "Pardon?",
+			"boxState": "normal",
+			"sound": "AceText",
+			"speed": 0.08,
+			"portrait": "ace"
+		},
+		{
+			"expression": "pissed",
+			"text": "1v1 me in a rap battle right now!",
+			"boxState": "normal",
+			"sound": "BoyfriendText",
+			"speed": 0.04,
+			"portrait": "bf"
+		},
+		{
 			"expression": "Concerned",
-			"text": "I have not the foggiest idea why you would request a rap battle, but I suppose I can try."
+			"text": "I have not the foggiest idea why you would request a rap battle, but I suppose I can try.",
+			"boxState": "normal",
+			"sound": "AceText",
+			"speed": 0.05,
+			"portrait": "ace"
 		}
 	]
 }

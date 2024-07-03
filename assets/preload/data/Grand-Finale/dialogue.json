@@ -1,52 +1,52 @@
 {
 	"dialogue": [
 		{
-			"sound": "",
-			"speed": 0.035,
-			"portrait": "bf",
+			"expression": "pissed",
+			"text": "Is that all ya got?!",
 			"boxState": "angry",
-			"expression": "pissed",
-			"text": "Is that all ya got?!"
+			"sound": "BoyfriendText",
+			"speed": 0.035,
+			"portrait": "bf"
 		},
 		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "ace",
-			"boxState": "normal",
 			"expression": "Concerned",
-			"text": "Indeed. I am most certainly not as skilled at this as you are..."
-		},
-		{
-			"sound": "",
-			"speed": 0.04,
-			"portrait": "bf",
+			"text": "Indeed. I am most certainly not as skilled at this as you are...",
 			"boxState": "normal",
-			"expression": "pissed",
-			"text": "I can tell. Keep up!"
-		},
-		{
-			"sound": "",
+			"sound": "AceText",
 			"speed": 0.05,
-			"portrait": "ace",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "Well, after this next one, I will send you home. Please return safely."
+			"portrait": "ace"
 		},
 		{
-			"sound": "",
+			"expression": "pissed",
+			"text": "I can tell. Keep up!",
+			"boxState": "normal",
+			"sound": "BoyfriendText",
+			"speed": 0.04,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Well, after this next one, I will send you home. Please return safely.",
+			"boxState": "normal",
+			"sound": "AceText",
+			"speed": 0.05,
+			"portrait": "ace"
+		},
+		{
+			"expression": "talk",
+			"text": "Yeah! Then you can visit me and my girlfriend to rap battle!",
+			"boxState": "normal",
+			"sound": "BoyfriendText",
 			"speed": 0.045,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "Yeah! Then you can visit me and my girlfriend to rap battle!"
+			"portrait": "bf"
 		},
 		{
+			"expression": "Bruh",
+			"text": "...",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.3,
-			"portrait": "ace",
-			"boxState": "normal",
-			"expression": "Bruh",
-			"text": "..."
+			"portrait": "ace"
 		}
 	]
 }

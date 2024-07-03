@@ -1,5 +1,5 @@
 onEvent = function(n,v1,v2)
- if n == 'Duel Countdown' then
+ if n == '' then
   playSound('Three', 0.8)
   local c = crochet/1000
   runTimer('two', c)

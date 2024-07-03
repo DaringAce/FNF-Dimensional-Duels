@@ -85,8 +85,8 @@ class CreditsState extends MusicBeatState
 			//	<-------------------DIMENSIONAL DUELS------------------->
 
 			['Main Dev Team'],
-			['Daring Ace',		'150a',				'Co-Director\nThe lore himself\nComposer\nAnd more',								'https://www.youtube.com/channel/UC2bhBg8pgJCXoLtPXTKh5bA',		'f4c915'], //Ace's gold color
-			['Ivaldi',		'Ivaldi',				'Director\nCoder\nCompiler\nArtist\nAnd more',								'https://www.roblox.com/users/147080606/profile',		'000000'], //Ivaldi's black color
+			['Daring Ace',		'150a',				'Director\nThe lore himself\nComposer\nAnd more',								'https://www.youtube.com/channel/UC2bhBg8pgJCXoLtPXTKh5bA',		'f4c915'], //Ace's gold color
+			['Ivaldi',		'Ivaldi',				'Co-Director\nCoder\nCompiler\nArtist\nAnd more',								'https://www.roblox.com/users/147080606/profile',		'000000'], //Ivaldi's black color
 			['Z11Gaming',			'150z',				'Psych Port Helper and Composer',								'https://www.youtube.com/@Z11Music/videos',				'8556b1'], //Z's purple color
 			['BigNinjaKai',			'150k',				'Charter and Supporter',									'https://twitter.com/bigninjakai',					'ab5cd2'], //Kai's purple color
 			['R0cketta',			'150r',				'Chromatic Scale Creator',									'https://www.youtube.com/channel/UC8l4zLUs5Kf5RdLYsbm5Ykg',		'99008d'], //R0cketta's purple color
@@ -113,12 +113,15 @@ class CreditsState extends MusicBeatState
 			['Gostar64 and others',	'unknown',				'Scoring System Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
 			['CJRed#6258 and Kaite#1102',	'unknown',				'Trail Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
 			['Held',	'unknown',				'Duet Cam Event Creator',										'',						'C6C6C6'], 	//unknown icon grey color
+			['borists and ItzJiggzy',	'unknown',				'Countdown Event Creator',										'',						'C6C6C6'], 	//unknown icon grey color
 			[''],
 
 			['Special Thanks'],
 			['Greg Chun',			'Greg_Chun',			'Original Voice Actor For The Clips of Ace',							'https://twitter.com/gregchunva?lang=en',	'42d6a9'], 	//Greg Chun's green color
-//			['Hank Sensei',			'Rowan',			'Nothing lol',							'https://www.youtube.com/channel/UCDCC2SWYC7zorsT5WC0q2lA',		'fe2529'], 	//Hank's red color
-			
+			['sgt jellyfish',			'sgtjellyfish',			'Content Creator Showcases',							'https://www.youtube.com/channel/UCnNN7wzaoeF0posLKBnf4qA',	'f10d04'], 	//sgt jellyfish's red color
+			['Death X-Gaming',			'gamer',			'Content Creator Showcases',							'https://www.youtube.com/c/deathxgaming',	'000000'], 	//Death's black color
+			['Hank Sensei',			'Rowan',			'Stole my dryer bro :moyai:',							'https://www.youtube.com/channel/UCDCC2SWYC7zorsT5WC0q2lA',		'fe2529'], 	//Hank's red color		
+
 			[''],
 
 
@@ -151,13 +154,13 @@ class CreditsState extends MusicBeatState
 			['evilsk8r',			'evilsk8r',			"Artist of Friday Night Funkin'",								'https://twitter.com/evilsk8r',						'5ABD4B'],
 			['kawaisprite',			'kawaisprite',			"Composer of Friday Night Funkin'",								'https://twitter.com/kawaisprite',					'378FC7']
 		];
-		
 		for(i in pisspoop){
 			creditsStuff.push(i);
 		}
 	
 		for (i in 0...creditsStuff.length)
 		{
+
 			var isSelectable:Bool = !unselectableCheck(i);
 			var optionText:Alphabet = new Alphabet(FlxG.width / 2, 300, creditsStuff[i][0], !isSelectable);
 			optionText.isMenuItem = true;

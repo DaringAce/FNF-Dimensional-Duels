@@ -33,7 +33,6 @@ end
 function onCreatePost()
     makeLuaSprite("box", "customHealthbars/box", 0.0, 0.0)
     addLuaSprite("box", false)
-    setProperty("scoreTxt.y", getProperty('scoreTxt.y')+25)
 
     if checkFileExists("images/customHealthbars/"..string.lower(songName).."/player.png", false) then --better image detection! :3
         barImageDirectory = string.lower(songName)..'/'
@@ -45,6 +44,7 @@ function onCreatePost()
     addLuaSprite("healthbackground", false)
     setObjectCamera("healthbackground", "camHUD")
     setObjectOrder("healthbackground", getObjectOrder("healthBar"))
+
     makeLuaSprite("healthbarUnder", "customHealthbars/"..barImageDirectory..'player', 0.0, 0.0) --healthbar bottom (player if not flipped)
     addLuaSprite("healthbarUnder", false)
     setObjectCamera("healthbarUnder", "camHUD")
@@ -55,6 +55,7 @@ function onCreatePost()
     addLuaSprite("healthbarOver", false)
     setObjectCamera("healthbarOver", "camHUD")
     setObjectOrder("healthbarOver", getObjectOrder("healthbarUnder")+0.5)
+    
     if flipped then
         makeLuaSprite("flasher", "customHealthbars/"..barImageDirectory..'opponent', 0.0, 0.0)
     else
@@ -69,10 +70,13 @@ function onCreatePost()
     --setters time
     screenCenter("healthbackground", 'x')
     if downscroll then
-        setProperty('healthbackground.y',60)
+        setProperty('box.flipY',true)
+        setProperty("scoreTxt.y", getProperty('scoreTxt.y')-135)
+        setProperty('healthbackground.y',80)
         setRel('healthbackground.x',downscrollX)
         setRel('healthbackground.y',downscrollY)
     else
+        setProperty("scoreTxt.y", getProperty('scoreTxt.y')+25)
         setProperty('healthbackground.y',720-120)
         setRel('healthbackground.x',upscrollX)
         setRel('healthbackground.y',upscrollY)

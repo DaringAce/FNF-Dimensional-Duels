@@ -4868,7 +4868,8 @@ class PlayState extends MusicBeatState
 			dad.playAnim('hey', true);
 			dad.specialAnim = true;
 			dad.heyTimer = 0.6;
-		} else if(!note.noAnimation) {
+
+		} else if(!note.noAnimation || note.noteType == 'altdad' ) {
 			var altAnim:String = note.animSuffix;
 
 			if (SONG.notes[curSection] != null)
@@ -4923,7 +4924,7 @@ class PlayState extends MusicBeatState
 				char = gf;
 			}
 
-			if(char != null)
+			if(char != null && note.noteType != 'altdad')
 			{
 				char.playAnim(animToPlay, true);
 				char.holdTimer = 0;

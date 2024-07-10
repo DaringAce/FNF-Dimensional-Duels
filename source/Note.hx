@@ -147,7 +147,7 @@ class Note extends FlxSprite
 					hitCausesMiss = true;
 				case 'Alt Animation':
 					animSuffix = '-alt';
-				case 'No Animation':
+				case 'No Animation' | 'altdad':
 					noAnimation = true;
 					noMissAnimation = true;
 				case 'GF Sing':

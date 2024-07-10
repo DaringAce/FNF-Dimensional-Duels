@@ -67,7 +67,7 @@ local songdata = {
     
     ['tutorial-d-mix'] = {
         'tutorial-d-mix',
-        'GelePanda',
+        'GelePanda & Funkin Sound Team',
         '7',
         'JDST & Daring Ace',
         'TetraHunter',

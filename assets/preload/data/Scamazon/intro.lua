@@ -4,3 +4,7 @@ function onStepHit()
         setProperty('dad.flipY',not getProperty('dad.flipY'))
     end
 end
+
+function onSongStart()
+    playAnim('dad', 'singUP-alt', true)
+end

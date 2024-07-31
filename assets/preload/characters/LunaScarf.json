@@ -1,15 +1,15 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-480,
 				-15
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "IDLE DANCE"
+			"fps": 24,
+			"name": "IDLE DANCE",
+			"indices": []
 		},
 		{
 			"offsets": [
@@ -17,7 +17,7 @@
 				-29
 			],
 			"indices": [],
-			"fps": 16,
+			"fps": 24,
 			"anim": "idle-alt",
 			"loop": false,
 			"name": "IDLE KNIFE"

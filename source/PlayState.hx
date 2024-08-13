@@ -3912,7 +3912,10 @@ class PlayState extends MusicBeatState
 							boyfriend.alpha = 0.00001;
 							boyfriend = boyfriendMap.get(value2);
 							boyfriend.alpha = lastAlpha;
-							iconP1.changeIcon(boyfriend.healthIcon);
+							
+							var dogShit = Paths.formatToSongPath(SONG.song);
+							if(dogShit != 'Bulletproof' && dogShit != 'bulletproof')
+							{	iconP1.changeIcon(boyfriend.healthIcon);}
 						}
 						setOnLuas('boyfriendName', boyfriend.curCharacter);
 

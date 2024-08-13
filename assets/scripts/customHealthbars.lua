@@ -165,16 +165,6 @@ end
 --    doTweenAlpha("returnFlash", "flasher", 0, 0.5/playbackRate, "linear")
 --end
 function onEvent(eventName, value1, value2)
-    if eventName == 'Change Character' then
-        if flipped then
-            doTweenColor('changeColor1','healthbarUnder',dadColor(),0.25,'expoOut')
-            doTweenColor('changeColor2','healthbarOver',bfColor(),0.25,'expoOut')
-        else
-            doTweenColor('changeColor1','healthbarUnder',bfColor(),0.25,'expoOut')
-            doTweenColor('changeColor2','healthbarOver',dadColor(),0.25,'expoOut')
-        end
-    end
-
     if eventName == 'Lights out' then
         shit = false
         setProperty('healthbackground.visible',false)

@@ -1,0 +1,31 @@
+{
+	"song": {
+		"events": [
+			[
+				86590.909090909,
+				[
+					[
+						"Change Character",
+						"BF",
+						"tankman3"
+					],
+					[
+						"Play Animation",
+						"dialogue",
+						"BF"
+					]
+				]
+			],
+			[
+				95863.6363636362,
+				[
+					[
+						"Change Character",
+						"BF",
+						"tankman-player"
+					]
+				]
+			]
+		]
+	}
+}

@@ -3,7 +3,7 @@ local ran = false
 local function skinChange()
     if not ran then
         ran = true
-        opponentTexture = (dadName == 'Ace' or dadName == 'AcePOWER') and 'NOTE_dimensionalgate' or 'NOTE_assets'
+        opponentTexture = (dadName == 'Ace' or dadName == 'AceFP') and 'NOTE_dimensionalgate' or 'NOTE_assets'
         playerTexture = (boyfriendName == 'bf-Ace' or boyfriendName == 'bf-AceNORMAL') and 'NOTE_dimensionalgate' or 'NOTE_assets'
         unspawnNotesLength = getProperty('unspawnNotes.length')
 
@@ -17,7 +17,7 @@ local function skinChange()
             if (boyfriendName == 'bf-Ace' or boyfriendName == 'bf-AceNORMAL') and mustPress then
                 setPropertyFromGroup('unspawnNotes', i, 'texture', 'NOTE_dimensionalgate')
 	            setPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture', 'SPLASHES_dimensionalgate')
-            elseif (dadName == 'Ace' or dadName == 'AcePOWER') and not mustPress then
+            elseif (dadName == 'Ace' or dadName == 'AceFP') and not mustPress then
                 setPropertyFromGroup('unspawnNotes', i, 'texture', 'NOTE_dimensionalgate')
 	            setPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture', 'SPLASHES_dimensionalgate')
             end

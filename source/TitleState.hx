@@ -303,8 +303,10 @@ class TitleState extends MusicBeatState
 		logoBl.antialiasing = ClientPrefs.globalAntialiasing;
 		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24, false);
 		logoBl.animation.play('bump');
-		logoBl.setGraphicSize(Std.int(logoBl.width * 1.1));
+		logoBl.setGraphicSize(Std.int(logoBl.width * 0.9));
 		logoBl.screenCenter();
+		logoBl.x += 180;
+		logoBl.y -= 115;
 		// logoBl.color = FlxColor.BLACK;
 
 		dimgateFlash = new FlxSprite(titleJSON.titlex, titleJSON.titley);
@@ -721,8 +723,8 @@ class TitleState extends MusicBeatState
 					ngSpr.visible = true;
 				// credTextShit.text += '\nNewgrounds';
 				case 9:
-					deleteCoolText();
 					ngSpr.visible = false;
+					deleteCoolText();
 				// credTextShit.visible = false;
 
 				// credTextShit.text = 'Shoutouts Tom Fulp';

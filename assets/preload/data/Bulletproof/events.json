@@ -5,24 +5,9 @@
 				86727.2727272726,
 				[
 					[
-						"Change Character",
-						"BF",
-						"tankman3"
-					],
-					[
 						"Play Animation",
-						"dialogue",
+						"Dialogue",
 						"BF"
-					]
-				]
-			],
-			[
-				95863.6363636362,
-				[
-					[
-						"Change Character",
-						"BF",
-						"tankman-player"
 					]
 				]
 			]

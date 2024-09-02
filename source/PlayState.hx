@@ -933,6 +933,14 @@ class PlayState extends MusicBeatState
 				add(aceBG);
 			}		
 			
+			case 'AcesHouseFP':
+			{				
+				aceBG = new FlxSprite(-1000,-2000).loadGraphic(Paths.image('v2','Duel1'));
+				aceBG.x = 0;
+				aceBG.y = 0;
+				add(aceBG);
+			}		
+			
 			case 'Cliff':
 			{				
 				var cliff = Paths.getSparrowAtlas('CliffBG','shared');
@@ -1495,13 +1503,13 @@ class PlayState extends MusicBeatState
 				
 				case 'Long-Wired-Brawl':
 					startVideo("aceWeek");
-					startDialogue(dialogueJson);
+					startDialogue(dialogueJson, "offsetSong");
 
 				case 'Righteous Waterstream' | 'Righteous-Waterstream' | 'Grand Finale' | 'Grand-Finale':
-					startDialogue(dialogueJson);
+					startDialogue(dialogueJson, "offsetSong");
 				
 				case 'Scythe':
-					startDialogue(dialogueJson);
+					startDialogue(dialogueJson, "offsetSong");
 
 				default:
 					startCountdown();
@@ -1821,7 +1829,8 @@ class PlayState extends MusicBeatState
 			inCutscene = true;
 			precacheList.set('dialogue', 'sound');
 			precacheList.set('dialogueClose', 'sound');
-			psychDialogue = new DialogueBoxPsych(dialogueFile, song);
+//			psychDialogue = new DialogueBoxPsych(dialogueFile, song);
+			psychDialogue = new DialogueBoxPsych(dialogueFile, "offsetSong");
 			psychDialogue.scrollFactor.set();
 			if(endingSong) {
 				psychDialogue.finishThing = function() {

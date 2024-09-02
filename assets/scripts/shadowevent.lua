@@ -10,10 +10,10 @@ local shadowgfanimation = false;
 local oldshadowgfanimation = false;
 
 function opponentNoteHit(id, direction, noteType, isSustainNote)
-		if dadName == "Ace" then
+		if dadName == "Ace" or dadName == "AceFP" then
 		createShadow()
 		end
-		if oldshadowdadnote == true and dadName == "Ace" then
+		if oldshadowdadnote == true and (dadName == "Ace" or dadName == "AceFP") then
 		createShadowOldDad()
 		end
 end

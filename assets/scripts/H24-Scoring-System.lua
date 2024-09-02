@@ -46,8 +46,8 @@ local deactivateSystemZoom = false; --deactivates it even if the scoreZoom setti
 
 --Custom Texts--
 local textSetting = 'custom' --base, custom, or both. changes what text to use. both is randomized each note hit
-local customRateText = {'CRITICAL!', 'HIT!', 'SKIMMED', 'DODGED...'} --Custom Text Here
-local allText = {'SICK!', 'NICE!', 'BAD', 'SHIT', 'CRITICAL!', 'HIT!', 'SKIMMED', 'DODGED...'} --Custom is the last 4
+local customRateText = {'CRITICAL!', 'HIT!', 'GRAZED', 'DODGED...'} --Custom Text Here
+local allText = {'SICK!', 'NICE!', 'BAD', 'SHIT', 'CRITICAL!', 'HIT!', 'GRAZED', 'DODGED...'} --Custom is the last 4
 local perfects = {'PERFECT!', 'CRITCAL!'} --OS Engine (1 is normal, 2 is custom)
 local customTextChance = 100; --The chance of the custom text appearing when textSetting is both
 

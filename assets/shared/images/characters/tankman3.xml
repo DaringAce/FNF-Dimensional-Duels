@@ -12,54 +12,54 @@
 	<SubTexture name="Tankman DOWN note0007" x="579" y="0" width="579" height="472"/>
 	<SubTexture name="Tankman DOWN note0008" x="579" y="0" width="579" height="472"/>
 	<SubTexture name="Tankman DOWN note0009" x="579" y="0" width="579" height="472"/>
-	<SubTexture name="Tankman Idle Dance0000" x="1158" y="0" width="437" height="572"/>
-	<SubTexture name="Tankman Idle Dance0001" x="1158" y="0" width="437" height="572"/>
-	<SubTexture name="Tankman Idle Dance0002" x="1595" y="0" width="437" height="572"/>
-	<SubTexture name="Tankman Idle Dance0003" x="1595" y="0" width="437" height="572"/>
-	<SubTexture name="Tankman Idle Dance0004" x="2032" y="0" width="437" height="572"/>
-	<SubTexture name="Tankman Idle Dance0005" x="2032" y="0" width="437" height="572"/>
-	<SubTexture name="Tankman Idle Dance0006" x="2469" y="0" width="437" height="572"/>
-	<SubTexture name="Tankman Idle Dance0007" x="2906" y="0" width="437" height="572"/>
-	<SubTexture name="Tankman Idle Dance0008" x="2906" y="0" width="437" height="572"/>
-	<SubTexture name="Tankman Idle Dance0009" x="2906" y="0" width="437" height="572"/>
-	<SubTexture name="Tankman Idle Dance0010" x="2906" y="0" width="437" height="572"/>
-	<SubTexture name="Tankman Idle Dance0011" x="2906" y="0" width="437" height="572"/>
-	<SubTexture name="Tankman Idle Dance0012" x="2906" y="0" width="437" height="572"/>
-	<SubTexture name="Tankman Idle Dance0013" x="2906" y="0" width="437" height="572"/>
-	<SubTexture name="Tankman Note Left0000" x="3343" y="0" width="500" height="542"/>
-	<SubTexture name="Tankman Note Left0001" x="3343" y="0" width="500" height="542"/>
-	<SubTexture name="Tankman Note Left0002" x="3843" y="0" width="500" height="542"/>
-	<SubTexture name="Tankman Note Left0003" x="3843" y="0" width="500" height="542"/>
-	<SubTexture name="Tankman Note Left0004" x="3843" y="0" width="500" height="542"/>
-	<SubTexture name="Tankman Note Left0005" x="3843" y="0" width="500" height="542"/>
-	<SubTexture name="Tankman Note Left0006" x="3843" y="0" width="500" height="542"/>
-	<SubTexture name="Tankman Note Left0007" x="3843" y="0" width="500" height="542"/>
-	<SubTexture name="Tankman Right Note0000" x="4343" y="0" width="493" height="561"/>
-	<SubTexture name="Tankman Right Note0001" x="4343" y="0" width="493" height="561"/>
-	<SubTexture name="Tankman Right Note0002" x="4836" y="0" width="493" height="561"/>
-	<SubTexture name="Tankman Right Note0003" x="4836" y="0" width="493" height="561"/>
-	<SubTexture name="Tankman Right Note0004" x="4836" y="0" width="493" height="561"/>
-	<SubTexture name="Tankman Right Note0005" x="4836" y="0" width="493" height="561"/>
-	<SubTexture name="Tankman Right Note0006" x="4836" y="0" width="493" height="561"/>
-	<SubTexture name="Tankman Right Note0007" x="4836" y="0" width="493" height="561"/>
-	<SubTexture name="Tankman Right Note0008" x="4836" y="0" width="493" height="561"/>
-	<SubTexture name="Tankman Right Note0009" x="4836" y="0" width="493" height="561"/>
-	<SubTexture name="Tankman UP note0000" x="5329" y="0" width="505" height="620"/>
-	<SubTexture name="Tankman UP note0001" x="5329" y="0" width="505" height="620"/>
-	<SubTexture name="Tankman UP note0002" x="5834" y="0" width="505" height="620"/>
-	<SubTexture name="Tankman UP note0003" x="5834" y="0" width="505" height="620"/>
-	<SubTexture name="Tankman UP note0004" x="5834" y="0" width="505" height="620"/>
-	<SubTexture name="Tankman UP note0005" x="5834" y="0" width="505" height="620"/>
-	<SubTexture name="Tankman UP note0006" x="5834" y="0" width="505" height="620"/>
-	<SubTexture name="Tankman UP note0007" x="5834" y="0" width="505" height="620"/>
-	<SubTexture name="Tankman UP note0008" x="5834" y="0" width="505" height="620"/>
-	<SubTexture name="Tankman UP note0009" x="5834" y="0" width="505" height="620"/>
-	<SubTexture name="tankmanDialogue0000" x="6339" y="0" width="583" height="667"/>
-	<SubTexture name="tankmanDialogue0001" x="6339" y="0" width="583" height="667"/>
-	<SubTexture name="tankmanDialogue0002" x="6922" y="0" width="583" height="667"/>
-	<SubTexture name="tankmanDialogue0003" x="6922" y="0" width="583" height="667"/>
-	<SubTexture name="tankmanDialogue0004" x="7505" y="0" width="583" height="667"/>
-	<SubTexture name="tankmanDialogue0005" x="7505" y="0" width="583" height="667"/>
+	<SubTexture name="Tankman Idle Dance0000" x="1158" y="0" width="428" height="572"/>
+	<SubTexture name="Tankman Idle Dance0001" x="1158" y="0" width="428" height="572"/>
+	<SubTexture name="Tankman Idle Dance0002" x="1586" y="0" width="428" height="572"/>
+	<SubTexture name="Tankman Idle Dance0003" x="1586" y="0" width="428" height="572"/>
+	<SubTexture name="Tankman Idle Dance0004" x="2014" y="0" width="428" height="572"/>
+	<SubTexture name="Tankman Idle Dance0005" x="2014" y="0" width="428" height="572"/>
+	<SubTexture name="Tankman Idle Dance0006" x="2442" y="0" width="428" height="572"/>
+	<SubTexture name="Tankman Idle Dance0007" x="2870" y="0" width="428" height="572"/>
+	<SubTexture name="Tankman Idle Dance0008" x="2870" y="0" width="428" height="572"/>
+	<SubTexture name="Tankman Idle Dance0009" x="2870" y="0" width="428" height="572"/>
+	<SubTexture name="Tankman Idle Dance0010" x="2870" y="0" width="428" height="572"/>
+	<SubTexture name="Tankman Idle Dance0011" x="2870" y="0" width="428" height="572"/>
+	<SubTexture name="Tankman Idle Dance0012" x="2870" y="0" width="428" height="572"/>
+	<SubTexture name="Tankman Idle Dance0013" x="2870" y="0" width="428" height="572"/>
+	<SubTexture name="Tankman Note Left0000" x="3298" y="0" width="500" height="542"/>
+	<SubTexture name="Tankman Note Left0001" x="3298" y="0" width="500" height="542"/>
+	<SubTexture name="Tankman Note Left0002" x="3798" y="0" width="500" height="542"/>
+	<SubTexture name="Tankman Note Left0003" x="3798" y="0" width="500" height="542"/>
+	<SubTexture name="Tankman Note Left0004" x="3798" y="0" width="500" height="542"/>
+	<SubTexture name="Tankman Note Left0005" x="3798" y="0" width="500" height="542"/>
+	<SubTexture name="Tankman Note Left0006" x="3798" y="0" width="500" height="542"/>
+	<SubTexture name="Tankman Note Left0007" x="3798" y="0" width="500" height="542"/>
+	<SubTexture name="Tankman Right Note0000" x="4298" y="0" width="493" height="561"/>
+	<SubTexture name="Tankman Right Note0001" x="4298" y="0" width="493" height="561"/>
+	<SubTexture name="Tankman Right Note0002" x="4791" y="0" width="493" height="561"/>
+	<SubTexture name="Tankman Right Note0003" x="4791" y="0" width="493" height="561"/>
+	<SubTexture name="Tankman Right Note0004" x="4791" y="0" width="493" height="561"/>
+	<SubTexture name="Tankman Right Note0005" x="4791" y="0" width="493" height="561"/>
+	<SubTexture name="Tankman Right Note0006" x="4791" y="0" width="493" height="561"/>
+	<SubTexture name="Tankman Right Note0007" x="4791" y="0" width="493" height="561"/>
+	<SubTexture name="Tankman Right Note0008" x="4791" y="0" width="493" height="561"/>
+	<SubTexture name="Tankman Right Note0009" x="4791" y="0" width="493" height="561"/>
+	<SubTexture name="Tankman UP note0000" x="5284" y="0" width="505" height="620"/>
+	<SubTexture name="Tankman UP note0001" x="5284" y="0" width="505" height="620"/>
+	<SubTexture name="Tankman UP note0002" x="5789" y="0" width="505" height="620"/>
+	<SubTexture name="Tankman UP note0003" x="5789" y="0" width="505" height="620"/>
+	<SubTexture name="Tankman UP note0004" x="5789" y="0" width="505" height="620"/>
+	<SubTexture name="Tankman UP note0005" x="5789" y="0" width="505" height="620"/>
+	<SubTexture name="Tankman UP note0006" x="5789" y="0" width="505" height="620"/>
+	<SubTexture name="Tankman UP note0007" x="5789" y="0" width="505" height="620"/>
+	<SubTexture name="Tankman UP note0008" x="5789" y="0" width="505" height="620"/>
+	<SubTexture name="Tankman UP note0009" x="5789" y="0" width="505" height="620"/>
+	<SubTexture name="tankmanDialogue0000" x="6294" y="0" width="583" height="667"/>
+	<SubTexture name="tankmanDialogue0001" x="6294" y="0" width="583" height="667"/>
+	<SubTexture name="tankmanDialogue0002" x="6877" y="0" width="583" height="667"/>
+	<SubTexture name="tankmanDialogue0003" x="6877" y="0" width="583" height="667"/>
+	<SubTexture name="tankmanDialogue0004" x="7460" y="0" width="583" height="667"/>
+	<SubTexture name="tankmanDialogue0005" x="7460" y="0" width="583" height="667"/>
 	<SubTexture name="tankmanDialogue0006" x="0" y="667" width="583" height="667"/>
 	<SubTexture name="tankmanDialogue0007" x="0" y="667" width="583" height="667"/>
 	<SubTexture name="tankmanDialogue0008" x="583" y="667" width="583" height="667"/>

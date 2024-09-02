@@ -165,23 +165,13 @@ end
 --    doTweenAlpha("returnFlash", "flasher", 0, 0.5/playbackRate, "linear")
 --end
 function onEvent(eventName, value1, value2)
-    if eventName == 'Lights out' then
-        shit = false
-        setProperty('healthbackground.visible',false)
-        setProperty('box.visible',false)
-        setProperty('healthbarOver.visible',false)
-        setProperty('healthbarUnder.visible',false)
+    if eventName == 'Change Character' and value2 == 'AceFP' then
+        hide()
     end
-
-    if eventName == 'Lights on' then
-        shit = true
-        setProperty('healthbackground.visible',true)
-        setProperty('box.visible',true)
-        setProperty('healthbarOver.visible',true)
-        setProperty('healthbarUnder.visible',true)
+    if eventName == 'Change Character' and value2 == 'Ace' then
+        show()
     end
 end
-
 
 
 
@@ -231,4 +221,24 @@ function bfColor()
 end
 function rgbToHex(rgb) -- https://www.codegrepper.com/code-examples/lua/rgb+to+hex+lua
     return string.format('%02x%02x%02x', math.floor(rgb[1]), math.floor(rgb[2]), math.floor(rgb[3]))
+end
+function hide()
+    shit = false
+    setProperty('healthbackground.visible',false)
+    setProperty('box.visible',false)
+    setProperty('iconP1.visible',false)
+    setProperty('iconP2.visible',false)
+    setProperty('healthBar.visible',false)
+    setProperty('healthbarOver.visible',false)
+    setProperty('healthbarUnder.visible',false)
+end
+function show()
+    shit = true
+    setProperty('healthbackground.visible',true)
+    setProperty('box.visible',true)
+    setProperty('iconP1.visible',true)
+    setProperty('iconP2.visible',true)
+    setProperty('healthBar.visible',true)
+    setProperty('healthbarOver.visible',true)
+    setProperty('healthbarUnder.visible',true)
 end

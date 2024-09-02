@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="backTrees.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BackTrees0000" x="0" y="0" width="2878" height="1500" frameX="-72" frameY="0" frameWidth="3009" frameHeight="1500"/>
+	<SubTexture name="BackTrees0001" x="0" y="0" width="2878" height="1500" frameX="-72" frameY="0" frameWidth="3009" frameHeight="1500"/>
+	<SubTexture name="BackTrees0002" x="2888" y="0" width="2896" height="1500" frameX="-62" frameY="0" frameWidth="3009" frameHeight="1500"/>
+	<SubTexture name="BackTrees0003" x="2888" y="0" width="2896" height="1500" frameX="-62" frameY="0" frameWidth="3009" frameHeight="1500"/>
+	<SubTexture name="BackTrees0004" x="0" y="1510" width="2929" height="1500" frameX="-44" frameY="0" frameWidth="3009" frameHeight="1500"/>
+	<SubTexture name="BackTrees0005" x="0" y="1510" width="2929" height="1500" frameX="-44" frameY="0" frameWidth="3009" frameHeight="1500"/>
+	<SubTexture name="BackTrees0006" x="2939" y="1510" width="2961" height="1500" frameX="-26" frameY="0" frameWidth="3009" frameHeight="1500"/>
+	<SubTexture name="BackTrees0007" x="2939" y="1510" width="2961" height="1500" frameX="-26" frameY="0" frameWidth="3009" frameHeight="1500"/>
+	<SubTexture name="BackTrees0008" x="0" y="3020" width="2987" height="1500" frameX="-12" frameY="0" frameWidth="3009" frameHeight="1500"/>
+	<SubTexture name="BackTrees0009" x="0" y="3020" width="2987" height="1500" frameX="-12" frameY="0" frameWidth="3009" frameHeight="1500"/>
+	<SubTexture name="BackTrees0010" x="2997" y="3020" width="3009" height="1500"/>
+	<SubTexture name="BackTrees0011" x="2997" y="3020" width="3009" height="1500"/>
+	<SubTexture name="BackTrees0012" x="0" y="3020" width="2987" height="1500" frameX="-12" frameY="0" frameWidth="3009" frameHeight="1500"/>
+	<SubTexture name="BackTrees0013" x="0" y="3020" width="2987" height="1500" frameX="-12" frameY="0" frameWidth="3009" frameHeight="1500"/>
+	<SubTexture name="BackTrees0014" x="0" y="4530" width="2927" height="1500" frameX="-45" frameY="0" frameWidth="3009" frameHeight="1500"/>
+	<SubTexture name="BackTrees0015" x="0" y="4530" width="2927" height="1500" frameX="-45" frameY="0" frameWidth="3009" frameHeight="1500"/>
+</TextureAtlas>

@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-710,
+				115
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "LEFT POSE",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-865,
+				-170
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "DOWN POSE",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-540,
+				-135
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "UP POSE",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-600,
+				-52
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "RIGHT POSE",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-540,
+				-179
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "IDLE DANCE"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-330,
+				15
+			],
+			"anim": "ATTACK",
+			"fps": 24,
+			"name": "ATTACK",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ace_front_assets",
+	"position": [
+		-300,
+		200
+	],
+	"healthicon": "Ace",
+	"flip_x": false,
+	"healthbar_colors": [
+		244,
+		201,
+		21
+	],
+	"camera_position": [
+		0,
+		-50
+	],
+	"sing_duration": 6.1,
+	"scale": 1.4
+}

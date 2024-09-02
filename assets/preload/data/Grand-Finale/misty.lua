@@ -7,11 +7,15 @@ function onCreate()
 end
 
 onEvent = function(n,v1,v2)
-  if n == 'Lights out' then
-    doTweenAlpha('fard', 'misty', 0.825, 0.75, 'ease')
+  if n == 'Change Character' and v2 == 'AceFP' then
+    for i = 0, getProperty('opponentStrums.length') - 1 do
+      setProperty('opponentStrums.members[' .. i .. '].x', -1000)
+    end
+
+    doTweenAlpha('fard', 'misty', 0.675, 0.75, 'ease')
     playAnim("misty", "idle", true, false, 0)
   end
-  if n == 'Lights on' then
+  if n == 'Change Character' and v2 == 'Ace' then
     doTweenAlpha('fard', 'misty', 0, 0.75, 'ease')
   end
 end

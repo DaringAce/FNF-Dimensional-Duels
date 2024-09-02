@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="animatedTreeFront.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="animatedTreeFront0000" x="0" y="0" width="1266" height="927" frameX="-60" frameY="-9" frameWidth="1326" frameHeight="936"/>
+	<SubTexture name="animatedTreeFront0001" x="0" y="0" width="1266" height="927" frameX="-60" frameY="-9" frameWidth="1326" frameHeight="936"/>
+	<SubTexture name="animatedTreeFront0002" x="1276" y="0" width="1276" height="928" frameX="-49" frameY="-8" frameWidth="1326" frameHeight="936"/>
+	<SubTexture name="animatedTreeFront0003" x="1276" y="0" width="1276" height="928" frameX="-49" frameY="-8" frameWidth="1326" frameHeight="936"/>
+	<SubTexture name="animatedTreeFront0004" x="2562" y="0" width="1277" height="928" frameX="-46" frameY="-8" frameWidth="1326" frameHeight="936"/>
+	<SubTexture name="animatedTreeFront0005" x="2562" y="0" width="1277" height="928" frameX="-46" frameY="-8" frameWidth="1326" frameHeight="936"/>
+	<SubTexture name="animatedTreeFront0006" x="0" y="938" width="1282" height="928" frameX="-38" frameY="-8" frameWidth="1326" frameHeight="936"/>
+	<SubTexture name="animatedTreeFront0007" x="0" y="938" width="1282" height="928" frameX="-38" frameY="-8" frameWidth="1326" frameHeight="936"/>
+	<SubTexture name="animatedTreeFront0008" x="1292" y="938" width="1301" height="932" frameX="-7" frameY="-4" frameWidth="1326" frameHeight="936"/>
+	<SubTexture name="animatedTreeFront0009" x="1292" y="938" width="1301" height="932" frameX="-7" frameY="-4" frameWidth="1326" frameHeight="936"/>
+	<SubTexture name="animatedTreeFront0010" x="2603" y="938" width="1304" height="936" frameX="0" frameY="0" frameWidth="1326" frameHeight="936"/>
+	<SubTexture name="animatedTreeFront0011" x="2603" y="938" width="1304" height="936" frameX="0" frameY="0" frameWidth="1326" frameHeight="936"/>
+	<SubTexture name="animatedTreeFront0012" x="1292" y="938" width="1301" height="932" frameX="-7" frameY="-4" frameWidth="1326" frameHeight="936"/>
+	<SubTexture name="animatedTreeFront0013" x="1292" y="938" width="1301" height="932" frameX="-7" frameY="-4" frameWidth="1326" frameHeight="936"/>
+	<SubTexture name="animatedTreeFront0014" x="0" y="938" width="1282" height="928" frameX="-38" frameY="-8" frameWidth="1326" frameHeight="936"/>
+	<SubTexture name="animatedTreeFront0015" x="0" y="938" width="1282" height="928" frameX="-38" frameY="-8" frameWidth="1326" frameHeight="936"/>
+</TextureAtlas>

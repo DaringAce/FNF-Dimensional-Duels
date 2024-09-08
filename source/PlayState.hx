@@ -935,9 +935,7 @@ class PlayState extends MusicBeatState
 			
 			case 'AcesHouseFP':
 			{				
-				aceBG = new FlxSprite(-1000,-2000).loadGraphic(Paths.image('v2','Duel1'));
-				aceBG.x = 0;
-				aceBG.y = 0;
+				aceBG = new FlxSprite(-900,-300).loadGraphic(Paths.image('v2','Duel1'));
 				add(aceBG);
 			}		
 			
@@ -2787,12 +2785,21 @@ class PlayState extends MusicBeatState
 						charType = 1;
 					default:
 						charType = Std.parseInt(event.value1);
+						if(event.value2.toLowerCase() == 'acefp')
+						{
+							iconP1.visible = false;
+							iconP2.visible = false;
+						}
+						if(event.value2.toLowerCase() == 'ace' && Paths.formatToSongPath(SONG.song) == 'Grand-Finale')
+						{
+							iconP1.visible = true;
+							iconP2.visible = true;
+						}
 						if(Math.isNaN(charType)) charType = 0;
 				}
 
 				var newCharacter:String = event.value2;
 				addCharacterToList(newCharacter, charType);
-
 			case 'Dadbattle Spotlight':
 				dadbattleBlack = new BGSprite(null, -800, -400, 0, 0);
 				dadbattleBlack.makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);

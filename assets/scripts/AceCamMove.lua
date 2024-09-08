@@ -24,7 +24,7 @@ function opponentNoteHit(aa, data)
 end
 
 function goodNoteHit(aa, data)
-	if boyfriendName == 'bf-Ace'or boyfriendName == 'bf-AceNORMAL' and enabled then
+	if boyfriendName == 'bf-Ace'or boyfriendName == 'bf-AceNORMAL' or boyfriendName == 'nobody' and enabled then
 		if mustHitSection then
 			camOffset = m[data+1];
 		end

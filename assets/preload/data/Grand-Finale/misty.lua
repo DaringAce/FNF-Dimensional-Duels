@@ -14,9 +14,15 @@ onEvent = function(n,v1,v2)
 
     doTweenAlpha('fard', 'misty', 0.675, 0.75, 'ease')
     playAnim("misty", "idle", true, false, 0)
+    setProperty("iconP1.visible", false)
+    setProperty("iconP2.visible", false)
+    setProperty("isCameraOnForcedPos", true)
   end
   if n == 'Change Character' and v2 == 'Ace' then
     doTweenAlpha('fard', 'misty', 0, 0.75, 'ease')
+    setProperty("iconP1.visible", true)
+    setProperty("iconP2.visible", true)
+    setProperty("isCameraOnForcedPos", false)
   end
 end
 

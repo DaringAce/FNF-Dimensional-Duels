@@ -190,8 +190,8 @@
 	"no_antialiasing": false,
 	"image": "characters/literallyNobody",
 	"position": [
-		-200,
-		200
+		-280,
+		-70
 	],
 	"healthicon": "gf",
 	"flip_x": false,
@@ -201,8 +201,8 @@
 		77
 	],
 	"camera_position": [
-		0,
-		0
+		20,
+		330
 	],
 	"sing_duration": 4,
 	"scale": 1

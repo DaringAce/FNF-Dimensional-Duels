@@ -85,7 +85,7 @@ class CreditsState extends MusicBeatState
 			//	<-------------------DIMENSIONAL DUELS------------------->
 
 			['Main Dev Team'],
-			['Daring Ace',		'150a',				'Director\nThe lore himself\nComposer\nAnd more',								'https://www.youtube.com/channel/UC2bhBg8pgJCXoLtPXTKh5bA',		'f4c915'], //Ace's gold color
+			['Daring Ace',		'150a',				'Director\nThe lore himself\nComposer\nAnd more',								'https://www.youtube.com/channel/UC2bhBg8pgJCXoLtPXTKh5bA',		'9edf62'], //Ace's green color
 			['Ivaldi',		'Ivaldi',				'Co-Director\nCoder\nCompiler\nArtist\nAnd more',								'https://www.roblox.com/users/147080606/profile',		'000000'], //Ivaldi's black color
 			['Z11Gaming',			'150z',				'Psych Port Helper and Composer',								'https://www.youtube.com/@Z11Music/videos',				'8556b1'], //Z's purple color
 			['BigNinjaKai',			'150k',				'Charter and Supporter',									'https://twitter.com/bigninjakai',					'ab5cd2'], //Kai's purple color
@@ -107,13 +107,14 @@ class CreditsState extends MusicBeatState
 			['GelePanda',			'GelePanda',				'Commissioned Composer',								'https://www.youtube.com/@GelePanda',					'500286'],		//Gele's purple color
 			[''],
 
-			['Used Scripts'],
+			['Used Assets'],
 			['spectradev',			'unknown',				'Healthbar Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
 			['omotashi and others',	'unknown',				'Song Credits Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
 			['Gostar64 and others',	'unknown',				'Scoring System Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
 			['CJRed#6258 and Kaite#1102',	'unknown',				'Trail Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
 			['Held',	'unknown',				'Duet Cam Event Creator',										'',						'C6C6C6'], 	//unknown icon grey color
 			['borists and ItzJiggzy',	'unknown',				'Countdown Event Creator',										'',						'C6C6C6'], 	//unknown icon grey color
+			['FNF WEEKLY',	'weekly',				'FPS Counter Creator',										'https://gamebanana.com/mods/522709',						'de5e54'], 	//FNF WEEKLY red icon grey color
 			[''],
 
 			['Special Thanks'],

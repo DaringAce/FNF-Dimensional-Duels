@@ -1,76 +1,76 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				-710,
-				115
-			],
 			"loop": false,
+			"offsets": [
+				-720,
+				135
+			],
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "LEFT POSE",
-			"indices": []
+			"indices": [],
+			"name": "LEFT POSE"
 		},
 		{
-			"offsets": [
-				-865,
-				-170
-			],
 			"loop": false,
-			"anim": "singDOWN",
+			"offsets": [
+				-870,
+				-160
+			],
 			"fps": 24,
-			"name": "DOWN POSE",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "DOWN POSE"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-540,
 				-135
 			],
-			"loop": false,
-			"anim": "singUP",
 			"fps": 24,
-			"name": "UP POSE",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "UP POSE"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-600,
 				-52
 			],
-			"loop": false,
-			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "RIGHT POSE",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "RIGHT POSE"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-540,
 				-179
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "IDLE DANCE"
+			"fps": 24,
+			"name": "IDLE DANCE",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-330,
-				15
+				-320,
+				45
 			],
-			"anim": "ATTACK",
+			"loop": false,
 			"fps": 24,
-			"name": "ATTACK",
-			"indices": []
+			"anim": "ATTACK",
+			"indices": [],
+			"name": "ATTACK"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/ace_front_assets",
 	"position": [
-		-300,
+		-230,
 		200
 	],
 	"healthicon": "Ace",
@@ -82,8 +82,8 @@
 	],
 	"camera_position": [
 		0,
-		-50
+		-150
 	],
 	"sing_duration": 6.1,
-	"scale": 1.4
+	"scale": 1.5
 }

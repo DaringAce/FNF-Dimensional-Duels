@@ -2,11 +2,11 @@
 	"song": {
 		"events": [
 			[
-				86727.2727272726,
+				86590.909090909,
 				[
 					[
 						"Play Animation",
-						"Dialogue",
+						"dialogue",
 						"BF"
 					]
 				]

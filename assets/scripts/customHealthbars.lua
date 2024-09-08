@@ -15,6 +15,7 @@ local BarData = {
     }
 }
 function onCreate() --change values inside of here if youve changed the base healthbar
+    luaDebugMode = true
     iconX1 = 0 --player 1 icon x offset
     iconY1 = 0 --player 1 icon y offset
     iconX2 = 0 --player 2 icon x offset
@@ -105,19 +106,27 @@ function onCreatePost()
 end
 local timeFunny = 10
 function onUpdatePost(elapsed)
-
-    setProperty("iconP2.y", getProperty('healthbarOver.y')+(getProperty("iconP2.height")/10)-getMid(originalP2height)+iconY2-30)
-    setProperty("iconP1.y", getProperty('healthbarOver.y')+(getProperty("iconP1.height")/10)-getMid(originalP1height)+iconY1-30)
+    if shit then
+        setProperty("iconP2.y", getProperty('healthbarOver.y')+(getProperty("iconP2.height")/10)-getMid(originalP2height)+iconY2-30)
+        setProperty("iconP1.y", getProperty('healthbarOver.y')+(getProperty("iconP1.height")/10)-getMid(originalP1height)+iconY1-30)
+    else
+        setProperty("iconP2.y", getProperty('healthbarOver.y')+(getProperty("iconP2.height")/10)-getMid(originalP2height)+iconY2-8000)
+        setProperty("iconP1.y", getProperty('healthbarOver.y')+(getProperty("iconP1.height")/10)-getMid(originalP1height)+iconY1-8000)
+    end
     if flipped then
         setProperty('flasher.color',getProperty("healthbarOver.color"))
         if getFrame('healthbarOver','width') > defaultWidth-2 then
             setProperty("healthbarUnder.alpha", 0)
             if shit then
                 setProperty("flasher.visible", true)
+                setProperty("iconP1.visible", false)
+                setProperty("iconP2.visible", false)
             end
         else
             setProperty("healthbarUnder.alpha", 1)
             setProperty("flasher.visible", false)
+            setProperty(getProperty("iconP1.visible"), false)
+            setProperty(getProperty("iconP2.visible"), false)
         end
         setProperty("iconP2.x", getProperty('healthbarOver.x')+getFrame('healthbarOver','width')+((getProperty("iconP2.width")/2)-100)+iconX2)
         setProperty("iconP1.x", getProperty('healthbarOver.x')+getFrame('healthbarOver','width')-((getProperty("iconP1.width")/2)+60)+iconX1)
@@ -226,9 +235,9 @@ function hide()
     shit = false
     setProperty('healthbackground.visible',false)
     setProperty('box.visible',false)
-    setProperty('iconP1.visible',false)
-    setProperty('iconP2.visible',false)
     setProperty('healthBar.visible',false)
+    setProperty('scpreTxt.visible',false)
+    setProperty('healthBar.x',-5000)
     setProperty('healthbarOver.visible',false)
     setProperty('healthbarUnder.visible',false)
 end
@@ -236,9 +245,8 @@ function show()
     shit = true
     setProperty('healthbackground.visible',true)
     setProperty('box.visible',true)
-    setProperty('iconP1.visible',true)
-    setProperty('iconP2.visible',true)
     setProperty('healthBar.visible',true)
+    setProperty('scpreTxt.visible',true)
     setProperty('healthbarOver.visible',true)
     setProperty('healthbarUnder.visible',true)
 end

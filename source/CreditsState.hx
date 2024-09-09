@@ -101,10 +101,11 @@ class CreditsState extends MusicBeatState
 			['spikey',			'spike',			'Commissioned Artist and Animator',								'https://twitter.com/FunkinTraveller',					'33f899'],	//spikey's green color				
 			['Deadwin151',			'Deadwin151',			'Commissioned Thumbnail Artist',								'https://twitter.com/@DeadwinO',					'8c8c8c'],	//Deadwins's grey color		
 			['Its_joaquin',			'jo',				'Commissioned Artist and Animator',								'https://twitter.com/Its_Joaquinxd',					'30364f'],	//Jo's blue color				
-			['Lapz',			'Laps',				'Commissioned Composer',								'https://www.youtube.com/@lap_z',					'eae386'],	//Lapz's yellow color				
+			['Lap^z',			'Laps',				'Commissioned Composer',								'https://www.youtube.com/@lap_z',					'eae386'],	//Lapz's yellow color				
 			['Ranfring',			'Ranfring',				'Commissioned Artist and Animator',								'https://twitter.com/Ranfringg',					'd39765'],	//Ranfring's tan color				
 			['TetraHunter',			'TetraHunter',				'Commissioned Charter',								'https://twitter.com/TetraHunter503D',					'883cc2'],		//Tetra's purple color
 			['GelePanda',			'GelePanda',				'Commissioned Composer',								'https://www.youtube.com/@GelePanda',					'500286'],		//Gele's purple color
+			['Drawpant',			'unknown',				'Commissioned Composer',								'',					'C6C6C6'],		//unknown icon grey color
 			[''],
 
 			['Used Assets'],

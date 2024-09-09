@@ -9031,6 +9031,36 @@
 				"mustHitSection": true
 			},
 			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 133,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 133
+			},
+			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 133,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
 				"sectionBeats": 4,
 				"sectionNotes": [],
 				"typeOfSection": 0,
@@ -9054,10 +9084,30 @@
 		"gfVersion": "LunaGF",
 		"events": [
 			[
+				21654.1353383459,
+				[
+					[
+						"Duet Cam",
+						"1",
+						"a"
+					]
+				]
+			],
+			[
 				43308.2706766917,
 				[
 					[
 						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				43308.2706766917,
+				[
+					[
+						"Duet Cam",
 						"",
 						""
 					]
@@ -9274,12 +9324,92 @@
 				]
 			],
 			[
+				99812.0300751881,
+				[
+					[
+						"Camera Follow Pos",
+						"300",
+						"0"
+					]
+				]
+			],
+			[
+				99849.6240601505,
+				[
+					[
+						"Play Animation",
+						"Oh No",
+						"GF"
+					]
+				]
+			],
+			[
+				99887.2180451129,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.4"
+					]
+				]
+			],
+			[
 				99924.8120300753,
 				[
 					[
 						"Play Animation",
 						"Are You Prepared",
 						"Dad"
+					]
+				]
+			],
+			[
+				100000,
+				[
+					[
+						"Play Animation",
+						"Oh No",
+						"GF"
+					]
+				]
+			],
+			[
+				100150.37593985,
+				[
+					[
+						"Play Animation",
+						"Oh No",
+						"GF"
+					]
+				]
+			],
+			[
+				100225.563909775,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.1"
+					]
+				]
+			],
+			[
+				100263.157894737,
+				[
+					[
+						"Camera Follow Pos",
+						"",
+						""
+					]
+				]
+			],
+			[
+				101052.631578948,
+				[
+					[
+						"Set_Subtitle",
+						"",
+						""
 					]
 				]
 			],
@@ -9352,11 +9482,21 @@
 						""
 					]
 				]
+			],
+			[
+				158796.992481203,
+				[
+					[
+						"Duet Cam",
+						"1",
+						"a"
+					]
+				]
 			]
 		],
 		"player3": null,
 		"song": "Righteous Waterstream",
-		"arrowSkin": "aceNoteAssets",
+		"arrowSkin": "",
 		"validScore": true,
 		"needsVoices": true,
 		"stage": "AcesHouseEvil",

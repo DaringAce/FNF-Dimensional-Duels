@@ -76,7 +76,7 @@ local songdata = {
     
     ['Bulletproof'] = {
         'Bulletproof',
-        'Ivaldi & Others (feat. Greg Chun)',
+        'Ivaldi & Drawpant (feat. Greg Chun)',
         '7',
         'JDST & Daring Ace',
         'TetraHunter & Ivaldi',
@@ -94,7 +94,7 @@ local songdata = {
     
     ['Autophobia'] = {
         'Autophobia',
-        'Qiro & Daring Ace (feat. Greg Chun)',
+        'Lap^z & Daring Ace (feat. Greg Chun)',
         '7',
         'JDST & Daring Ace',
         'Flain',

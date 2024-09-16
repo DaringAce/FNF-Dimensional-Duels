@@ -39,10 +39,11 @@ class MainMenuState extends MusicBeatState
 		'Story Mode',
 		'Freeplay',
 		'Mods',
+		'YouTube',
 //		// #if ACHIEVEMENTS_ALLOWED 'awards', #end
 		'Lore',
 		'Credits',
-		#if !switch 'Donate', #end
+		'Donate',
 		'Options'
 	];
 
@@ -255,6 +256,10 @@ class MainMenuState extends MusicBeatState
 				if (optionShit[curSelected] == 'Donate')
 				{
 					CoolUtil.browserLoad('https://www.patreon.com/DaringAce');
+				}else
+				if (optionShit[curSelected] == 'YouTube')
+				{
+					CoolUtil.browserLoad('https://www.youtube.com/@DaringAce');
 				}
 				else
 				{

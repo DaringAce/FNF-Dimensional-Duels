@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="menu_icons.png">
-	<!-- Created with Adobe Animate version 24.0.1.329 -->
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="Credits0000" x="0" y="0" width="249" height="125"/>
 	<SubTexture name="Donate0000" x="249" y="0" width="200" height="200"/>
@@ -9,4 +9,5 @@
 	<SubTexture name="Mods0000" x="0" y="200" width="200" height="200"/>
 	<SubTexture name="Options0000" x="200" y="200" width="200" height="200"/>
 	<SubTexture name="Story Mode0000" x="400" y="200" width="250" height="200"/>
+	<SubTexture name="YouTube0000" x="650" y="200" width="300" height="213"/>
 </TextureAtlas>

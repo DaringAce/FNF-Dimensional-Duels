@@ -2,12 +2,32 @@
 	"song": {
 		"events": [
 			[
-				86590.909090909,
+				86659.0909090908,
 				[
 					[
 						"Play Animation",
 						"dialogue",
 						"BF"
+					]
+				]
+			],
+			[
+				86727.2727272726,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.4"
+					]
+				]
+			],
+			[
+				95999.9999999999,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1"
 					]
 				]
 			]

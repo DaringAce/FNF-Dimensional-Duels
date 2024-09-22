@@ -3,8 +3,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-720,
-				135
+				-750,
+				195
 			],
 			"fps": 24,
 			"anim": "singLEFT",
@@ -14,8 +14,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-870,
-				-160
+				-940,
+				-170
 			],
 			"fps": 24,
 			"anim": "singDOWN",
@@ -26,7 +26,7 @@
 			"loop": false,
 			"offsets": [
 				-540,
-				-135
+				-115
 			],
 			"fps": 24,
 			"anim": "singUP",
@@ -36,8 +36,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-600,
-				-52
+				-613,
+				-22
 			],
 			"fps": 24,
 			"anim": "singRIGHT",
@@ -57,8 +57,8 @@
 		},
 		{
 			"offsets": [
-				-320,
-				45
+				-270,
+				75
 			],
 			"loop": false,
 			"fps": 24,
@@ -70,7 +70,7 @@
 	"no_antialiasing": false,
 	"image": "characters/ace_front_assets",
 	"position": [
-		-230,
+		-330,
 		200
 	],
 	"healthicon": "Ace",
@@ -81,9 +81,9 @@
 		21
 	],
 	"camera_position": [
-		0,
-		-150
+		-250,
+		-290
 	],
 	"sing_duration": 6.1,
-	"scale": 1.5
+	"scale": 1.8
 }

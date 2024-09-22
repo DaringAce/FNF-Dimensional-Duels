@@ -104,7 +104,8 @@ class ChartingState extends MusicBeatState
 		['Kabounce', "Value 1: Toggle (0 = off | 1 = on) -- EXAMPLE: (1, 1), Bars (Same as toggle)\nValue 2: Angle, Intensity, Bounce Y -- EXAMPLE: (0.5, 2, 7)"],
 		['Cover Camera', "Value 1: Time in seconds to fade in."],
 		['Duet Cam', "Value 1: Change zoom \n\nValue 2: Keep camera active / ignore toggle to change zoom\n[Ex: 0.8, a]"],
-		['Change The Stage', "Value 1: New Stages Name, Snap Changes\nValue 2: X offset, Y offset\n\nSnapping changes would be just, should the cam zoom change instantly. the default is 'false'."]
+		['Change The Stage', "Value 1: New Stages Name, Snap Changes\nValue 2: X offset, Y offset\n\nSnapping changes would be just, should the cam zoom change instantly. the default is 'false'."],
+		['lunaShit', ""]
 	];
 
 	var _file:FileReference;

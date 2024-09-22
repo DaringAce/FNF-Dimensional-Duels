@@ -215,6 +215,7 @@ class TitleState extends MusicBeatState
 		if(FlxG.save.data.flashing == null && !FlashingState.leftState) {
 			FlxTransitionableState.skipNextTransIn = true;
 			FlxTransitionableState.skipNextTransOut = true;
+			FlxTransitionableState.skipNextTransOut = true;
 			MusicBeatState.switchState(new FlashingState());
 		} else {
 			#if desktop
@@ -278,7 +279,8 @@ class TitleState extends MusicBeatState
 
 		Conductor.changeBPM(100);
 		persistentUpdate = true;
-		modLogo = new FlxSprite().loadGraphic(Paths.image('ModTHUMBNAIL'));
+//		modLogo = new FlxSprite().loadGraphic(Paths.image('ModTHUMBNAIL'));
+		modLogo = new FlxSprite().loadGraphic(Paths.image('titlemenu'));
 		modLogo.setGraphicSize(Std.int(modLogo.width * 0.7));
 		modLogo.screenCenter();
 
@@ -303,10 +305,11 @@ class TitleState extends MusicBeatState
 		logoBl.antialiasing = ClientPrefs.globalAntialiasing;
 		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24, false);
 		logoBl.animation.play('bump');
-		logoBl.setGraphicSize(Std.int(logoBl.width * 0.9));
+		logoBl.setGraphicSize(Std.int(logoBl.width * 0.785));
 		logoBl.screenCenter();
-		logoBl.x += 180;
-		logoBl.y -= 115;
+		logoBl.x -= 270;
+//		logoBl.x += 180;
+//		logoBl.y -= 115;
 		// logoBl.color = FlxColor.BLACK;
 
 		dimgateFlash = new FlxSprite(titleJSON.titlex, titleJSON.titley);

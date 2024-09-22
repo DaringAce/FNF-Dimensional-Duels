@@ -1,0 +1,34 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-480,
+				-15
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/LunaFP",
+	"position": [
+		-900,
+		-40
+	],
+	"healthicon": "luna",
+	"flip_x": false,
+	"healthbar_colors": [
+		78,
+		78,
+		78
+	],
+	"camera_position": [
+		400,
+		70
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				25
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "R idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				27
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "R note up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				-10
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "R note left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-21,
+				26
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "R note right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				44,
+				-70
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "R note down",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/R_Sprites",
+	"position": [
+		-50,
+		0
+	],
+	"healthicon": "r",
+	"flip_x": false,
+	"healthbar_colors": [
+		198,
+		54,
+		71
+	],
+	"camera_position": [
+		-240,
+		-330
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

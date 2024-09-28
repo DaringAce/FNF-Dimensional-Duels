@@ -106,15 +106,16 @@ class CreditsState extends MusicBeatState
 			['TetraHunter',			'TetraHunter',				'Commissioned Charter',								'https://twitter.com/TetraHunter503D',					'883cc2'],		//Tetra's purple color
 			['GelePanda',			'GelePanda',				'Commissioned Composer',								'https://www.youtube.com/@GelePanda',					'500286'],		//Gele's purple color
 			['Drawpant',			'unknown',				'Commissioned Composer',								'',					'C6C6C6'],		//unknown icon grey color
+			['Fende',			'unknown',				'Commissioned Artist and Animator',								'',					'C6C6C6'],		//unknown icon grey color
 			[''],
 
 			['Used Assets'],
 			['spectradev',			'unknown',				'Healthbar Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
-			['omotashi and others',	'unknown',				'Song Credits Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
-			['Gostar64 and others',	'unknown',				'Scoring System Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
-			['CJRed#6258 and Kaite#1102',	'unknown',				'Trail Script Creator',										'',						'C6C6C6'], 	//unknown icon grey color
+			['omotashi and others',	'unknown',				'Song Credits Script Creators',										'',						'C6C6C6'], 	//unknown icon grey color
+			['Gostar64 and others',	'unknown',				'Scoring System Script Creators',										'',						'C6C6C6'], 	//unknown icon grey color
+			['CJRed#6258 and Kaite#1102',	'unknown',				'Trail Script Creators',										'',						'C6C6C6'], 	//unknown icon grey color
 			['Held',	'unknown',				'Duet Cam Event Creator',										'',						'C6C6C6'], 	//unknown icon grey color
-			['borists and ItzJiggzy',	'unknown',				'Countdown Event Creator',										'',						'C6C6C6'], 	//unknown icon grey color
+			['borists and ItzJiggzy',	'unknown',				'Countdown Event Creators',										'',						'C6C6C6'], 	//unknown icon grey color
 			['FNF WEEKLY',	'weekly',				'FPS Counter Creator',										'https://gamebanana.com/mods/522709',						'de5e54'], 	//FNF WEEKLY red icon grey color
 			[''],
 

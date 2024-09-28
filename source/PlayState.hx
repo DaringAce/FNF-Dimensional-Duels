@@ -912,7 +912,7 @@ class PlayState extends MusicBeatState
 				aceBG = new FlxSprite(-245,-200);
 				aceBG.frames = house;
 				aceBG.animation.addByPrefix('idle', 'HouseNORMAL', 24, true);
-				aceBG.animation.play('idle', true);
+				aceBG.animation.play('idle');
 				aceBG.antialiasing = true;
 				aceBG.setGraphicSize(Std.int(2.25 * aceBG.width));
 				aceBG.updateHitbox();
@@ -926,7 +926,7 @@ class PlayState extends MusicBeatState
 				aceBG = new FlxSprite(-245,-200);
 				aceBG.frames = house;
 				aceBG.animation.addByPrefix('idle', 'HouseEVIL', 24, true);
-				aceBG.animation.play('idle', true);
+				aceBG.animation.play('idle');
 				aceBG.antialiasing = true;
 				aceBG.setGraphicSize(Std.int(2.25 * aceBG.width));
 				aceBG.updateHitbox();
@@ -4106,7 +4106,7 @@ class PlayState extends MusicBeatState
 			camFollow.x -= boyfriend.cameraPosition[0] - boyfriendCameraOffset[0];
 			camFollow.y += boyfriend.cameraPosition[1] + boyfriendCameraOffset[1];
 			
-			if ((Paths.formatToSongPath(SONG.song) == 'tutorial' || Paths.formatToSongPath(SONG.song) == 'tutorial-d-mix') && cameraTwn == null && FlxG.camera.zoom != 1)
+			if ((Paths.formatToSongPath(SONG.song) == 'tutorial' || Paths.formatToSongPath(SONG.song) == 'tutorial-d-mix' || Paths.formatToSongPath(SONG.song) == 'finality') && cameraTwn == null && FlxG.camera.zoom != 1)
 			{
 				cameraTwn = FlxTween.tween(FlxG.camera, {zoom: 1}, (Conductor.stepCrochet * 4 / 1000), {ease: FlxEase.elasticInOut, onComplete:
 					function (twn:FlxTween)

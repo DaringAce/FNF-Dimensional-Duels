@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				10,
 				25
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "R idle dance",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "R idle dance"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-25,
 				27
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "R note up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "R note up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				20,
 				-10
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "R note left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "R note left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-21,
 				26
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "R note right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "R note right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				44,
 				-70
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "R note down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "R note down"
 		}
 	],
 	"no_antialiasing": true,
@@ -70,8 +70,8 @@
 		71
 	],
 	"camera_position": [
-		-240,
-		-330
+		-80,
+		-90
 	],
 	"sing_duration": 4,
 	"scale": 1

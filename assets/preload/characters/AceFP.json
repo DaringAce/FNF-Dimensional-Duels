@@ -71,7 +71,7 @@
 	"image": "characters/ace_front_assets",
 	"position": [
 		-330,
-		200
+		140
 	],
 	"healthicon": "Ace",
 	"flip_x": false,
@@ -82,7 +82,7 @@
 	],
 	"camera_position": [
 		-250,
-		-290
+		-230
 	],
 	"sing_duration": 6.1,
 	"scale": 1.8

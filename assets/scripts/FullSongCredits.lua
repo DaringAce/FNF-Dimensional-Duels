@@ -91,6 +91,33 @@ local songdata = {
         'TetraHunter & Ivaldi',
         'Scamazon',
     },   
+
+    ['Scamazon'] = {
+        'Scamazon',
+        'Z11Gaming (feat. Greg Chun)',
+        '7',
+        'JDST & Daring Ace',
+        'TetraHunter & Ivaldi',
+        'Scamazon',
+    },   
+
+    ['finality'] = {
+        'finality',
+        'Daring Ace, Lap^z & R0cketta (feat. Greg Chun)',
+        '7',
+        '',
+        '',
+        'Finality',
+    },   
+
+    ['aoi'] = {
+        'aoi',
+        'Daring Ace, Lap^z & R0cketta (feat. Greg Chun)',
+        '7',
+        '',
+        '',
+        'Aoi',
+    },   
     
     ['Autophobia'] = {
         'Autophobia',

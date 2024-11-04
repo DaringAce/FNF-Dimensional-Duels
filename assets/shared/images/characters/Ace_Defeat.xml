@@ -1,57 +1,58 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="Ace_Defeat.png">
-	<!-- Created with Adobe Animate version 20.5.0.29329 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Ace DEFEAT0000" x="0" y="0" width="375" height="675" frameX="0" frameY="-15" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0001" x="375" y="0" width="374" height="676" frameX="-1" frameY="-14" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0002" x="749" y="0" width="373" height="677" frameX="-1" frameY="-13" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0003" x="1122" y="0" width="373" height="679" frameX="-1" frameY="-11" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0004" x="1495" y="0" width="371" height="679" frameX="-2" frameY="-11" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0005" x="1866" y="0" width="371" height="681" frameX="-2" frameY="-9" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0006" x="2237" y="0" width="370" height="682" frameX="-2" frameY="-8" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0007" x="2607" y="0" width="370" height="683" frameX="-2" frameY="-7" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0008" x="2977" y="0" width="368" height="685" frameX="-3" frameY="-5" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0009" x="3345" y="0" width="368" height="687" frameX="-3" frameY="-4" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0010" x="3713" y="0" width="367" height="689" frameX="-3" frameY="-2" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0011" x="0" y="689" width="382" height="691" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0012" x="382" y="689" width="383" height="691" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0013" x="765" y="689" width="385" height="691" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0014" x="1150" y="689" width="400" height="691" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0015" x="1150" y="689" width="400" height="691" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0016" x="1150" y="689" width="400" height="691" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0017" x="1550" y="689" width="429" height="691" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0018" x="1550" y="689" width="429" height="691" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0019" x="1979" y="689" width="495" height="697" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0020" x="2474" y="689" width="484" height="691" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0021" x="2958" y="689" width="475" height="691" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0022" x="3433" y="689" width="463" height="691" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0023" x="0" y="1386" width="450" height="691" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0024" x="450" y="1386" width="439" height="694" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0025" x="889" y="1386" width="439" height="694" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0026" x="1328" y="1386" width="439" height="694" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0027" x="1767" y="1386" width="439" height="694" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0028" x="2206" y="1386" width="439" height="694" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0029" x="2645" y="1386" width="439" height="694" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0030" x="3084" y="1386" width="439" height="694" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0031" x="3084" y="1386" width="439" height="694" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0032" x="3084" y="1386" width="439" height="694" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0033" x="3084" y="1386" width="439" height="694" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0034" x="3084" y="1386" width="439" height="694" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0035" x="3084" y="1386" width="439" height="694" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0036" x="3084" y="1386" width="439" height="694" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT0037" x="3084" y="1386" width="439" height="694" frameX="-4" frameY="0" frameWidth="499" frameHeight="697"/>
-	<SubTexture name="Ace DEFEAT LOOP0000" x="3523" y="1386" width="439" height="694"/>
-	<SubTexture name="Ace DEFEAT LOOP0001" x="3523" y="1386" width="439" height="694"/>
-	<SubTexture name="Ace DEFEAT LOOP0002" x="3523" y="1386" width="439" height="694"/>
-	<SubTexture name="Ace DEFEAT LOOP0003" x="3523" y="1386" width="439" height="694"/>
-	<SubTexture name="Ace RETRY0000" x="0" y="2080" width="691" height="672"/>
-	<SubTexture name="Ace RETRY0001" x="691" y="2080" width="680" height="671" frameX="-8" frameY="-1" frameWidth="691" frameHeight="672"/>
-	<SubTexture name="Ace RETRY0002" x="1371" y="2080" width="668" height="669" frameX="-16" frameY="-3" frameWidth="691" frameHeight="672"/>
-	<SubTexture name="Ace RETRY0003" x="2039" y="2080" width="657" height="667" frameX="-24" frameY="-5" frameWidth="691" frameHeight="672"/>
-	<SubTexture name="Ace RETRY0004" x="2696" y="2080" width="652" height="665" frameX="-25" frameY="-7" frameWidth="691" frameHeight="672"/>
-	<SubTexture name="Ace RETRY0005" x="3348" y="2080" width="652" height="663" frameX="-21" frameY="-9" frameWidth="691" frameHeight="672"/>
-	<SubTexture name="Ace RETRY0006" x="3348" y="2080" width="652" height="663" frameX="-21" frameY="-9" frameWidth="691" frameHeight="672"/>
-	<SubTexture name="Ace RETRY0007" x="3348" y="2080" width="652" height="663" frameX="-21" frameY="-9" frameWidth="691" frameHeight="672"/>
-	<SubTexture name="Ace RETRY0008" x="3348" y="2080" width="652" height="663" frameX="-21" frameY="-9" frameWidth="691" frameHeight="672"/>
-	<SubTexture name="Ace RETRY0009" x="3348" y="2080" width="652" height="663" frameX="-21" frameY="-9" frameWidth="691" frameHeight="672"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="Ace_Defeat.png" width="8129" height="1387">
+	<SubTexture name="Ace DEFEAT0000" x="4018" y="1" width="375" height="674" frameX="-0" frameY="-16" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0001" x="4396" y="1" width="374" height="676" frameX="-1" frameY="-14" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0002" x="4773" y="1" width="373" height="677" frameX="-1" frameY="-13" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0003" x="5149" y="1" width="373" height="679" frameX="-1" frameY="-11" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0004" x="5525" y="1" width="371" height="679" frameX="-2" frameY="-11" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0005" x="5899" y="1" width="371" height="681" frameX="-2" frameY="-9" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0006" x="6273" y="1" width="370" height="682" frameX="-2" frameY="-8" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0007" x="6646" y="1" width="370" height="683" frameX="-2" frameY="-7" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0008" x="7019" y="1" width="368" height="685" frameX="-3" frameY="-5" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0009" x="7390" y="1" width="368" height="686" frameX="-3" frameY="-4" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0010" x="7761" y="1" width="367" height="689" frameX="-3" frameY="-2" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0011" x="1" y="667" width="382" height="691" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0012" x="386" y="669" width="383" height="691" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0013" x="772" y="669" width="385" height="691" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0014" x="1160" y="671" width="400" height="691" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0015" x="1160" y="671" width="400" height="691" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0016" x="1160" y="671" width="400" height="691" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0017" x="1563" y="672" width="429" height="691" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0018" x="1563" y="672" width="429" height="691" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0019" x="6531" y="689" width="495" height="697" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0020" x="1995" y="672" width="484" height="691" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0021" x="2482" y="674" width="475" height="691" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0022" x="2960" y="676" width="463" height="691" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0023" x="3426" y="676" width="450" height="691" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0024" x="4321" y="680" width="439" height="694" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0025" x="4763" y="683" width="439" height="694" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0026" x="5205" y="683" width="439" height="694" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0027" x="5647" y="685" width="439" height="694" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0028" x="6089" y="686" width="439" height="694" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0029" x="4321" y="680" width="439" height="694" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0030" x="5205" y="683" width="439" height="694" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0031" x="5205" y="683" width="439" height="694" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0032" x="5205" y="683" width="439" height="694" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0033" x="5205" y="683" width="439" height="694" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0034" x="5205" y="683" width="439" height="694" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0035" x="5205" y="683" width="439" height="694" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0036" x="5205" y="683" width="439" height="694" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT0037" x="5205" y="683" width="439" height="694" frameX="-4" frameY="-0" frameWidth="499" frameHeight="697"/>
+	<SubTexture name="Ace DEFEAT LOOP0000" x="3879" y="678" width="439" height="694" frameX="-0" frameY="-0" frameWidth="439" frameHeight="694"/>
+	<SubTexture name="Ace DEFEAT LOOP0001" x="3879" y="678" width="439" height="694" frameX="-0" frameY="-0" frameWidth="439" frameHeight="694"/>
+	<SubTexture name="Ace DEFEAT LOOP0002" x="3879" y="678" width="439" height="694" frameX="-0" frameY="-0" frameWidth="439" frameHeight="694"/>
+	<SubTexture name="Ace DEFEAT LOOP0003" x="3879" y="678" width="439" height="694" frameX="-0" frameY="-0" frameWidth="439" frameHeight="694"/>
+	<SubTexture name="Ace RETRY0000" x="3324" y="1" width="691" height="672" frameX="-0" frameY="-0" frameWidth="691" frameHeight="672"/>
+	<SubTexture name="Ace RETRY0001" x="2641" y="1" width="680" height="670" frameX="-8" frameY="-2" frameWidth="691" frameHeight="672"/>
+	<SubTexture name="Ace RETRY0002" x="1970" y="1" width="668" height="668" frameX="-16" frameY="-4" frameWidth="691" frameHeight="672"/>
+	<SubTexture name="Ace RETRY0003" x="1310" y="1" width="657" height="667" frameX="-24" frameY="-5" frameWidth="691" frameHeight="672"/>
+	<SubTexture name="Ace RETRY0004" x="656" y="1" width="651" height="665" frameX="-25" frameY="-7" frameWidth="691" frameHeight="672"/>
+	<SubTexture name="Ace RETRY0005" x="1" y="1" width="652" height="663" frameX="-21" frameY="-9" frameWidth="691" frameHeight="672"/>
+	<SubTexture name="Ace RETRY0006" x="1" y="1" width="652" height="663" frameX="-21" frameY="-9" frameWidth="691" frameHeight="672"/>
+	<SubTexture name="Ace RETRY0007" x="1" y="1" width="652" height="663" frameX="-21" frameY="-9" frameWidth="691" frameHeight="672"/>
+	<SubTexture name="Ace RETRY0008" x="1" y="1" width="652" height="663" frameX="-21" frameY="-9" frameWidth="691" frameHeight="672"/>
+	<SubTexture name="Ace RETRY0009" x="1" y="1" width="652" height="663" frameX="-21" frameY="-9" frameWidth="691" frameHeight="672"/>
 </TextureAtlas>

@@ -87,7 +87,7 @@ end
 
 function noteHitOrMiss(i, d, t, s, m)
 	 animName = 'game.singAnimations['.. d ..']'
-    if t == 'No Animation' or t == 'altdad' then
+    if t == 'No Animation' or t == 'altdad' or t == 'Player and Extra Char' then
 	if m then
 	   animName = anim..'+ "miss"'
 	end
@@ -99,7 +99,7 @@ function noteHitOrMiss(i, d, t, s, m)
         runHaxeCode([[
             getVar("guitar").playAnim(]] .. animName .. [[ + '-alt', true);
             getVar("guitar").holdTimer = 0;
-        ]])	
+     r   ]])	
     end
 end
 

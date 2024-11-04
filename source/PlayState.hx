@@ -27,7 +27,7 @@ import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.math.FlxMath;
 import flixel.math.FlxPoint;
 import flixel.math.FlxRect;
-import flixel.system.FlxSound;
+import flixel.sound.FlxSound;
 import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
@@ -393,7 +393,11 @@ class PlayState extends MusicBeatState
 	var BGLuna:BackgroundLuna;
 	var emeraldsprite:Emeraldspr;
 	var areyouprepared:FlxSprite;
-	
+
+	//trail stuff
+	var aceTrails:FlxTypedGroup<FlxSprite>;
+	var aceTrailTexture:FlxGraphic;
+
 	override public function create()
 	{
 		//trace('Playback Rate: ' + playbackRate);
@@ -1093,6 +1097,14 @@ class PlayState extends MusicBeatState
 
 		dad = new Character(0, 0, SONG.player2);
 		startCharacterPos(dad, true);
+		switch(dad.curCharacter)
+		{
+			case 'Ace' | 'AceFP' | 'DARK_Ace' | 'Aoi':
+				aceTrails = new FlxTypedGroup<FlxSprite>();
+				add(aceTrails);
+
+				aceTrailTexture = Paths.image("misty"); //for easier loading, later on
+		}
 		dadGroup.add(dad);
 		startCharacterLua(dad.curCharacter);
 
@@ -1127,14 +1139,51 @@ class PlayState extends MusicBeatState
 /*		
 		switch (dad.curCharacter)
 		{
-			case 'Ace':
-				aceTrailArea = new FlxTrailArea(Math.round(dad.x), Math.round(dad.y), Math.round(dad.width), Math.round(dad.height), 0.75, 2, false, true);
-				aceTrailArea.add(dad);
-				
-				var evilTrail = new FlxTrail(dad, null, 4, 12, 0.25, 0.069);
-				evilTrail.framesEnabled = true;
-				evilTrail.color = 0xf9f6f6;
-				addBehindDad(evilTrail);	
+			case "Ace" | "AceFP" | "DARK_Ace" | "Aoi":
+					//aceTrail.active = true;
+					//possible(?) example: "singLEFT", "TrailLeft"
+					var animToXML:Map<String, String> = [
+						"singLEFT" => "neblina instancia 1",
+						"singDOWN" => "neblina instancia 1",
+						"singUP" => "neblina instancia 1",
+						"singRIGHT" => "neblina instancia 1"
+					];
+
+					try {
+						var newTrail:FlxSprite = new FlxSprite(dad.x, dad.y);
+						newTrail.graphic = aceTrailTexture;
+						newTrail.alpha = .65;
+						newTrail.animation.addByPrefix("anim", animToXML[animToPlay],dad.animation.curAnim.frameRate, false);
+						newTrail.animation.play("anim", true);
+						newTrail.offset.set(char.offset.x, char.offset.y);
+						aceTrails.add(newTrail);
+
+						// \/: when the animation, finishes, fade out, then destroy the object for memory.
+						newTrail.animation.finishCallback = (animName:String) -> {
+						FlxTween.tween(newTrail, {alpha:0}, .25, {ease: FlxEase.quartIn, 
+							onComplete: function(twn:FlxTween)
+							{
+								aceTrails.remove(newTrail, true);
+								newTrail.destroy();
+							}
+						});
+					};
+					}
+					catch(e) {
+						//do nothing, if the animation doesn't exist in the animTOXML
+					}
+
+					
+
+					//if there's one already before this, pause it & act like it finished
+					if(aceTrails.members.length > 1) //cut the animation of a trail off early, if it never finished
+					{
+						trace(aceTrails.members.length+", "+aceTrails.members[aceTrails.members.length-2]);
+						var lastTrail = aceTrails.members[aceTrails.members.length-2];
+						lastTrail.animation.pause();
+						lastTrail.animation.finishCallback(""); //can I even do this?
+					}
+			}
 		}
 */		
 		var file:String = Paths.json(songName + '/dialogue'); //Checks for json/Psych Engine dialogue
@@ -1711,6 +1760,7 @@ class PlayState extends MusicBeatState
 					startCharacterPos(newDad, true);
 					newDad.alpha = 0.00001;
 					startCharacterLua(newDad.curCharacter);
+
 				}
 
 			case 2:
@@ -1767,6 +1817,7 @@ class PlayState extends MusicBeatState
 	}
 
 	function startCharacterPos(char:Character, ?gfCheck:Bool = false) {
+
 		if(gfCheck && char.curCharacter.startsWith('gf')) { //IF DAD IS GIRLFRIEND, HE GOES TO HER POSITION
 			char.setPosition(GF_X, GF_Y);
 			char.scrollFactor.set(0.95, 0.95);
@@ -2790,7 +2841,7 @@ class PlayState extends MusicBeatState
 							iconP1.visible = false;
 							iconP2.visible = false;
 						}
-						if(event.value2.toLowerCase() == 'ace' && Paths.formatToSongPath(SONG.song) == 'Grand-Finale')
+						if((event.value2.toLowerCase() == 'ace' || event.value2.toLowerCase() == 'dark_ace') && Paths.formatToSongPath(SONG.song) == 'Grand-Finale')
 						{
 							iconP1.visible = true;
 							iconP2.visible = true;
@@ -4855,31 +4906,31 @@ class PlayState extends MusicBeatState
 	{
 		switch (CoolUtil.difficulties[storyDifficulty])
 		{
-			case 'easy': aceDrainRate = 0.01; 
+			case 'easy': aceDrainRate = 0.00; 
 
-			case 'Easy': aceDrainRate = 0.01; 
+			case 'Easy': aceDrainRate = 0.00; 
 
 			case 'Normal': aceDrainRate = 0.0175;
 
 			case 'normal': aceDrainRate = 0.0175;
 
-			case 'Dimensional': aceDrainRate = 0.0333; 
+			case 'Dimensional': aceDrainRate = 0.0225; 
 
-			default: aceDrainRate = 0.0333; 
+			default: aceDrainRate = 0.0225; 
 		}
 
 		if (Paths.formatToSongPath(SONG.song) != 'tutorial')
 			camZooming = true;
 	
-		if (dad.curCharacter == 'Ace' || dad.curCharacter == 'ace')
+		if ((dad.curCharacter == 'Ace' || dad.curCharacter == 'DARK_Ace' || dad.curCharacter == 'ace') && note.noteType != 'altdad')
 		{
-				if (health - aceDrainRate > 0)
+				if (health - aceDrainRate > 0.4)
 				{
 					health = health - aceDrainRate;
 				}
 				else if (health - aceDrainRate <= 0)
 				{
-					health = 0.001;
+					health = 0.4;
 				}
 		}
 		
@@ -4901,7 +4952,7 @@ class PlayState extends MusicBeatState
 			var char:Character = dad;
 			var animToPlay:String = singAnimations[Std.int(Math.abs(note.noteData))] + altAnim;
 /*
-			if (dad.curCharacter.startsWith('Ace'))
+			if (dad.curCharacter.startsWith('Ace') | dad.curCharacter.startsWith('DARK_Ace') | dad.curCharacter.startsWith('Aoi'))
 			{
 				aceTrailArea.add(dad);
 				

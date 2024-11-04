@@ -1,78 +1,78 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				10,
-				25
+				-9,
+				10
 			],
-			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "captain Idle instance 1"
-		},
-		{
 			"loop": false,
-			"offsets": [
-				5,
-				37
-			],
-			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "captain UP NOTE instance 1"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				40,
-				0
-			],
-			"fps": 24,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "captain LEFT NOTE instance 1"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
 			"fps": 24,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "captain RIGHT NOTE instance 1"
+			"name": "Right"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				14,
+				-16,
+				29
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"offsets": [
+				-5,
 				0
 			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				21,
+				8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				-10,
+				10
+			],
+			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "captain DOWN NOTE instance 1"
+			"name": "Down"
 		}
 	],
 	"no_antialiasing": true,
-	"image": "characters/captain-new",
+	"image": "characters/captain-z",
 	"position": [
-		-130,
-		0
+		-240,
+		90
 	],
-	"healthicon": "CapZ",
+	"healthicon": "bf",
 	"flip_x": false,
 	"healthbar_colors": [
-		0,
-		0,
-		0
+		49,
+		176,
+		209
 	],
 	"camera_position": [
-		-240,
-		-330
+		100,
+		40
 	],
 	"sing_duration": 4,
-	"scale": 6
+	"scale": 1.2
 }

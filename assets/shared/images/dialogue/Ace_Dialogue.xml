@@ -1,36 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="Ace_Dialogue.png">
-	<!-- Created with Adobe Animate version 24.0.4.28 -->
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="Bruh0000" x="0" y="0" width="417" height="675"/>
-	<SubTexture name="Bruh0001" x="0" y="0" width="417" height="675"/>
-	<SubTexture name="Bruh0002" x="417" y="0" width="417" height="675"/>
-	<SubTexture name="Bruh0003" x="417" y="0" width="417" height="675"/>
-	<SubTexture name="Bruh0004" x="834" y="0" width="417" height="675"/>
-	<SubTexture name="Bruh0005" x="834" y="0" width="417" height="675"/>
-	<SubTexture name="Concerned0000" x="1251" y="0" width="381" height="686"/>
-	<SubTexture name="Concerned0001" x="1251" y="0" width="381" height="686"/>
-	<SubTexture name="Concerned0002" x="1632" y="0" width="381" height="686"/>
-	<SubTexture name="Concerned0003" x="2013" y="0" width="381" height="686"/>
-	<SubTexture name="Concerned0004" x="2013" y="0" width="381" height="686"/>
-	<SubTexture name="Concerned0005" x="2394" y="0" width="381" height="686"/>
-	<SubTexture name="Concerned0006" x="2394" y="0" width="381" height="686"/>
-	<SubTexture name="Concerned0007" x="2394" y="0" width="381" height="686"/>
-	<SubTexture name="Concerned0008" x="2394" y="0" width="381" height="686"/>
-	<SubTexture name="Concerned0009" x="2394" y="0" width="381" height="686"/>
-	<SubTexture name="EndConcerned0000" x="2394" y="0" width="381" height="686"/>
-	<SubTexture name="EndConcerned0001" x="2394" y="0" width="381" height="686"/>
-	<SubTexture name="EndConcerned0002" x="2394" y="0" width="381" height="686"/>
-	<SubTexture name="EndConcerned0003" x="2394" y="0" width="381" height="686"/>
-	<SubTexture name="EndConcerned0004" x="2394" y="0" width="381" height="686"/>
-	<SubTexture name="EndNormal0000" x="2775" y="0" width="381" height="686"/>
-	<SubTexture name="Normal0000" x="3156" y="0" width="381" height="686"/>
-	<SubTexture name="Normal0001" x="3537" y="0" width="381" height="686"/>
-	<SubTexture name="Normal0002" x="0" y="686" width="381" height="686"/>
-	<SubTexture name="Normal0003" x="381" y="686" width="381" height="686"/>
-	<SubTexture name="Normal0004" x="762" y="686" width="381" height="686"/>
-	<SubTexture name="Normal0005" x="1143" y="686" width="381" height="686"/>
-	<SubTexture name="Normal0006" x="1524" y="686" width="381" height="686"/>
-	<SubTexture name="Normal0007" x="1524" y="686" width="381" height="686"/>
-	<SubTexture name="Normal0008" x="1905" y="686" width="381" height="686"/>
+	<SubTexture name="Bruh0001" x="417" y="0" width="417" height="675"/>
+	<SubTexture name="Bruh0002" x="834" y="0" width="417" height="675"/>
+	<SubTexture name="Bruh0003" x="1251" y="0" width="417" height="675"/>
+	<SubTexture name="Bruh0004" x="1668" y="0" width="417" height="675"/>
+	<SubTexture name="Bruh0005" x="2085" y="0" width="417" height="675"/>
+	<SubTexture name="Concerned0000" x="2502" y="0" width="381" height="686"/>
+	<SubTexture name="Concerned0001" x="2883" y="0" width="381" height="686"/>
+	<SubTexture name="Concerned0002" x="3264" y="0" width="381" height="686"/>
+	<SubTexture name="Concerned0003" x="3645" y="0" width="381" height="686"/>
+	<SubTexture name="Concerned0004" x="0" y="686" width="381" height="686"/>
+	<SubTexture name="Concerned0005" x="381" y="686" width="381" height="686"/>
+	<SubTexture name="Concerned0006" x="762" y="686" width="381" height="686"/>
+	<SubTexture name="Concerned0007" x="1143" y="686" width="381" height="686"/>
+	<SubTexture name="Concerned0008" x="1524" y="686" width="381" height="686"/>
+	<SubTexture name="Concerned0009" x="1905" y="686" width="381" height="686"/>
+	<SubTexture name="EndConcerned0000" x="2286" y="686" width="381" height="686"/>
+	<SubTexture name="EndConcerned0001" x="2667" y="686" width="381" height="686"/>
+	<SubTexture name="EndConcerned0002" x="3048" y="686" width="381" height="686"/>
+	<SubTexture name="EndConcerned0003" x="3429" y="686" width="381" height="686"/>
+	<SubTexture name="EndConcerned0004" x="0" y="1372" width="381" height="686"/>
+	<SubTexture name="EndNormal0000" x="381" y="1372" width="381" height="686"/>
+	<SubTexture name="Normal0000" x="762" y="1372" width="381" height="686"/>
+	<SubTexture name="Normal0001" x="1143" y="1372" width="381" height="686"/>
+	<SubTexture name="Normal0002" x="1524" y="1372" width="381" height="686"/>
+	<SubTexture name="Normal0003" x="1905" y="1372" width="381" height="686"/>
+	<SubTexture name="Normal0004" x="2286" y="1372" width="381" height="686"/>
+	<SubTexture name="Normal0005" x="2667" y="1372" width="381" height="686"/>
+	<SubTexture name="Normal0006" x="3048" y="1372" width="381" height="686"/>
+	<SubTexture name="Normal0007" x="3429" y="1372" width="381" height="686"/>
+	<SubTexture name="Normal0008" x="0" y="2058" width="381" height="686"/>
 </TextureAtlas>

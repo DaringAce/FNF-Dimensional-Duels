@@ -1,8 +1,0 @@
-Has a little subtitle similar to the Twinsomnia one, but coded by your's truly (volv).
-
-Value 1:
-	This is where the text of the subtitle goes, followed by a colon(:). Following the colon is a 
-	name of an icon you wish to use. It then grabs that icon and displays it above the subtitle.
-
-Value 2:
-	This is just the color of the text, in #RRGGBB format. Leave blank to default it to #FFFFFF.

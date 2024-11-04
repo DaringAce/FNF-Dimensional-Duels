@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Aoi Idle"
+		},
+		{
+			"offsets": [
+				97,
+				-2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Aoi LEFT"
+		},
+		{
+			"offsets": [
+				40,
+				-120
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Aoi DOWN"
+		},
+		{
+			"offsets": [
+				-34,
+				2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Aoi RIGHT"
+		},
+		{
+			"offsets": [
+				50,
+				38
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Aoi UP"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Aoi",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "aoi",
+	"flip_x": false,
+	"healthbar_colors": [
+		33,
+		136,
+		72
+	],
+	"camera_position": [
+		-210,
+		20
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

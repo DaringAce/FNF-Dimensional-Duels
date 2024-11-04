@@ -117,6 +117,7 @@ class CreditsState extends MusicBeatState
 			['Held',	'unknown',				'Duet Cam Event Creator',										'',						'C6C6C6'], 	//unknown icon grey color
 			['borists and ItzJiggzy',	'unknown',				'Countdown Event Creators',										'',						'C6C6C6'], 	//unknown icon grey color
 			['FNF WEEKLY',	'weekly',				'FPS Counter Creator',										'https://gamebanana.com/mods/522709',						'de5e54'], 	//FNF WEEKLY red icon grey color
+			['chibisprinklez and RixFX',	'unknown',				'GF Reskin V2',										'https://gamebanana.com/mods/490808',						'C6C6C6'], 	//unknown icon grey color
 			[''],
 
 			['Special Thanks'],

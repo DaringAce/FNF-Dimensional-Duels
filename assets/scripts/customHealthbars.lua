@@ -198,9 +198,15 @@ end
 function setFrame(tag,type,value)
     setProperty(tag..'._frame.frame.'..type,value)
 end
+
+--function getMid(tag)
+--    return getProperty(tag)/2
+--end
+
 function getMid(tag)
-    return getProperty(tag)/2
+    return (type(tag):lower() == 'string') and getProperty(tag)/2 or tag / 2
 end
+
 function setRel(tag,value)
     setProperty(tag, getProperty(tag)+value)
 end
@@ -240,6 +246,7 @@ function hide()
     setProperty('healthBar.x',-5000)
     setProperty('healthbarOver.visible',false)
     setProperty('healthbarUnder.visible',false)
+    setProperty('flasher.visible',false)
 end
 function show()
     shit = true
@@ -249,4 +256,5 @@ function show()
     setProperty('scpreTxt.visible',true)
     setProperty('healthbarOver.visible',true)
     setProperty('healthbarUnder.visible',true)
+    setProperty('flasher.visible',true)
 end

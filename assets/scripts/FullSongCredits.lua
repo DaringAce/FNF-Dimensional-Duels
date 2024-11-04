@@ -18,115 +18,128 @@ local songdata = {
     'PhantomArcade', -- Artist [4] (not being used)
     'NinjaMuffin99', -- Charter [5]
     'Pico', -- Custom Song Name [6] (because the names dont accept '-')
+    '[REDACTED]' -- Dimension Name [7]
     },
 
     ['Long-Wired Brawl'] = {
         'Long-Wired-Brawl',
         'Daring Ace & Z11Gaming (feat. Greg Chun)',
-        '7',
+        '12',
         'JDST & Daring Ace',
         'jordanmodshop',
         'Long-Wired Brawl',
+        'Xonri',
     },
     
     ['Scythe'] = {
         'scythe',
         'Daring Ace & Z11Gaming (feat. Greg Chun)',
-        '7',
+        '12',
         'JDST & Daring Ace',
         '(i forgor :skull:)',
         'Scythe',
+        'Xonri',
     },
     
     ['Righteous Waterstream'] = {
         'Righteous-Waterstream',
         'Daring Ace & Z11Gaming (feat. Greg Chun)',
-        '7',
+        '12',
         'JDST & Daring Ace',
         'TrueMori',
         'Righteous Waterstream',
+        'Xonri',
     },
 
     ['Grand Finale'] = {
         'Grand Finale',
         'Daring Ace & Z11Gaming (feat. Greg Chun)',
-        '7',
+        '12',
         'JDST & Daring Ace',
         'TrueMori & Ivaldi',
         'Grand Finale',
+        'Xonri',
     },    
     
     ['Uncertainty'] = {
         'Uncertainty',
         'Daring Ace & fadeawayYT (feat. Greg Chun)',
-        '7',
+        '12',
         'JDST & Daring Ace',
         'TrueMori',
         'Uncertainty',
+        'Xonri',
     },    
     
     ['tutorial-d-mix'] = {
         'tutorial-d-mix',
         'GelePanda & Funkin Sound Team',
-        '7',
+        '12',
         'JDST & Daring Ace',
         'TetraHunter',
         'Tutorial (D-Mix)',
+        '[REDACTED]',
     },
     
     ['Bulletproof'] = {
         'Bulletproof',
         'Ivaldi & Drawpant (feat. Greg Chun)',
-        '7',
+        '12',
         'JDST & Daring Ace',
         'TetraHunter & Ivaldi',
         'Bulletproof',
+        '[REDACTED]',
     },   
 
     ['Scamazon'] = {
         'Scamazon',
         'Z11Gaming (feat. Greg Chun)',
-        '7',
+        '12',
         'JDST & Daring Ace',
         'TetraHunter & Ivaldi',
         'Scamazon',
-    },   
-
-    ['Scamazon'] = {
-        'Scamazon',
-        'Z11Gaming (feat. Greg Chun)',
-        '7',
-        'JDST & Daring Ace',
-        'TetraHunter & Ivaldi',
-        'Scamazon',
+        'Xonri',
     },   
 
     ['finality'] = {
-        'finality',
-        'Daring Ace, Lap^z & R0cketta (feat. Greg Chun)',
-        '7',
-        '',
-        '',
         'Finality',
+        'Daring Ace, Lap^z & R0cketta (feat. Greg Chun)',
+        '12',
+        '',
+        'jordanmodshop',
+        'Finality',
+        '[REDACTED]',
     },   
 
-    ['aoi'] = {
-        'aoi',
+    ['genderbend'] = {
+        'genderbend',
         'Daring Ace, Lap^z & R0cketta (feat. Greg Chun)',
-        '7',
+        '12',
         '',
         '',
-        'Aoi',
+        'genderbend',
+        'Grangov',
     },   
     
     ['Autophobia'] = {
         'Autophobia',
         'Lap^z & Daring Ace (feat. Greg Chun)',
-        '7',
+        '12',
         'JDST & Daring Ace',
         'Flain',
         'Autophobia',
-    },    
+        'Xonri',
+    },   
+    
+    ['Apocalypse'] = {
+        'Autophobia',
+        'Lap^z, R0cketta & Daring Ace (feat. Greg Chun)',
+        '12',
+        'JDST & Daring Ace',
+        '',
+        'Apocalypse',
+        '???',
+    },  
     
 -- Replace this data with your songs and the song composer. 
 -- The song name in the [] MUST be the same song in the JSON file
@@ -177,11 +190,13 @@ function onCreatePost() -- This creates all the placeholder shit B) ((THIS PART 
     setTextFont('creditComposer', font)
     addLuaText("creditComposer",true)
 
-    makeLuaText('creditArtist', 'PlaceholderArtist', objWidth, offsetX - objWidth, offsetY+80 )
+    makeLuaText('creditArtist', 'PlaceholderArtist', objWidth, offsetX - objWidth, offsetY+115 + space)
     setTextSize('creditArtist', 20)
     setTextAlignment('creditArtist', 'left')
     setObjectCamera('creditArtist', 'other')
- --   addLuaText("creditArtist",true)
+    runHaxeCode('game.getLuaObject("creditArtist").color = 0xFF'..c..';')    
+    setTextFont('creditArtist', font)
+    addLuaText("creditArtist",true)
 
     makeLuaText('creditCharter', 'PlaceholderCharter', objWidth, offsetX - objWidth, offsetY+80 + space) -- +115
     setTextSize('creditCharter', 20)
@@ -205,7 +220,7 @@ function onSongStart()
     local curSongTable = songdata[songName]
     setTextString('creditTitle', curSongTable[6]) -- Sets the actual things
     setTextString('creditComposer', "Composing: "..curSongTable[2])
-    setTextString('creditArtist', "Art: "..curSongTable[4])
+    setTextString('creditArtist', "Dimension: "..curSongTable[7])
     setTextString('creditCharter', "Charting: "..curSongTable[5])
 
     --Tweens--

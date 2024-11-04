@@ -2,7 +2,7 @@ charsTable = {}
 luaDebugMode = true
 function onCreate()
 	--example lol
-	createChar('extra','anti',-35,100,false,'dadGroup',1)
+	createChar('extra','anti',-75,250,false,'dadGroup',1)
 end
 	
 function createChar(tag,name,xpos,ypos,flip,order,prior)

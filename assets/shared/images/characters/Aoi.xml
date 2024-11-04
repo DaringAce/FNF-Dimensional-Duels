@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Aoi.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Aoi DOWN0000" x="10" y="10" width="530" height="659" frameX="0" frameY="-6" frameWidth="530" frameHeight="665"/>
+	<SubTexture name="Aoi DOWN0001" x="10" y="10" width="530" height="659" frameX="0" frameY="-6" frameWidth="530" frameHeight="665"/>
+	<SubTexture name="Aoi DOWN0002" x="570" y="10" width="526" height="665" frameX="-4" frameY="0" frameWidth="530" frameHeight="665"/>
+	<SubTexture name="Aoi DOWN0003" x="570" y="10" width="526" height="665" frameX="-4" frameY="0" frameWidth="530" frameHeight="665"/>
+	<SubTexture name="Aoi DOWN0004" x="570" y="10" width="526" height="665" frameX="-4" frameY="0" frameWidth="530" frameHeight="665"/>
+	<SubTexture name="Aoi DOWN0005" x="570" y="10" width="526" height="665" frameX="-4" frameY="0" frameWidth="530" frameHeight="665"/>
+	<SubTexture name="Aoi DOWN0006" x="570" y="10" width="526" height="665" frameX="-4" frameY="0" frameWidth="530" frameHeight="665"/>
+	<SubTexture name="Aoi DOWN0007" x="570" y="10" width="526" height="665" frameX="-4" frameY="0" frameWidth="530" frameHeight="665"/>
+	<SubTexture name="Aoi DOWN0008" x="570" y="10" width="526" height="665" frameX="-4" frameY="0" frameWidth="530" frameHeight="665"/>
+	<SubTexture name="Aoi DOWN0009" x="570" y="10" width="526" height="665" frameX="-4" frameY="0" frameWidth="530" frameHeight="665"/>
+	<SubTexture name="Aoi DOWN0010" x="570" y="10" width="526" height="665" frameX="-4" frameY="0" frameWidth="530" frameHeight="665"/>
+	<SubTexture name="Aoi DOWN0011" x="570" y="10" width="526" height="665" frameX="-4" frameY="0" frameWidth="530" frameHeight="665"/>
+	<SubTexture name="Aoi DOWN0012" x="570" y="10" width="526" height="665" frameX="-4" frameY="0" frameWidth="530" frameHeight="665"/>
+	<SubTexture name="Aoi DOWN0013" x="570" y="10" width="526" height="665" frameX="-4" frameY="0" frameWidth="530" frameHeight="665"/>
+	<SubTexture name="Aoi Idle0000" x="1126" y="10" width="390" height="778" frameX="0" frameY="-5" frameWidth="390" frameHeight="783"/>
+	<SubTexture name="Aoi Idle0001" x="1126" y="10" width="390" height="778" frameX="0" frameY="-5" frameWidth="390" frameHeight="783"/>
+	<SubTexture name="Aoi Idle0002" x="1546" y="10" width="388" height="778" frameX="-1" frameY="-5" frameWidth="390" frameHeight="783"/>
+	<SubTexture name="Aoi Idle0003" x="1546" y="10" width="388" height="778" frameX="-1" frameY="-5" frameWidth="390" frameHeight="783"/>
+	<SubTexture name="Aoi Idle0004" x="1964" y="10" width="387" height="780" frameX="-2" frameY="-3" frameWidth="390" frameHeight="783"/>
+	<SubTexture name="Aoi Idle0005" x="1964" y="10" width="387" height="780" frameX="-2" frameY="-3" frameWidth="390" frameHeight="783"/>
+	<SubTexture name="Aoi Idle0006" x="2381" y="10" width="387" height="783" frameX="-2" frameY="0" frameWidth="390" frameHeight="783"/>
+	<SubTexture name="Aoi Idle0007" x="2381" y="10" width="387" height="783" frameX="-2" frameY="0" frameWidth="390" frameHeight="783"/>
+	<SubTexture name="Aoi Idle0008" x="2798" y="10" width="387" height="783" frameX="-2" frameY="0" frameWidth="390" frameHeight="783"/>
+	<SubTexture name="Aoi Idle0009" x="2798" y="10" width="387" height="783" frameX="-2" frameY="0" frameWidth="390" frameHeight="783"/>
+	<SubTexture name="Aoi Idle0010" x="2798" y="10" width="387" height="783" frameX="-2" frameY="0" frameWidth="390" frameHeight="783"/>
+	<SubTexture name="Aoi Idle0011" x="2798" y="10" width="387" height="783" frameX="-2" frameY="0" frameWidth="390" frameHeight="783"/>
+	<SubTexture name="Aoi Idle0012" x="2798" y="10" width="387" height="783" frameX="-2" frameY="0" frameWidth="390" frameHeight="783"/>
+	<SubTexture name="Aoi Idle0013" x="2798" y="10" width="387" height="783" frameX="-2" frameY="0" frameWidth="390" frameHeight="783"/>
+	<SubTexture name="Aoi LEFT0000" x="3215" y="10" width="709" height="779" frameX="0" frameY="-2" frameWidth="719" frameHeight="781"/>
+	<SubTexture name="Aoi LEFT0001" x="3215" y="10" width="709" height="779" frameX="0" frameY="-2" frameWidth="719" frameHeight="781"/>
+	<SubTexture name="Aoi LEFT0002" x="10" y="823" width="710" height="781" frameX="-9" frameY="0" frameWidth="719" frameHeight="781"/>
+	<SubTexture name="Aoi LEFT0003" x="10" y="823" width="710" height="781" frameX="-9" frameY="0" frameWidth="719" frameHeight="781"/>
+	<SubTexture name="Aoi LEFT0004" x="10" y="823" width="710" height="781" frameX="-9" frameY="0" frameWidth="719" frameHeight="781"/>
+	<SubTexture name="Aoi LEFT0005" x="10" y="823" width="710" height="781" frameX="-9" frameY="0" frameWidth="719" frameHeight="781"/>
+	<SubTexture name="Aoi LEFT0006" x="10" y="823" width="710" height="781" frameX="-9" frameY="0" frameWidth="719" frameHeight="781"/>
+	<SubTexture name="Aoi LEFT0007" x="10" y="823" width="710" height="781" frameX="-9" frameY="0" frameWidth="719" frameHeight="781"/>
+	<SubTexture name="Aoi LEFT0008" x="10" y="823" width="710" height="781" frameX="-9" frameY="0" frameWidth="719" frameHeight="781"/>
+	<SubTexture name="Aoi LEFT0009" x="10" y="823" width="710" height="781" frameX="-9" frameY="0" frameWidth="719" frameHeight="781"/>
+	<SubTexture name="Aoi LEFT0010" x="10" y="823" width="710" height="781" frameX="-9" frameY="0" frameWidth="719" frameHeight="781"/>
+	<SubTexture name="Aoi LEFT0011" x="10" y="823" width="710" height="781" frameX="-9" frameY="0" frameWidth="719" frameHeight="781"/>
+	<SubTexture name="Aoi LEFT0012" x="10" y="823" width="710" height="781" frameX="-9" frameY="0" frameWidth="719" frameHeight="781"/>
+	<SubTexture name="Aoi LEFT0013" x="10" y="823" width="710" height="781" frameX="-9" frameY="0" frameWidth="719" frameHeight="781"/>
+	<SubTexture name="Aoi RIGHT0000" x="750" y="823" width="509" height="787" frameX="-2" frameY="0" frameWidth="511" frameHeight="787"/>
+	<SubTexture name="Aoi RIGHT0001" x="750" y="823" width="509" height="787" frameX="-2" frameY="0" frameWidth="511" frameHeight="787"/>
+	<SubTexture name="Aoi RIGHT0002" x="1289" y="823" width="511" height="787"/>
+	<SubTexture name="Aoi RIGHT0003" x="1289" y="823" width="511" height="787"/>
+	<SubTexture name="Aoi RIGHT0004" x="1289" y="823" width="511" height="787"/>
+	<SubTexture name="Aoi RIGHT0005" x="1289" y="823" width="511" height="787"/>
+	<SubTexture name="Aoi RIGHT0006" x="1289" y="823" width="511" height="787"/>
+	<SubTexture name="Aoi RIGHT0007" x="1289" y="823" width="511" height="787"/>
+	<SubTexture name="Aoi RIGHT0008" x="1289" y="823" width="511" height="787"/>
+	<SubTexture name="Aoi RIGHT0009" x="1289" y="823" width="511" height="787"/>
+	<SubTexture name="Aoi RIGHT0010" x="1289" y="823" width="511" height="787"/>
+	<SubTexture name="Aoi RIGHT0011" x="1289" y="823" width="511" height="787"/>
+	<SubTexture name="Aoi RIGHT0012" x="1289" y="823" width="511" height="787"/>
+	<SubTexture name="Aoi RIGHT0013" x="1289" y="823" width="511" height="787"/>
+	<SubTexture name="Aoi UP0000" x="1830" y="823" width="420" height="823" frameX="0" frameY="0" frameWidth="423" frameHeight="823"/>
+	<SubTexture name="Aoi UP0001" x="1830" y="823" width="420" height="823" frameX="0" frameY="0" frameWidth="423" frameHeight="823"/>
+	<SubTexture name="Aoi UP0002" x="2280" y="823" width="421" height="819" frameX="-2" frameY="-4" frameWidth="423" frameHeight="823"/>
+	<SubTexture name="Aoi UP0003" x="2280" y="823" width="421" height="819" frameX="-2" frameY="-4" frameWidth="423" frameHeight="823"/>
+	<SubTexture name="Aoi UP0004" x="2280" y="823" width="421" height="819" frameX="-2" frameY="-4" frameWidth="423" frameHeight="823"/>
+	<SubTexture name="Aoi UP0005" x="2280" y="823" width="421" height="819" frameX="-2" frameY="-4" frameWidth="423" frameHeight="823"/>
+	<SubTexture name="Aoi UP0006" x="2280" y="823" width="421" height="819" frameX="-2" frameY="-4" frameWidth="423" frameHeight="823"/>
+	<SubTexture name="Aoi UP0007" x="2280" y="823" width="421" height="819" frameX="-2" frameY="-4" frameWidth="423" frameHeight="823"/>
+	<SubTexture name="Aoi UP0008" x="2280" y="823" width="421" height="819" frameX="-2" frameY="-4" frameWidth="423" frameHeight="823"/>
+	<SubTexture name="Aoi UP0009" x="2280" y="823" width="421" height="819" frameX="-2" frameY="-4" frameWidth="423" frameHeight="823"/>
+	<SubTexture name="Aoi UP0010" x="2280" y="823" width="421" height="819" frameX="-2" frameY="-4" frameWidth="423" frameHeight="823"/>
+	<SubTexture name="Aoi UP0011" x="2280" y="823" width="421" height="819" frameX="-2" frameY="-4" frameWidth="423" frameHeight="823"/>
+	<SubTexture name="Aoi UP0012" x="2280" y="823" width="421" height="819" frameX="-2" frameY="-4" frameWidth="423" frameHeight="823"/>
+	<SubTexture name="Aoi UP0013" x="2280" y="823" width="421" height="819" frameX="-2" frameY="-4" frameWidth="423" frameHeight="823"/>
+</TextureAtlas>

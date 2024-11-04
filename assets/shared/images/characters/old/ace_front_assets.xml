@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ace_front_assets.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ATTACK0000" x="0" y="0" width="989" height="712"/>
+	<SubTexture name="ATTACK0001" x="0" y="0" width="989" height="712"/>
+	<SubTexture name="ATTACK0002" x="989" y="0" width="989" height="712"/>
+	<SubTexture name="ATTACK0003" x="989" y="0" width="989" height="712"/>
+	<SubTexture name="ATTACK0004" x="1978" y="0" width="989" height="712"/>
+	<SubTexture name="ATTACK0005" x="2967" y="0" width="989" height="712"/>
+	<SubTexture name="ATTACK0006" x="0" y="712" width="989" height="712"/>
+	<SubTexture name="ATTACK0007" x="989" y="712" width="989" height="712"/>
+	<SubTexture name="ATTACK0008" x="989" y="712" width="989" height="712"/>
+	<SubTexture name="ATTACK0009" x="989" y="712" width="989" height="712"/>
+	<SubTexture name="ATTACK0010" x="989" y="712" width="989" height="712"/>
+	<SubTexture name="ATTACK0011" x="989" y="712" width="989" height="712"/>
+	<SubTexture name="ATTACK0012" x="989" y="712" width="989" height="712"/>
+	<SubTexture name="ATTACK0013" x="989" y="712" width="989" height="712"/>
+	<SubTexture name="ATTACK0014" x="989" y="712" width="989" height="712"/>
+	<SubTexture name="DOWN POSE0000" x="1978" y="712" width="317" height="661"/>
+	<SubTexture name="DOWN POSE0001" x="1978" y="712" width="317" height="661"/>
+	<SubTexture name="DOWN POSE0002" x="2295" y="712" width="317" height="661"/>
+	<SubTexture name="DOWN POSE0003" x="2295" y="712" width="317" height="661"/>
+	<SubTexture name="DOWN POSE0004" x="2612" y="712" width="317" height="661"/>
+	<SubTexture name="DOWN POSE0005" x="2612" y="712" width="317" height="661"/>
+	<SubTexture name="DOWN POSE0006" x="2612" y="712" width="317" height="661"/>
+	<SubTexture name="DOWN POSE0007" x="2612" y="712" width="317" height="661"/>
+	<SubTexture name="DOWN POSE0008" x="2612" y="712" width="317" height="661"/>
+	<SubTexture name="DOWN POSE0009" x="2612" y="712" width="317" height="661"/>
+	<SubTexture name="DOWN POSE0010" x="2612" y="712" width="317" height="661"/>
+	<SubTexture name="DOWN POSE0011" x="2612" y="712" width="317" height="661"/>
+	<SubTexture name="DOWN POSE0012" x="2612" y="712" width="317" height="661"/>
+	<SubTexture name="DOWN POSE0013" x="2612" y="712" width="317" height="661"/>
+	<SubTexture name="DOWN POSE0014" x="2612" y="712" width="317" height="661"/>
+	<SubTexture name="IDLE DANCE0000" x="2929" y="712" width="709" height="527"/>
+	<SubTexture name="IDLE DANCE0001" x="2929" y="712" width="709" height="527"/>
+	<SubTexture name="IDLE DANCE0002" x="0" y="1424" width="709" height="527"/>
+	<SubTexture name="IDLE DANCE0003" x="0" y="1424" width="709" height="527"/>
+	<SubTexture name="IDLE DANCE0004" x="709" y="1424" width="709" height="527"/>
+	<SubTexture name="IDLE DANCE0005" x="709" y="1424" width="709" height="527"/>
+	<SubTexture name="IDLE DANCE0006" x="1418" y="1424" width="709" height="527"/>
+	<SubTexture name="IDLE DANCE0007" x="1418" y="1424" width="709" height="527"/>
+	<SubTexture name="IDLE DANCE0008" x="2127" y="1424" width="709" height="527"/>
+	<SubTexture name="IDLE DANCE0009" x="2127" y="1424" width="709" height="527"/>
+	<SubTexture name="IDLE DANCE0010" x="2127" y="1424" width="709" height="527"/>
+	<SubTexture name="IDLE DANCE0011" x="2127" y="1424" width="709" height="527"/>
+	<SubTexture name="IDLE DANCE0012" x="2127" y="1424" width="709" height="527"/>
+	<SubTexture name="IDLE DANCE0013" x="2127" y="1424" width="709" height="527"/>
+	<SubTexture name="IDLE DANCE0014" x="2127" y="1424" width="709" height="527"/>
+	<SubTexture name="LEFT POSE0000" x="2836" y="1424" width="727" height="780"/>
+	<SubTexture name="LEFT POSE0001" x="0" y="2204" width="727" height="780"/>
+	<SubTexture name="LEFT POSE0002" x="727" y="2204" width="727" height="780"/>
+	<SubTexture name="LEFT POSE0003" x="727" y="2204" width="727" height="780"/>
+	<SubTexture name="LEFT POSE0004" x="1454" y="2204" width="727" height="780"/>
+	<SubTexture name="LEFT POSE0005" x="1454" y="2204" width="727" height="780"/>
+	<SubTexture name="LEFT POSE0006" x="1454" y="2204" width="727" height="780"/>
+	<SubTexture name="LEFT POSE0007" x="1454" y="2204" width="727" height="780"/>
+	<SubTexture name="LEFT POSE0008" x="1454" y="2204" width="727" height="780"/>
+	<SubTexture name="LEFT POSE0009" x="1454" y="2204" width="727" height="780"/>
+	<SubTexture name="LEFT POSE0010" x="1454" y="2204" width="727" height="780"/>
+	<SubTexture name="LEFT POSE0011" x="1454" y="2204" width="727" height="780"/>
+	<SubTexture name="LEFT POSE0012" x="1454" y="2204" width="727" height="780"/>
+	<SubTexture name="LEFT POSE0013" x="1454" y="2204" width="727" height="780"/>
+	<SubTexture name="LEFT POSE0014" x="1454" y="2204" width="727" height="780"/>
+	<SubTexture name="RIGHT POSE0000" x="2181" y="2204" width="703" height="562"/>
+	<SubTexture name="RIGHT POSE0001" x="2181" y="2204" width="703" height="562"/>
+	<SubTexture name="RIGHT POSE0002" x="2884" y="2204" width="703" height="562"/>
+	<SubTexture name="RIGHT POSE0003" x="2884" y="2204" width="703" height="562"/>
+	<SubTexture name="RIGHT POSE0004" x="0" y="2984" width="703" height="562"/>
+	<SubTexture name="RIGHT POSE0005" x="0" y="2984" width="703" height="562"/>
+	<SubTexture name="RIGHT POSE0006" x="0" y="2984" width="703" height="562"/>
+	<SubTexture name="RIGHT POSE0007" x="0" y="2984" width="703" height="562"/>
+	<SubTexture name="RIGHT POSE0008" x="0" y="2984" width="703" height="562"/>
+	<SubTexture name="RIGHT POSE0009" x="0" y="2984" width="703" height="562"/>
+	<SubTexture name="RIGHT POSE0010" x="0" y="2984" width="703" height="562"/>
+	<SubTexture name="RIGHT POSE0011" x="0" y="2984" width="703" height="562"/>
+	<SubTexture name="RIGHT POSE0012" x="0" y="2984" width="703" height="562"/>
+	<SubTexture name="RIGHT POSE0013" x="0" y="2984" width="703" height="562"/>
+	<SubTexture name="RIGHT POSE0014" x="0" y="2984" width="703" height="562"/>
+	<SubTexture name="UP POSE0000" x="703" y="2984" width="709" height="545"/>
+	<SubTexture name="UP POSE0001" x="703" y="2984" width="709" height="545"/>
+	<SubTexture name="UP POSE0002" x="1412" y="2984" width="709" height="545"/>
+	<SubTexture name="UP POSE0003" x="1412" y="2984" width="709" height="545"/>
+	<SubTexture name="UP POSE0004" x="2121" y="2984" width="709" height="545"/>
+	<SubTexture name="UP POSE0005" x="2121" y="2984" width="709" height="545"/>
+	<SubTexture name="UP POSE0006" x="2121" y="2984" width="709" height="545"/>
+	<SubTexture name="UP POSE0007" x="2121" y="2984" width="709" height="545"/>
+	<SubTexture name="UP POSE0008" x="2121" y="2984" width="709" height="545"/>
+	<SubTexture name="UP POSE0009" x="2121" y="2984" width="709" height="545"/>
+	<SubTexture name="UP POSE0010" x="2121" y="2984" width="709" height="545"/>
+	<SubTexture name="UP POSE0011" x="2121" y="2984" width="709" height="545"/>
+	<SubTexture name="UP POSE0012" x="2121" y="2984" width="709" height="545"/>
+	<SubTexture name="UP POSE0013" x="2121" y="2984" width="709" height="545"/>
+	<SubTexture name="UP POSE0014" x="2121" y="2984" width="709" height="545"/>
+</TextureAtlas>

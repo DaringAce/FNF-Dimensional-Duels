@@ -25,20 +25,18 @@ local function skinChange()
     end
 end
 
-function opponentNoteHit()
-    for i = 0, getProperty('grpNoteSplashes.length')-1 do
-        if (dadName == 'Ace' or dadName == 'AcePOWER') then            
-            setProperty('grpNoteSplashes.members['..i..'].alpha', 0.55)
-        end
-    end
-end
+--function opponentNoteHit()
+--    for i = 0, getProperty('grpNoteSplashes.length')-1 do
+--        if (dadName == 'Ace' or dadName == 'AcePOWER') then            
+--        end
+--    end
+--end
 
 function goodNoteHit()
     for i = 0, getProperty('grpNoteSplashes.length')-1 do
-        if boyfriendName == 'bf-Ace'or boyfriendName == 'bf-AceNORMAL' then            
-            setProperty('grpNoteSplashes.members['..i..'].offset.y', -150)
-            setProperty('grpNoteSplashes.members['..i..'].offset.x', 17)
-            setProperty('grpNoteSplashes.members['..i..'].alpha', 0.55)
+        if boyfriendName == 'bf-Ace'or boyfriendName == 'bf-AceNORMAL' then
+            setProperty('grpNoteSplashes.members['..i..'].offset.x', 30)
+            setProperty('grpNoteSplashes.members['..i..'].offset.y', 28)
         end
     end
 end

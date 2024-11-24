@@ -2595,16 +2595,9 @@ class PlayState extends MusicBeatState
 		previousFrameTime = FlxG.game.ticks;
 		lastReportedPlayheadPosition = 0;
 		var songName:String = Paths.formatToSongPath(SONG.song);
-		if(songName.toLowerCase() == 'grand finale' || songName.toLowerCase() == 'grand-finale')
-		{
-			FlxG.sound.playMusic(Paths.inst(PlayState.SONG.song), 1.125, false);
-			trace("Instrumental Volume: 1.125");
-		}
-		else
-		{
-			FlxG.sound.playMusic(Paths.inst(PlayState.SONG.song), 1, false);
-			trace("Instrumental Volume: 1");
-		}
+		
+		FlxG.sound.playMusic(Paths.inst(PlayState.SONG.song), 1, false);
+		
 		FlxG.sound.music.pitch = playbackRate;
 		FlxG.sound.music.onComplete = finishSong.bind();
 		vocals.play();
